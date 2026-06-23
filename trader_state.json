@@ -2,11 +2,12 @@
   "last_sells": {},
   "orders_by_date": {
     "2026-06-22": {
-      "buys": [
-        "LIN",
+      "buy_attempts": [
+        "ASML",
         "HON",
-        "ASML"
+        "LIN"
       ],
+      "buys": [],
       "orders": [
         {
           "action": "BUY_ATTEMPT",
@@ -33,6 +34,7 @@
           "timestamp": "2026-06-22T15:58:14.384703+00:00"
         }
       ],
+      "pending_buys": [],
       "sells": []
     }
   },
