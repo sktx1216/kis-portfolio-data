@@ -1,42 +1,5 @@
 {
   "last_sells": {},
-  "orders_by_date": {
-    "2026-06-22": {
-      "buy_attempts": [
-        "ASML",
-        "HON",
-        "LIN"
-      ],
-      "buys": [],
-      "orders": [
-        {
-          "action": "BUY_ATTEMPT",
-          "amount": 514.31,
-          "price": 514.31,
-          "qty": 1,
-          "symbol": "LIN",
-          "timestamp": "2026-06-22T15:56:32.529381+00:00"
-        },
-        {
-          "action": "BUY_ATTEMPT",
-          "amount": 231.21,
-          "price": 231.21,
-          "qty": 1,
-          "symbol": "HON",
-          "timestamp": "2026-06-22T15:57:22.729979+00:00"
-        },
-        {
-          "action": "BUY_ATTEMPT",
-          "amount": 1899.8,
-          "price": 1899.8,
-          "qty": 1,
-          "symbol": "ASML",
-          "timestamp": "2026-06-22T15:58:14.384703+00:00"
-        }
-      ],
-      "pending_buys": [],
-      "sells": []
-    }
-  },
+  "orders_by_date": {},
   "positions": {}
 }
