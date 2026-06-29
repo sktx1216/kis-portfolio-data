@@ -1,0 +1,9 @@
+{
+  "data_type": "trading_decision_log",
+  "history_file": null,
+  "latest_file": "decision_log.json",
+  "log_id": "initial",
+  "rows": [],
+  "schema_version": 1,
+  "updated_at": "2026-06-29T00:00:00+00:00"
+}
