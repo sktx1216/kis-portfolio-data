@@ -36,6 +36,34 @@
       ],
       "pending_buys": [],
       "sells": []
+    },
+    "2026-06-30": {
+      "buy_attempts": [
+        "LIN"
+      ],
+      "buys": [],
+      "orders": [
+        {
+          "action": "BUY_ATTEMPT",
+          "amount": 520.08,
+          "price": 520.08,
+          "qty": 1,
+          "symbol": "LIN",
+          "timestamp": "2026-06-30T15:57:23.366861+00:00"
+        },
+        {
+          "action": "BUY_SUBMITTED_NOT_CONFIRMED",
+          "amount": 520.08,
+          "price": 520.08,
+          "qty": 1,
+          "symbol": "LIN",
+          "timestamp": "2026-06-30T15:58:11.840781+00:00"
+        }
+      ],
+      "pending_buys": [
+        "LIN"
+      ],
+      "sells": []
     }
   },
   "positions": {}
