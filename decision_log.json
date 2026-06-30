@@ -1,11 +1,40 @@
 {
   "data_type": "trading_decision_log",
-  "history_file": "decision_logs/trading_log_20260629_182641.json",
+  "history_file": "decision_logs/trading_log_20260629_155721.json",
   "latest_file": "decision_log.json",
-  "log_id": "trading_log_20260629_182641",
+  "log_id": "trading_log_20260629_155721",
   "rows": [
     {
-      "action": "SELL_ONLY",
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": null,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 718.43,
+      "distance_from_ma60": null,
+      "event": "MARKET_FILTER",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 723.21007,
+      "ma5": null,
+      "ma60": 688.1709,
+      "passed": "",
+      "qty": "",
+      "rank": "",
+      "reason": "QQQ current price <= QQQ ma20",
+      "recent_5d_return": null,
+      "remaining_cooldown_days": "",
+      "score": "",
+      "share_ratio": "",
+      "symbol": "QQQ",
+      "timestamp": "2026-06-29T15:54:39",
+      "today_return": null,
+      "volatility_20": null
+    },
+    {
+      "action": "NO_BUY",
       "amount": "",
       "avg_trade_value_20": null,
       "blocked": "",
@@ -13,7 +42,7 @@
       "cooldown_days": "",
       "current_price": null,
       "distance_from_ma60": null,
-      "event": "MODE",
+      "event": "BUY_CHECK",
       "excluded_reason": "",
       "last_sell_date": "",
       "last_sell_reason": "",
@@ -23,17 +52,5737 @@
       "passed": "",
       "qty": "",
       "rank": "",
-      "reason": "buy scan skipped",
+      "reason": "no candidate",
       "recent_5d_return": null,
       "remaining_cooldown_days": "",
       "score": "",
       "share_ratio": "",
-      "symbol": "sell-only",
-      "timestamp": "2026-06-29T18:26:40",
+      "symbol": "",
+      "timestamp": "2026-06-29T15:57:19",
       "today_return": null,
       "volatility_20": null
+    },
+    {
+      "action": "NO_BUY",
+      "amount": 0,
+      "avg_trade_value_20": 1068690399.82425,
+      "blocked": "",
+      "cash": 647.78,
+      "cooldown_days": "",
+      "current_price": 359.3275,
+      "distance_from_ma60": 5.529470850882157,
+      "event": "BUY_CANDIDATE_REJECTED",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 345.967125,
+      "ma5": 353.7835,
+      "ma60": 340.49967000000004,
+      "passed": true,
+      "qty": "",
+      "rank": "",
+      "reason": "weak market requires positive 20/60-day relative strength vs QQQ",
+      "recent_5d_return": 4.237497099094911,
+      "remaining_cooldown_days": "",
+      "score": 100,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "AMGN",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 0.2783746825551825,
+      "volatility_20": 1.7144097519237242
+    },
+    {
+      "action": "NO_BUY",
+      "amount": 0,
+      "avg_trade_value_20": 3900769956.849,
+      "blocked": "",
+      "cash": 647.78,
+      "cooldown_days": "",
+      "current_price": 1851.07,
+      "distance_from_ma60": 16.59581416993776,
+      "event": "BUY_CANDIDATE_REJECTED",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 1796.7475,
+      "ma5": 1805.6200000000001,
+      "ma60": 1587.5955866666666,
+      "passed": true,
+      "qty": "",
+      "rank": "",
+      "reason": "candidate is not affordable with available cash",
+      "recent_5d_return": -4.05235195023973,
+      "remaining_cooldown_days": "",
+      "score": 95,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 10,
+          "reason": "distance from ma60 <= 20%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "ASML",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 3.145512699067221,
+      "volatility_20": 4.297477216838694
+    },
+    {
+      "action": "NO_BUY",
+      "amount": 0,
+      "avg_trade_value_20": 15459152322.09,
+      "blocked": "",
+      "cash": 647.78,
+      "cooldown_days": "",
+      "current_price": 126.005,
+      "distance_from_ma60": 24.421733441951154,
+      "event": "BUY_CANDIDATE_REJECTED",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 119.987,
+      "ma5": 130.224,
+      "ma60": 101.27250000000001,
+      "passed": true,
+      "qty": "",
+      "rank": "",
+      "reason": "weak market requires high relative-strength score (score=80, min=90)",
+      "recent_5d_return": -10.59670781893004,
+      "remaining_cooldown_days": "",
+      "score": 80,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 5,
+          "reason": "distance from ma60 <= 25%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 0,
+          "reason": "20-day volatility > 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "INTC",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -1.8040835411471279,
+      "volatility_20": 5.964997032129845
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 1865913969.5665002,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 205.44,
+      "distance_from_ma60": -13.439904271545233,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 221.8455,
+      "ma5": 199.11599999999999,
+      "ma60": 237.33800000000002,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": 5.407901487942524,
+      "remaining_cooldown_days": "",
+      "score": 45,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 10,
+          "reason": "recent 5-day return <= 10%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "ADBE",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 1.3367533172199408,
+      "volatility_20": 2.848806511415532
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 15883395470.1745,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 523.965,
+      "distance_from_ma60": 27.73029555449378,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 512.788,
+      "ma5": 523.5409999999999,
+      "ma60": 410.21200000000005,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "price is more than 25% above ma60",
+      "recent_5d_return": -5.015136957743405,
+      "remaining_cooldown_days": "",
+      "score": 85,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 0,
+          "reason": "distance from ma60 > 25%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "AMD",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 0.4572644656620328,
+      "volatility_20": 4.98904843597793
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 533850801.46400005,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 148.68,
+      "distance_from_ma60": 8.920284095279607,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 137.6385,
+      "ma5": 143.874,
+      "ma60": 136.5035,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "20-day average trade value is too low",
+      "recent_5d_return": 6.818018535814363,
+      "remaining_cooldown_days": "",
+      "score": 85,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 10,
+          "reason": "recent 5-day return <= 10%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "ABNB",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 2.1434460016487966,
+      "volatility_20": 2.0622171595809085
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 350287871.16550004,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 293.96,
+      "distance_from_ma60": -2.396022262711639,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 290.5995,
+      "ma5": 292.148,
+      "ma60": 301.17625000000004,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "moving averages are not aligned",
+      "recent_5d_return": 2.6360811424182007,
+      "remaining_cooldown_days": "",
+      "score": 60,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "ALNY",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 0.888904142499225,
+      "volatility_20": 2.0683089411402262
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 14071978234.327255,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 351.59,
+      "distance_from_ma60": -2.567343163947289,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 359.32164,
+      "ma5": 344.82,
+      "ma60": 360.85437,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": 0.5462136810798324,
+      "remaining_cooldown_days": "",
+      "score": 50,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "GOOGL",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 4.208779157651388,
+      "volatility_20": 2.2748318574829653
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 9536961570.489904,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 349.73,
+      "distance_from_ma60": -2.3949572579192724,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 357.31726,
+      "ma5": 343.54200000000003,
+      "ma60": 358.31140500000004,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": 0.27237800332589046,
+      "remaining_cooldown_days": "",
+      "score": 50,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "GOOG",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 4.493710597866696,
+      "volatility_20": 2.3530662178073936
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 14361261397.239498,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 241.6199,
+      "distance_from_ma60": -4.0878778015068455,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 242.5745,
+      "ma5": 233.94,
+      "ma60": 251.918,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": 3.793075303921989,
+      "remaining_cooldown_days": "",
+      "score": 50,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "AMZN",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 3.8376810348532464,
+      "volatility_20": 2.434158565587934
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 717105703.4555,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 136.83,
+      "distance_from_ma60": 4.268888810625349,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 130.0725,
+      "ma5": 136.244,
+      "ma60": 131.22802166666668,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "moving averages are not aligned",
+      "recent_5d_return": 5.011511895625476,
+      "remaining_cooldown_days": "",
+      "score": 55,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 10,
+          "reason": "recent 5-day return <= 10%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "AEP",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -1.341120484533842,
+      "volatility_20": 1.225034848297447
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 1068690399.82425,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 359.3275,
+      "distance_from_ma60": 5.529470850882157,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 345.967125,
+      "ma5": 353.7835,
+      "ma60": 340.49967000000004,
+      "passed": true,
+      "qty": "",
+      "rank": "",
+      "reason": "passed",
+      "recent_5d_return": 4.237497099094911,
+      "remaining_cooldown_days": "",
+      "score": 100,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "AMGN",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 0.2783746825551825,
+      "volatility_20": 1.7144097519237242
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 2246901294.81505,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 392.725,
+      "distance_from_ma60": -0.9084837712457716,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 413.983245,
+      "ma5": 403.59700000000004,
+      "ma60": 396.32555333333335,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": -11.842282481817367,
+      "remaining_cooldown_days": "",
+      "score": 50,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "ADI",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 1.5029334987464837,
+      "volatility_20": 3.9616698281391307
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 18885044469.317497,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 282.5,
+      "distance_from_ma60": -1.3590832798548336,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 296.81,
+      "ma5": 285.76,
+      "ma60": 286.39231,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": -4.885357395373891,
+      "remaining_cooldown_days": "",
+      "score": 50,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "AAPL",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -0.4510536330960546,
+      "volatility_20": 2.117192430116029
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 6550663367.225,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 698.1,
+      "distance_from_ma60": 52.22608959287109,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 559.2005,
+      "ma5": 633.562,
+      "ma60": 458.59418833333336,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "today return is outside -2% to +5%",
+      "recent_5d_return": 9.04745540316787,
+      "remaining_cooldown_days": "",
+      "score": 70,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 0,
+          "reason": "distance from ma60 > 25%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 10,
+          "reason": "recent 5-day return <= 10%"
+        },
+        "volatility_20": {
+          "points": 0,
+          "reason": "20-day volatility > 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "AMAT",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 11.368132218747995,
+      "volatility_20": 6.211166170493006
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 2579591527.717,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 496.31,
+      "distance_from_ma60": 2.625128072049132,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 513.2515000000001,
+      "ma5": 470.26000000000005,
+      "ma60": 483.61449999999996,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": 5.7351030060291075,
+      "remaining_cooldown_days": "",
+      "score": 45,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 10,
+          "reason": "recent 5-day return <= 10%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "APP",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 4.030770520667404,
+      "volatility_20": 3.8986656462675566
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 4826338422.13,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 332.88,
+      "distance_from_ma60": 25.1014310110969,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 373.838,
+      "ma5": 348.066,
+      "ma60": 266.0880833333333,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": -18.355734327479645,
+      "remaining_cooldown_days": "",
+      "score": 25,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 0,
+          "reason": "distance from ma60 > 25%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 0,
+          "reason": "20-day volatility > 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "ARM",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -0.4158315134472068,
+      "volatility_20": 6.598303428329813
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 3900769956.849,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 1851.07,
+      "distance_from_ma60": 16.59581416993776,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 1796.7475,
+      "ma5": 1805.6200000000001,
+      "ma60": 1587.5955866666666,
+      "passed": true,
+      "qty": "",
+      "rank": "",
+      "reason": "passed",
+      "recent_5d_return": -4.05235195023973,
+      "remaining_cooldown_days": "",
+      "score": 95,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 10,
+          "reason": "distance from ma60 <= 20%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "ASML",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 3.145512699067221,
+      "volatility_20": 4.297477216838694
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 704474935.5855,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 197.0,
+      "distance_from_ma60": -13.907882891413227,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 209.5695,
+      "ma5": 192.876,
+      "ma60": 228.82466666666667,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": 4.943532921372262,
+      "remaining_cooldown_days": "",
+      "score": 40,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "ADSK",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 0.37705085091206403,
+      "volatility_20": 2.5779097939606106
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 672979224.5589,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 223.72,
+      "distance_from_ma60": 5.29976166821331,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 224.228495,
+      "ma5": 220.78699999999998,
+      "ma60": 212.46012000000002,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": 4.249767008387706,
+      "remaining_cooldown_days": "",
+      "score": 40,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "ADP",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 0.07604562737641984,
+      "volatility_20": 1.4975534983130503
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 508519991.4535,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 511.325,
+      "distance_from_ma60": 22.914540350019674,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 457.62924999999996,
+      "ma5": 462.13100000000003,
+      "ma60": 416.0004166666667,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "recent 5-day return is above 15%",
+      "recent_5d_return": 24.70428993000513,
+      "remaining_cooldown_days": "",
+      "score": 65,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 5,
+          "reason": "distance from ma60 <= 25%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 0,
+          "reason": "recent 5-day return > 15%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "AXON",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 10.002581588968006,
+      "volatility_20": 4.076326859127941
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 452602624.15150005,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 56.38,
+      "distance_from_ma60": -10.9640666522976,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 61.253,
+      "ma5": 56.988,
+      "ma60": 63.32274833333334,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": -4.683009298393904,
+      "remaining_cooldown_days": "",
+      "score": 40,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "BKR",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -0.31824611032531536,
+      "volatility_20": 2.191016455710355
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 1445133588.55063,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 184.465,
+      "distance_from_ma60": 8.358871848243886,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 170.152885,
+      "ma5": 178.63299999999998,
+      "ma60": 170.23525333333333,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "moving averages are not aligned",
+      "recent_5d_return": 9.951123562019436,
+      "remaining_cooldown_days": "",
+      "score": 65,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 10,
+          "reason": "recent 5-day return <= 10%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "BKNG",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 1.656012344318314,
+      "volatility_20": 2.6122621608795553
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 14726136306.76182,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 370.275,
+      "distance_from_ma60": -7.934416799081168,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 399.41217,
+      "ma5": 375.271,
+      "ma60": 402.1861233333333,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": -5.573406778364321,
+      "remaining_cooldown_days": "",
+      "score": 50,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "AVGO",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 1.4396471426223245,
+      "volatility_20": 4.521122178039198
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 1057439094.0875,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 375.19,
+      "distance_from_ma60": 6.820524208931933,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 389.299,
+      "ma5": 374.442,
+      "ma60": 351.23400000000004,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": -3.560045239564058,
+      "remaining_cooldown_days": "",
+      "score": 50,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "CDNS",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -0.5513292867177277,
+      "volatility_20": 2.596727787078019
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 504586955.3835,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 149.61,
+      "distance_from_ma60": -10.163658144327004,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 135.435,
+      "ma5": 135.214,
+      "ma60": 166.53616666666667,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "moving averages are not aligned",
+      "recent_5d_return": 19.17317189740322,
+      "remaining_cooldown_days": "",
+      "score": 45,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 0,
+          "reason": "recent 5-day return > 15%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "CHTR",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 11.950014965579193,
+      "volatility_20": 4.310191720829769
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 383077227.98249996,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 169.865,
+      "distance_from_ma60": -1.6643595868623628,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 174.2395,
+      "ma5": 170.11700000000002,
+      "ma60": 172.740015,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": 0.24491000295072674,
+      "remaining_cooldown_days": "",
+      "score": 40,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "CTAS",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -1.183827806864457,
+      "volatility_20": 1.9315751798690153
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 3045754467.314,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 117.425,
+      "distance_from_ma60": 12.042568383656139,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 121.1445,
+      "ma5": 118.208,
+      "ma60": 104.80391666666667,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": -3.377766806549831,
+      "remaining_cooldown_days": "",
+      "score": 45,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 10,
+          "reason": "distance from ma60 <= 20%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "CSCO",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 3.2126219565790537,
+      "volatility_20": 2.7560823540938753
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 191936532.55650002,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 100.87,
+      "distance_from_ma60": 6.436402086626214,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 96.7415,
+      "ma5": 99.726,
+      "ma60": 94.77020833333333,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "20-day average trade value is too low",
+      "recent_5d_return": 4.0111363167663505,
+      "remaining_cooldown_days": "",
+      "score": 90,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "CCEP",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -0.708731174328181,
+      "volatility_20": 1.125299126476501
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 630575112.0745,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 39.55,
+      "distance_from_ma60": -24.75326729526175,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 48.542500000000004,
+      "ma5": 40.224000000000004,
+      "ma60": 52.56042166666667,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": -5.450633516614878,
+      "remaining_cooldown_days": "",
+      "score": 40,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "CTSH",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -1.1991006744941357,
+      "volatility_20": 2.91731559881027
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 840511423.5709851,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 24.8001,
+      "distance_from_ma60": -3.877760911235162,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 23.589505,
+      "ma5": 23.220019999999998,
+      "ma60": 25.800585,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "moving averages are not aligned",
+      "recent_5d_return": 11.111559139784944,
+      "remaining_cooldown_days": "",
+      "score": 50,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 5,
+          "reason": "recent 5-day return <= 15%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "CMCSA",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 7.03539059128182,
+      "volatility_20": 2.549914418722203
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 1130926361.09,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 259.07,
+      "distance_from_ma60": -8.124801016713912,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 262.361,
+      "ma5": 266.002,
+      "ma60": 281.9803416666667,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": -5.973941131637206,
+      "remaining_cooldown_days": "",
+      "score": 50,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "CEG",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -1.874857965305654,
+      "volatility_20": 2.1442256800829695
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 367539128.4775,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 29.025,
+      "distance_from_ma60": -10.321406226264019,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 30.52475,
+      "ma5": 29.925,
+      "ma60": 32.36558333333333,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": -1.5434192672998726,
+      "remaining_cooldown_days": "",
+      "score": 40,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "CPRT",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -4.991816693944362,
+      "volatility_20": 2.2063494737096345
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 2361528567.907,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 953.4,
+      "distance_from_ma60": -4.373781004547683,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 964.6325,
+      "ma5": 953.39,
+      "ma60": 997.0068983333333,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": 0.2154832606296342,
+      "remaining_cooldown_days": "",
+      "score": 50,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "COST",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 0.09028492241796027,
+      "volatility_20": 1.0101350744748325
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 2447590184.2785,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 746.475,
+      "distance_from_ma60": 31.418647108428853,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 695.5225,
+      "ma5": 696.0319999999999,
+      "ma60": 568.013,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "today return is outside -2% to +5%",
+      "recent_5d_return": 10.516848276678893,
+      "remaining_cooldown_days": "",
+      "score": 75,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 0,
+          "reason": "distance from ma60 > 25%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 5,
+          "reason": "recent 5-day return <= 15%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "CRWD",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 6.473491277867316,
+      "volatility_20": 3.1458129155457737
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 563460102.5697501,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 47.89,
+      "distance_from_ma60": 6.2221508340494225,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 46.714749999999995,
+      "ma5": 47.041999999999994,
+      "ma60": 45.08475833333333,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "20-day average trade value is too low",
+      "recent_5d_return": 3.658008658008649,
+      "remaining_cooldown_days": "",
+      "score": 90,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "CSX",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 0.48258497691986424,
+      "volatility_20": 1.2764047930947762
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 1356166562.8135,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 249.84,
+      "distance_from_ma60": 34.46825458763123,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 235.721,
+      "ma5": 230.754,
+      "ma60": 185.7985,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "moving averages are not aligned",
+      "recent_5d_return": 12.860821249491794,
+      "remaining_cooldown_days": "",
+      "score": 45,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 0,
+          "reason": "distance from ma60 > 25%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 5,
+          "reason": "recent 5-day return <= 15%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "DDOG",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 4.199858197439199,
+      "volatility_20": 3.1902212690524725
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 377050293.1015,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 70.01,
+      "distance_from_ma60": 4.987965598858302,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 72.718,
+      "ma5": 69.494,
+      "ma60": 66.68383333333334,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": 1.3609381786593433,
+      "remaining_cooldown_days": "",
+      "score": 40,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "DXCM",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -0.18534359851724025,
+      "volatility_20": 2.272525268970995
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 515181650.56275,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 180.89,
+      "distance_from_ma60": -6.685467709882342,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 191.49425000000002,
+      "ma5": 182.948,
+      "ma60": 193.84976333333333,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": -3.679446219382332,
+      "remaining_cooldown_days": "",
+      "score": 40,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "FANG",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 0.5447168028458682,
+      "volatility_20": 2.2149397311538905
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 844845403.682,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 184.03,
+      "distance_from_ma60": 11.402744560542931,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 165.0155,
+      "ma5": 178.696,
+      "ma60": 165.19341666666665,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "moving averages are not aligned",
+      "recent_5d_return": 6.944444444444442,
+      "remaining_cooldown_days": "",
+      "score": 50,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 10,
+          "reason": "distance from ma60 <= 20%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 10,
+          "reason": "recent 5-day return <= 10%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "DASH",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 0.5134087061008152,
+      "volatility_20": 3.6974164909828415
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 418599086.527,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 205.01,
+      "distance_from_ma60": 1.3121165250607802,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 203.2775,
+      "ma5": 204.606,
+      "ma60": 202.35486833333334,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "20-day average trade value is too low",
+      "recent_5d_return": 1.0050746415726453,
+      "remaining_cooldown_days": "",
+      "score": 90,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "EA",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -0.11693057247259553,
+      "volatility_20": 0.2512757463847492
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 389478193.501595,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 46.95,
+      "distance_from_ma60": 2.2964629935736225,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 45.803705,
+      "ma5": 46.924,
+      "ma60": 45.896015000000006,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "moving averages are not aligned",
+      "recent_5d_return": 2.198519808445809,
+      "remaining_cooldown_days": "",
+      "score": 60,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "EXC",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -0.9493670886075889,
+      "volatility_20": 1.1457662756410507
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 324485253.6185,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 47.07,
+      "distance_from_ma60": 4.026685817418918,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 46.1345,
+      "ma5": 46.589999999999996,
+      "ma60": 45.248005,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "20-day average trade value is too low",
+      "recent_5d_return": 2.059843885516055,
+      "remaining_cooldown_days": "",
+      "score": 90,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "FAST",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -0.06369426751592355,
+      "volatility_20": 1.5052708325223543
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 121750263.33150001,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 68.2,
+      "distance_from_ma60": -0.6853969671669513,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 67.85600000000001,
+      "ma5": 69.26,
+      "ma60": 68.67066666666666,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "moving averages are not aligned",
+      "recent_5d_return": -3.617863199547766,
+      "remaining_cooldown_days": "",
+      "score": 60,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "FER",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -0.2340550029256816,
+      "volatility_20": 1.617689489749514
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 1004138301.6512501,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 156.275,
+      "distance_from_ma60": 35.286143937300764,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 146.50525,
+      "ma5": 150.167,
+      "ma60": 115.51441666666666,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "price is more than 25% above ma60",
+      "recent_5d_return": 7.486759749638927,
+      "remaining_cooldown_days": "",
+      "score": 80,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 0,
+          "reason": "distance from ma60 > 25%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 10,
+          "reason": "recent 5-day return <= 10%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "FTNT",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 3.254046911133135,
+      "volatility_20": 2.177732525814705
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 304118585.3265,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 64.92,
+      "distance_from_ma60": -1.1122083975415031,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 63.74550000000001,
+      "ma5": 64.84400000000001,
+      "ma60": 65.65016666666666,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "moving averages are not aligned",
+      "recent_5d_return": 7.058047493403685,
+      "remaining_cooldown_days": "",
+      "score": 55,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 10,
+          "reason": "recent 5-day return <= 10%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "GEHC",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -1.2773722627737238,
+      "volatility_20": 2.06393331097131
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 1152794557.36202,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 126.16,
+      "distance_from_ma60": -3.6796067334643023,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 125.89657500000001,
+      "ma5": 125.61800000000001,
+      "ma60": 130.97953166666667,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "moving averages are not aligned",
+      "recent_5d_return": 1.033074397373257,
+      "remaining_cooldown_days": "",
+      "score": 70,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "GILD",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -1.3450109477635253,
+      "volatility_20": 1.7785549650400292
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 1377781219.220185,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 237.385,
+      "distance_from_ma60": 1.8344485925323895,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 234.897625,
+      "ma5": 238.93548,
+      "ma60": 233.10874,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "today return is outside -2% to +5%",
+      "recent_5d_return": -0.7223387179742469,
+      "remaining_cooldown_days": "",
+      "score": 100,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "HON",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -2.4752475247524774,
+      "volatility_20": 2.6519434292246205
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 354705560.842,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 545.92,
+      "distance_from_ma60": -2.787825150925771,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 558.0385,
+      "ma5": 548.566,
+      "ma60": 561.57575,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": 0.034815751378869386,
+      "remaining_cooldown_days": "",
+      "score": 40,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "IDXX",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -1.0117860380779775,
+      "volatility_20": 2.0940194396273153
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 490043987.1787499,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 103.11,
+      "distance_from_ma60": -14.483164728348651,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 99.74125000000001,
+      "ma5": 103.314,
+      "ma60": 120.57275,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "moving averages are not aligned",
+      "recent_5d_return": 4.568733837026517,
+      "remaining_cooldown_days": "",
+      "score": 60,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "INSM",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -0.2611723737666827,
+      "volatility_20": 3.726242099349614
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 15459152322.09,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 126.005,
+      "distance_from_ma60": 24.421733441951154,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 119.987,
+      "ma5": 130.224,
+      "ma60": 101.27250000000001,
+      "passed": true,
+      "qty": "",
+      "rank": "",
+      "reason": "passed",
+      "recent_5d_return": -10.59670781893004,
+      "remaining_cooldown_days": "",
+      "score": 80,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 5,
+          "reason": "distance from ma60 <= 25%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 0,
+          "reason": "20-day volatility > 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "INTC",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -1.8040835411471279,
+      "volatility_20": 5.964997032129845
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 1702035059.16975,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 267.66,
+      "distance_from_ma60": -23.181837415102212,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 284.52875,
+      "ma5": 262.14700000000005,
+      "ma60": 348.43322333333333,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": 3.8367536951546155,
+      "remaining_cooldown_days": "",
+      "score": 50,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "INTU",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -0.022411474675032572,
+      "volatility_20": 3.031423315964598
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 1041267316.6625,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 407.44,
+      "distance_from_ma60": -6.786521138172641,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 410.31499999999994,
+      "ma5": 403.368,
+      "ma60": 437.1041666666667,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": 1.1142821690035998,
+      "remaining_cooldown_days": "",
+      "score": 50,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "ISRG",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 0.6770447244872857,
+      "volatility_20": 1.6443373946333373
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 502835137.86984503,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 33.305,
+      "distance_from_ma60": 15.142105975220165,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 31.119835000000002,
+      "ma5": 32.16492,
+      "ma60": 28.925126666666664,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "20-day average trade value is too low",
+      "recent_5d_return": 8.656289863204968,
+      "remaining_cooldown_days": "",
+      "score": 80,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 10,
+          "reason": "distance from ma60 <= 20%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 10,
+          "reason": "recent 5-day return <= 10%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "KDP",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -0.2844311377245501,
+      "volatility_20": 1.6422435232532844
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 2147877855.7813,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 270.33,
+      "distance_from_ma60": 37.00124249496122,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 233.75705,
+      "ma5": 252.573,
+      "ma60": 197.31937833333333,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "today return is outside -2% to +5%",
+      "recent_5d_return": 0.4346856888096218,
+      "remaining_cooldown_days": "",
+      "score": 75,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 0,
+          "reason": "distance from ma60 > 25%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 0,
+          "reason": "20-day volatility > 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "KLAC",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 8.723455598455597,
+      "volatility_20": 6.202923815557239
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 317678359.141155,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 24.18,
+      "distance_from_ma60": 6.124995172146619,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 23.258689999999998,
+      "ma5": 23.353,
+      "ma60": 22.78445333333333,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "20-day average trade value is too low",
+      "recent_5d_return": 9.759418974126177,
+      "remaining_cooldown_days": "",
+      "score": 85,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 10,
+          "reason": "recent 5-day return <= 10%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "KHC",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 2.0253164556962133,
+      "volatility_20": 2.0053505453947684
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 4595331196.52364,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 410.09,
+      "distance_from_ma60": 35.537245676865936,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 360.14608,
+      "ma5": 387.423,
+      "ma60": 302.56627833333334,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "today return is outside -2% to +5%",
+      "recent_5d_return": 0.1342970161644752,
+      "remaining_cooldown_days": "",
+      "score": 75,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 0,
+          "reason": "distance from ma60 > 25%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 0,
+          "reason": "20-day volatility > 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "LRCX",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 8.177477643831278,
+      "volatility_20": 5.864545089349996
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 1301762820.98123,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 509.41,
+      "distance_from_ma60": 0.8070590469121175,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 512.04696,
+      "ma5": 515.8779999999999,
+      "ma60": 505.331675,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": -1.412784734183592,
+      "remaining_cooldown_days": "",
+      "score": 80,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "LIN",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -1.9648974250413676,
+      "volatility_20": 1.2265913234615908
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 5348764871.214499,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 815.0188,
+      "distance_from_ma60": -8.849472010163895,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 883.7185,
+      "ma5": 833.0799999999999,
+      "ma60": 894.1460000000001,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": -8.827447339277118,
+      "remaining_cooldown_days": "",
+      "score": 40,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 0,
+          "reason": "20-day volatility > 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "LITE",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -0.24005483610369804,
+      "volatility_20": 5.967069397059168
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 601579773.5905,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 375.8501,
+      "distance_from_ma60": 1.8722001189235948,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 387.66575,
+      "ma5": 380.523,
+      "ma60": 368.94275333333337,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": -2.170774877013981,
+      "remaining_cooldown_days": "",
+      "score": 40,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "MAR",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -0.386923219633728,
+      "volatility_20": 1.4049591377901363
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 20370166319.22275,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 266.5922,
+      "distance_from_ma60": 33.12276639266205,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 281.32624999999996,
+      "ma5": 274.099,
+      "ma60": 200.26041166666667,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": -13.404729422464767,
+      "remaining_cooldown_days": "",
+      "score": 25,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 0,
+          "reason": "distance from ma60 > 25%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 0,
+          "reason": "20-day volatility > 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "MRVL",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -0.06664917344528787,
+      "volatility_20": 10.324722977802834
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 802053683.3859999,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 1701.5,
+      "distance_from_ma60": -0.3825013359663787,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 1637.0575000000001,
+      "ma5": 1647.664,
+      "ma60": 1708.03325,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "moving averages are not aligned",
+      "recent_5d_return": 7.049608355091386,
+      "remaining_cooldown_days": "",
+      "score": 55,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 10,
+          "reason": "recent 5-day return <= 10%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "MELI",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 1.5760253119216916,
+      "volatility_20": 2.3890119542287813
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 10729676507.426186,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 564.64,
+      "distance_from_ma60": -7.7952092798412975,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 579.6255,
+      "ma5": 555.5260000000001,
+      "ma60": 612.37599,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": 0.14010818480092446,
+      "remaining_cooldown_days": "",
+      "score": 50,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "META",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 2.6151749204906816,
+      "volatility_20": 2.6482111769736734
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 1215202164.03,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 87.91,
+      "distance_from_ma60": -1.5238505477593534,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 93.842,
+      "ma5": 91.14000000000001,
+      "ma60": 89.27034666666667,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": -14.409502482718327,
+      "remaining_cooldown_days": "",
+      "score": 50,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "MCHP",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -0.022745365631759995,
+      "volatility_20": 4.582098878430947
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 58709118767.33275,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 1095.53,
+      "distance_from_ma60": 46.32828574306653,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 1041.60725,
+      "ma5": 1108.225,
+      "ma60": 748.6795833333333,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "today return is outside -2% to +5%",
+      "recent_5d_return": -9.563473063778517,
+      "remaining_cooldown_days": "",
+      "score": 75,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 0,
+          "reason": "distance from ma60 > 25%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 0,
+          "reason": "20-day volatility > 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "MU",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -3.24993597272879,
+      "volatility_20": 8.134953949896332
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 18314669184.136497,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 370.69,
+      "distance_from_ma60": -8.528024325868365,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 396.1305,
+      "ma5": 367.178,
+      "ma60": 405.24980166666666,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": 0.9119616703871181,
+      "remaining_cooldown_days": "",
+      "score": 50,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "MSFT",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -0.6113092205807469,
+      "volatility_20": 2.3770729018339636
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 2885205269.755,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 88.58,
+      "distance_from_ma60": -39.509375830496964,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 115.62974999999999,
+      "ma5": 90.838,
+      "ma60": 146.43591666666669,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": -19.07546135574639,
+      "remaining_cooldown_days": "",
+      "score": 40,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 0,
+          "reason": "20-day volatility > 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "MSTR",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 7.617543433361673,
+      "volatility_20": 5.5031178758021415
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 576330687.62,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 59.925,
+      "distance_from_ma60": -0.6868092029394979,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 61.51875,
+      "ma5": 60.943000000000005,
+      "ma60": 60.33941666666667,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": 0.6973617879348026,
+      "remaining_cooldown_days": "",
+      "score": 40,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "MDLZ",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -1.4229314031913187,
+      "volatility_20": 1.4349216513802838
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 1563127907.3305001,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 1315.38,
+      "distance_from_ma60": -12.876355932278216,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 1517.414,
+      "ma5": 1385.088,
+      "ma60": 1509.7853333333333,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": -14.467968892241267,
+      "remaining_cooldown_days": "",
+      "score": 40,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 0,
+          "reason": "20-day volatility > 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "MPWR",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 0.1568543843084802,
+      "volatility_20": 5.501823536448375
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 546794122.3545,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 96.81,
+      "distance_from_ma60": 15.236281395072005,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 91.9385,
+      "ma5": 95.482,
+      "ma60": 84.01,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "20-day average trade value is too low",
+      "recent_5d_return": 4.074392603741139,
+      "remaining_cooldown_days": "",
+      "score": 85,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 10,
+          "reason": "distance from ma60 <= 20%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "MNST",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 0.44615065366260254,
+      "volatility_20": 0.9459491688094828
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 3603886894.2155,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 75.185,
+      "distance_from_ma60": -14.798739857667375,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 78.713,
+      "ma5": 72.91,
+      "ma60": 88.244,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": 3.162733260153683,
+      "remaining_cooldown_days": "",
+      "score": 50,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "NFLX",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 1.8628912071535053,
+      "volatility_20": 2.1668059869277143
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 32750438638.646492,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 193.66,
+      "distance_from_ma60": -5.990568878983494,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 206.85197,
+      "ma5": 196.192,
+      "ma60": 206.00060833333333,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": -7.184279894560275,
+      "remaining_cooldown_days": "",
+      "score": 50,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "NVDA",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 0.5869215187243482,
+      "volatility_20": 2.5137919332690957
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 1325027939.558915,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 276.8,
+      "distance_from_ma60": 0.31466780862383636,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 302.49427000000003,
+      "ma5": 289.08918,
+      "ma60": 275.9317316666667,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": -14.076519701713908,
+      "remaining_cooldown_days": "",
+      "score": 50,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "NXPI",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -0.07941664861741415,
+      "volatility_20": 4.04609149476162
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 733101145.6274999,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 91.78,
+      "distance_from_ma60": 0.6184964233183265,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 88.7235,
+      "ma5": 88.718,
+      "ma60": 91.21583333333334,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "moving averages are not aligned",
+      "recent_5d_return": 7.1820623613219725,
+      "remaining_cooldown_days": "",
+      "score": 55,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 10,
+          "reason": "recent 5-day return <= 10%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "ORLY",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 2.4902289223897256,
+      "volatility_20": 1.5383540862574756
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 474158152.6114,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 218.095,
+      "distance_from_ma60": 0.9842719525728905,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 231.398285,
+      "ma5": 218.725,
+      "ma60": 215.96927499999998,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": -0.6491435860058403,
+      "remaining_cooldown_days": "",
+      "score": 40,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "ODFL",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -0.3176562000091421,
+      "volatility_20": 2.684998696107104
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 400596940.7005,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 118.97,
+      "distance_from_ma60": 0.9959409201901526,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 117.64874999999999,
+      "ma5": 119.026,
+      "ma60": 117.79681333333333,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "moving averages are not aligned",
+      "recent_5d_return": -0.957375957375961,
+      "remaining_cooldown_days": "",
+      "score": 60,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "PCAR",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -1.4169705004971944,
+      "volatility_20": 2.2675039831684445
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 5372117537.796,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 115.4595,
+      "distance_from_ma60": -15.458105048116089,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 130.123,
+      "ma5": 113.16600000000001,
+      "ma60": 136.57075,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": -3.3811715481171456,
+      "remaining_cooldown_days": "",
+      "score": 50,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "PLTR",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 2.2398831134331054,
+      "volatility_20": 3.370722409709962
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 2441166227.87875,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 328.355,
+      "distance_from_ma60": 43.94926890287208,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 285.059,
+      "ma5": 300.364,
+      "ma60": 228.10466666666667,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "today return is outside -2% to +5%",
+      "recent_5d_return": 14.649092178770973,
+      "remaining_cooldown_days": "",
+      "score": 75,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 0,
+          "reason": "distance from ma60 > 25%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 5,
+          "reason": "recent 5-day return <= 15%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "PANW",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 7.940499671268908,
+      "volatility_20": 3.1223994037339
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 361725093.4305,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 99.24,
+      "distance_from_ma60": 5.4880370978310555,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 99.2485,
+      "ma5": 98.03,
+      "ma60": 94.07701833333334,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": 3.4504326071093327,
+      "remaining_cooldown_days": "",
+      "score": 40,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "PAYX",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -0.6606606606606724,
+      "volatility_20": 1.6659597846886385
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 713412377.194865,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 44.165,
+      "distance_from_ma60": -2.768747874362054,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 42.51051,
+      "ma5": 43.003,
+      "ma60": 45.42263833333333,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "moving averages are not aligned",
+      "recent_5d_return": 4.310344827586188,
+      "remaining_cooldown_days": "",
+      "score": 60,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "PYPL",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -0.28223075186272206,
+      "volatility_20": 2.1972025116736758
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 702325004.6745,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 75.94,
+      "distance_from_ma60": -17.890571219531537,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 81.088,
+      "ma5": 75.618,
+      "ma60": 92.48633333333333,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": -2.7781334016131143,
+      "remaining_cooldown_days": "",
+      "score": 40,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "PDD",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -0.7968647942521168,
+      "volatility_20": 1.8837496841834405
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 1294725316.76198,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 138.985,
+      "distance_from_ma60": -6.41906983892826,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 142.04494,
+      "ma5": 140.84300000000002,
+      "ma60": 148.51850666666667,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": -1.2259256627105364,
+      "remaining_cooldown_days": "",
+      "score": 50,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "PEP",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -1.700968951128068,
+      "volatility_20": 1.2002149615270856
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 4636927262.056025,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 191.33,
+      "distance_from_ma60": 1.9868902630193697,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 214.38955,
+      "ma5": 197.432,
+      "ma60": 187.60254333333333,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": -13.776475890040551,
+      "remaining_cooldown_days": "",
+      "score": 40,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 0,
+          "reason": "20-day volatility > 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "QCOM",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 1.0243413062991813,
+      "volatility_20": 5.188396196083172
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 661202731.344,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 633.74,
+      "distance_from_ma60": -6.72843319706975,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 616.391,
+      "ma5": 625.6479999999999,
+      "ma60": 679.4567966666667,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "moving averages are not aligned",
+      "recent_5d_return": 3.467755102040826,
+      "remaining_cooldown_days": "",
+      "score": 60,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "REGN",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 0.13272238900301492,
+      "volatility_20": 1.4566365767794391
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 422729511.33675,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 332.33,
+      "distance_from_ma60": -2.477816549728462,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 333.33125,
+      "ma5": 332.84000000000003,
+      "ma60": 340.77374833333334,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": 2.2270755790704033,
+      "remaining_cooldown_days": "",
+      "score": 40,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "ROP",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -1.7676095888386478,
+      "volatility_20": 1.1759325076577605
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 782608931.1958001,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 210.24,
+      "distance_from_ma60": -6.551262889186582,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 228.991815,
+      "ma5": 219.254,
+      "ma60": 224.97896333333335,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": -11.279908849221421,
+      "remaining_cooldown_days": "",
+      "score": 40,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "ROST",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -1.4161117884272656,
+      "volatility_20": 2.101868682155279
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 21330595185.964,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 1991.91,
+      "distance_from_ma60": 39.81565072491116,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 1911.7025,
+      "ma5": 2059.138,
+      "ma60": 1424.6688333333334,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "today return is outside -2% to +5%",
+      "recent_5d_return": -12.394611497407338,
+      "remaining_cooldown_days": "",
+      "score": 75,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 0,
+          "reason": "distance from ma60 > 25%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 0,
+          "reason": "20-day volatility > 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "SNDK",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -4.725667357022257,
+      "volatility_20": 8.80660768512389
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 4261982729.3591104,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 930.485,
+      "distance_from_ma60": 21.79655684025954,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 952.83295,
+      "ma5": 977.2738999999999,
+      "ma60": 763.9665883333333,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": -14.888948181489138,
+      "remaining_cooldown_days": "",
+      "score": 60,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 5,
+          "reason": "distance from ma60 <= 25%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 0,
+          "reason": "20-day volatility > 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "STX",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 3.3987109678853322,
+      "volatility_20": 5.275520367146277
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 971952475.7254999,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 116.27,
+      "distance_from_ma60": 1.918514276364225,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 112.25,
+      "ma5": 113.32000000000001,
+      "ma60": 114.08133333333333,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "moving averages are not aligned",
+      "recent_5d_return": 7.677347656973499,
+      "remaining_cooldown_days": "",
+      "score": 55,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 10,
+          "reason": "recent 5-day return <= 10%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "SHOP",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -0.5048776313537617,
+      "volatility_20": 3.2232075845304995
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 791191117.0675,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 103.325,
+      "distance_from_ma60": 2.7615157916163424,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 99.66024999999999,
+      "ma5": 103.133,
+      "ma60": 100.54834166666666,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "moving averages are not aligned",
+      "recent_5d_return": 3.170244633050423,
+      "remaining_cooldown_days": "",
+      "score": 60,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "SBUX",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -1.2189292543020924,
+      "volatility_20": 1.5041293507571847
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 992964158.566,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 441.24,
+      "distance_from_ma60": -6.4664502833627235,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 466.404,
+      "ma5": 455.20599999999996,
+      "ma60": 471.74516666666665,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": -5.023892548107966,
+      "remaining_cooldown_days": "",
+      "score": 40,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "SNPS",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -2.8833032530703795,
+      "volatility_20": 2.092081715982528
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 1075360213.201,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 174.03,
+      "distance_from_ma60": -7.814651034514764,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 182.52,
+      "ma5": 180.728,
+      "ma60": 188.78271,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": -3.348883705431527,
+      "remaining_cooldown_days": "",
+      "score": 50,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "TMUS",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -4.735055835340485,
+      "volatility_20": 2.029559953790919
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 666603058.673,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 245.3,
+      "distance_from_ma60": 11.244222564028927,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 225.4565,
+      "ma5": 240.192,
+      "ma60": 220.50583333333333,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "20-day average trade value is too low",
+      "recent_5d_return": 2.391785281963532,
+      "remaining_cooldown_days": "",
+      "score": 85,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 10,
+          "reason": "distance from ma60 <= 20%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "TTWO",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 2.8382174150002104,
+      "volatility_20": 2.3133122339183703
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 18344365301.9085,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 400.545,
+      "distance_from_ma60": 0.7861315746598541,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 399.79075,
+      "ma5": 382.503,
+      "ma60": 397.42075,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "moving averages are not aligned",
+      "recent_5d_return": -1.1122083693371199,
+      "remaining_cooldown_days": "",
+      "score": 70,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "TSLA",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 5.487082246977959,
+      "volatility_20": 3.2022189832095544
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 3043680315.7705,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 286.16,
+      "distance_from_ma60": 2.9340922472462116,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 301.35175,
+      "ma5": 298.173,
+      "ma60": 278.00313166666666,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": -13.879860358733588,
+      "remaining_cooldown_days": "",
+      "score": 50,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "TXN",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 0.2575107296137302,
+      "volatility_20": 4.250116529317391
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 160835556.977,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 80.87,
+      "distance_from_ma60": -7.048867043846507,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 82.40299999999999,
+      "ma5": 81.488,
+      "ma60": 87.002705,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": 5.643370346178989,
+      "remaining_cooldown_days": "",
+      "score": 35,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 10,
+          "reason": "recent 5-day return <= 10%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "TRI",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -3.5769643495886516,
+      "volatility_20": 2.9298727886226708
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 567158585.92727,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 177.86,
+      "distance_from_ma60": 1.3339973719022735,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 178.937855,
+      "ma5": 178.38,
+      "ma60": 175.51858666666666,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": 5.248831291792411,
+      "remaining_cooldown_days": "",
+      "score": 35,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 10,
+          "reason": "recent 5-day return <= 10%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "VRSK",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -2.3712811505104847,
+      "volatility_20": 1.9299921121805872
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 805718034.9035,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 493.635,
+      "distance_from_ma60": 11.650677580636227,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 454.23099999999994,
+      "ma5": 481.755,
+      "ma60": 442.1245,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "20-day average trade value is too low",
+      "recent_5d_return": 5.75098009811692,
+      "remaining_cooldown_days": "",
+      "score": 80,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 10,
+          "reason": "distance from ma60 <= 20%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 10,
+          "reason": "recent 5-day return <= 10%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "VRTX",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 0.4670899987788468,
+      "volatility_20": 1.6271489751847639
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 2793164302.08777,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 114.64,
+      "distance_from_ma60": -7.7071543606833215,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 118.04383499999999,
+      "ma5": 116.90534,
+      "ma60": 124.21331166666667,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": -2.1676053934118533,
+      "remaining_cooldown_days": "",
+      "score": 50,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "WMT",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -0.9075978909153792,
+      "volatility_20": 1.3893171181654744
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 637384185.3165,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 27.02,
+      "distance_from_ma60": -0.1139829333661968,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 26.7705,
+      "ma5": 26.964,
+      "ma60": 27.050833333333333,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "moving averages are not aligned",
+      "recent_5d_return": 0.25974025974027093,
+      "remaining_cooldown_days": "",
+      "score": 60,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "WBD",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 1.0471204188481797,
+      "volatility_20": 1.2961236549936834
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 6256097796.115721,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 632.545,
+      "distance_from_ma60": 30.039538355681383,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 607.5772549999999,
+      "ma5": 641.793,
+      "ma60": 486.425135,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "today return is outside -2% to +5%",
+      "recent_5d_return": -13.659878245202162,
+      "remaining_cooldown_days": "",
+      "score": 75,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 0,
+          "reason": "distance from ma60 > 25%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 0,
+          "reason": "20-day volatility > 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "WDC",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 7.860005115525603,
+      "volatility_20": 7.134107244599423
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 704411771.925,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 123.8,
+      "distance_from_ma60": -2.2998597237485097,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 131.558,
+      "ma5": 119.0,
+      "ma60": 126.71424999999999,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "current price is not above ma20",
+      "recent_5d_return": 9.518754423213016,
+      "remaining_cooldown_days": "",
+      "score": 35,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 10,
+          "reason": "recent 5-day return <= 10%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "WDAY",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -0.33008614443281736,
+      "volatility_20": 3.248512183134998
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 479492458.85908496,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 81.68,
+      "distance_from_ma60": 2.984480061498185,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 78.65998499999999,
+      "ma5": 81.492,
+      "ma60": 79.31292166666667,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "moving averages are not aligned",
+      "recent_5d_return": 3.6416698388529456,
+      "remaining_cooldown_days": "",
+      "score": 60,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "XEL",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": -0.6688556487899788,
+      "volatility_20": 1.113568489305849
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 652979038.8675001,
+      "blocked": "",
+      "cash": "",
+      "cooldown_days": "",
+      "current_price": 137.0,
+      "distance_from_ma60": -1.742810012192486,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 130.658,
+      "ma5": 129.3,
+      "ma60": 139.42999999999998,
+      "passed": false,
+      "qty": "",
+      "rank": "",
+      "reason": "moving averages are not aligned",
+      "recent_5d_return": 10.430436885378036,
+      "remaining_cooldown_days": "",
+      "score": 50,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 0,
+          "reason": "moving averages are not aligned"
+        },
+        "recent_5d_return": {
+          "points": 5,
+          "reason": "recent 5-day return <= 15%"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "ZS",
+      "timestamp": "2026-06-29T15:57:19",
+      "today_return": 3.5838499924391476,
+      "volatility_20": 3.2897300126762983
     }
   ],
   "schema_version": 1,
-  "updated_at": "2026-06-29T18:26:41.981550+00:00"
+  "updated_at": "2026-06-29T15:57:21.454936+00:00"
 }
