@@ -1,11 +1,21 @@
 {
   "asset_history": [
     {
-      "cash_asset": 196337,
+      "cash_asset": 1000000,
       "cumulative_profit_loss": 0,
       "cumulative_profit_loss_rate": 0.0,
       "daily_profit_loss": 0,
       "daily_profit_loss_rate": 0,
+      "date": "2026-06-30",
+      "stock_asset": 0,
+      "total_asset": 1000000
+    },
+    {
+      "cash_asset": 196337,
+      "cumulative_profit_loss": -136,
+      "cumulative_profit_loss_rate": -0.01,
+      "daily_profit_loss": -136,
+      "daily_profit_loss_rate": -0.01,
       "date": "2026-07-01",
       "stock_asset": 803527,
       "total_asset": 999864
@@ -39,8 +49,8 @@
     "currency": "KRW",
     "stock_asset": 803527,
     "total_asset": 999864,
-    "total_profit_loss": -1161,
-    "total_profit_loss_rate": -0.14,
-    "updated_at": "2026-07-01T02:19:28.736764+00:00"
+    "total_profit_loss": -136,
+    "total_profit_loss_rate": -0.01,
+    "updated_at": "2026-07-01T02:44:51.623092+00:00"
   }
 }
