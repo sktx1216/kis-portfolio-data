@@ -1,13 +1,13 @@
 {
   "account": {
-    "cash_asset_usd": 0.0,
+    "cash_asset_usd": 647.78,
     "stock_asset_usd": 0.0,
-    "total_asset_usd": 0.0
+    "total_asset_usd": 647.78
   },
   "currency": "USD",
   "data_type": "portfolio_snapshot",
   "is_realtime": false,
   "positions": [],
   "snapshot_note": "Last account balance snapshot. Not real-time market data.",
-  "updated_at": "2026-07-01T00:54:45.430126+00:00"
+  "updated_at": "2026-07-01T01:08:02.441405+00:00"
 }
