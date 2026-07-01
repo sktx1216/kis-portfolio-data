@@ -21,6 +21,15 @@
       "total_asset": 999864
     }
   ],
+  "cash_flows": [
+    {
+      "amount": 1000000,
+      "currency": "KRW",
+      "date": "2026-06-30",
+      "note": "initial deposit",
+      "type": "deposit"
+    }
+  ],
   "portfolio_allocation": [
     {
       "avg_purchase_price": 804688,
@@ -49,8 +58,9 @@
     "currency": "KRW",
     "stock_asset": 803527,
     "total_asset": 999864,
+    "total_cash_invested": 1000000,
     "total_profit_loss": -136,
     "total_profit_loss_rate": -0.01,
-    "updated_at": "2026-07-01T02:44:51.623092+00:00"
+    "updated_at": "2026-07-01T03:19:11.741467+00:00"
   }
 }
