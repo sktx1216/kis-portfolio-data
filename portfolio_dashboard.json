@@ -4,9 +4,11 @@
       "cash_asset": 1000000,
       "cumulative_profit_loss": 0,
       "cumulative_profit_loss_rate": 0.0,
+      "daily_cash_flow": 1000000,
       "daily_profit_loss": 0,
       "daily_profit_loss_rate": 0,
       "date": "2026-06-30",
+      "net_cash_invested": 1000000,
       "stock_asset": 0,
       "total_asset": 1000000
     },
@@ -14,20 +16,13 @@
       "cash_asset": 196337,
       "cumulative_profit_loss": -136,
       "cumulative_profit_loss_rate": -0.01,
+      "daily_cash_flow": 0,
       "daily_profit_loss": -136,
       "daily_profit_loss_rate": -0.01,
       "date": "2026-07-01",
+      "net_cash_invested": 1000000,
       "stock_asset": 803527,
       "total_asset": 999864
-    }
-  ],
-  "cash_flows": [
-    {
-      "amount": 1000000,
-      "currency": "KRW",
-      "date": "2026-06-30",
-      "note": "initial deposit",
-      "type": "deposit"
     }
   ],
   "portfolio_allocation": [
@@ -58,9 +53,8 @@
     "currency": "KRW",
     "stock_asset": 803527,
     "total_asset": 999864,
-    "total_cash_invested": 1000000,
     "total_profit_loss": -136,
     "total_profit_loss_rate": -0.01,
-    "updated_at": "2026-07-01T03:19:11.741467+00:00"
+    "updated_at": "2026-07-01T03:51:23.776878+00:00"
   }
 }
