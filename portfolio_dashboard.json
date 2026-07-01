@@ -1,0 +1,46 @@
+{
+  "asset_history": [
+    {
+      "cash_asset": 196337,
+      "cumulative_profit_loss": 0,
+      "cumulative_profit_loss_rate": 0.0,
+      "daily_profit_loss": 0,
+      "daily_profit_loss_rate": 0,
+      "date": "2026-07-01",
+      "stock_asset": 803527,
+      "total_asset": 999864
+    }
+  ],
+  "portfolio_allocation": [
+    {
+      "avg_purchase_price": 804688,
+      "country": "US",
+      "current_price": 803527,
+      "current_value": 803527,
+      "market": "US",
+      "name": "\ub9b0\ub370",
+      "profit_loss": -1161,
+      "profit_loss_rate": -0.14,
+      "quantity": 1.0,
+      "sector": "\uc18c\uc7ac",
+      "symbol": "LIN",
+      "weight": 100.0
+    }
+  ],
+  "sector_allocation": [
+    {
+      "current_value": 803527,
+      "sector": "\uc18c\uc7ac",
+      "weight": 100.0
+    }
+  ],
+  "summary": {
+    "cash_asset": 196337,
+    "currency": "KRW",
+    "stock_asset": 803527,
+    "total_asset": 999864,
+    "total_profit_loss": -1161,
+    "total_profit_loss_rate": -0.14,
+    "updated_at": "2026-07-01T02:19:28.736764+00:00"
+  }
+}
