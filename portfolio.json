@@ -1,8 +1,8 @@
 {
   "account": {
-    "cash_asset_usd": 647.78,
+    "cash_asset_usd": 126.8,
     "stock_asset_usd": 518.94,
-    "total_asset_usd": 1166.72
+    "total_asset_usd": 645.74
   },
   "currency": "USD",
   "data_type": "portfolio_snapshot",
@@ -11,7 +11,7 @@
     {
       "average_purchase_price": 519.69,
       "name": "\ub9b0\ub370",
-      "portfolio_weight_percent": 44.48,
+      "portfolio_weight_percent": 80.36,
       "profit_loss": -0.75,
       "profit_loss_rate": -0.14,
       "quantity": 1.0,
@@ -21,5 +21,5 @@
     }
   ],
   "snapshot_note": "Last account balance snapshot. Not real-time market data.",
-  "updated_at": "2026-07-01T01:16:48.562586+00:00"
+  "updated_at": "2026-07-01T01:20:29.468096+00:00"
 }
