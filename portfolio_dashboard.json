@@ -23,18 +23,30 @@
       "net_cash_invested": 1000000,
       "stock_asset": 825142,
       "total_asset": 1021479
+    },
+    {
+      "cash_asset": 197098,
+      "cumulative_profit_loss": 26448,
+      "cumulative_profit_loss_rate": 2.64,
+      "daily_cash_flow": 0,
+      "daily_profit_loss": 4969,
+      "daily_profit_loss_rate": 0.49,
+      "date": "2026-07-02",
+      "net_cash_invested": 1000000,
+      "stock_asset": 829350,
+      "total_asset": 1026448
     }
   ],
   "portfolio_allocation": [
     {
-      "avg_purchase_price": 804688,
+      "avg_purchase_price": 807806,
       "country": "US",
-      "current_price": 825142,
-      "current_value": 825142,
+      "current_price": 829350,
+      "current_value": 829350,
       "market": "US",
       "name": "\ub9b0\ub370",
-      "profit_loss": 20454,
-      "profit_loss_rate": 2.54,
+      "profit_loss": 21544,
+      "profit_loss_rate": 2.66,
       "quantity": 1.0,
       "sector": "\uc18c\uc7ac",
       "symbol": "LIN",
@@ -43,18 +55,18 @@
   ],
   "sector_allocation": [
     {
-      "current_value": 825142,
+      "current_value": 829350,
       "sector": "\uc18c\uc7ac",
       "weight": 100.0
     }
   ],
   "summary": {
-    "cash_asset": 196337,
+    "cash_asset": 197098,
     "currency": "KRW",
-    "stock_asset": 825142,
-    "total_asset": 1021479,
-    "total_profit_loss": 21479,
-    "total_profit_loss_rate": 2.15,
-    "updated_at": "2026-07-01T19:18:40.628169+00:00"
+    "stock_asset": 829350,
+    "total_asset": 1026448,
+    "total_profit_loss": 26448,
+    "total_profit_loss_rate": 2.64,
+    "updated_at": "2026-07-02T00:02:04.545788+00:00"
   }
 }
