@@ -1,8 +1,8 @@
 {
   "account": {
     "cash_asset_usd": 126.8,
-    "stock_asset_usd": 544.09,
-    "total_asset_usd": 670.89
+    "stock_asset_usd": 546.64,
+    "total_asset_usd": 673.4399999999999
   },
   "currency": "USD",
   "data_type": "portfolio_snapshot",
@@ -13,15 +13,15 @@
       "average_purchase_price": 519.69,
       "exchange_rate": 1554.4,
       "name": "\ub9b0\ub370",
-      "portfolio_weight_percent": 81.1,
-      "profit_loss": 24.4,
-      "profit_loss_rate": 4.69,
+      "portfolio_weight_percent": 81.17,
+      "profit_loss": 26.95,
+      "profit_loss_rate": 5.18,
       "quantity": 1.0,
       "symbol": "LIN",
-      "total_current_value": 544.09,
+      "total_current_value": 546.64,
       "total_purchase_amount": 519.69
     }
   ],
   "snapshot_note": "Last account balance snapshot. Not real-time market data.",
-  "updated_at": "2026-07-02T19:18:42.943157+00:00"
+  "updated_at": "2026-07-02T22:46:20.499846+00:00"
 }
