@@ -47,6 +47,18 @@
       "net_cash_invested": 1250000,
       "stock_asset": 849533,
       "total_asset": 1297207
+    },
+    {
+      "cash_asset": 447674,
+      "cumulative_profit_loss": 47207,
+      "cumulative_profit_loss_rate": 3.78,
+      "daily_cash_flow": 0,
+      "daily_profit_loss": 0,
+      "daily_profit_loss_rate": 0.0,
+      "date": "2026-07-04",
+      "net_cash_invested": 1250000,
+      "stock_asset": 849533,
+      "total_asset": 1297207
     }
   ],
   "portfolio_allocation": [
@@ -79,6 +91,6 @@
     "total_asset": 1297207,
     "total_profit_loss": 47207,
     "total_profit_loss_rate": 3.78,
-    "updated_at": "2026-07-03T05:05:28.891836+00:00"
+    "updated_at": "2026-07-03T19:18:41.266312+00:00"
   }
 }
