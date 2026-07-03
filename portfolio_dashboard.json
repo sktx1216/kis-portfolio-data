@@ -37,27 +37,27 @@
       "total_asset": 1026448
     },
     {
-      "cash_asset": 197098,
-      "cumulative_profit_loss": 46795,
-      "cumulative_profit_loss_rate": 4.68,
+      "cash_asset": 447674,
+      "cumulative_profit_loss": 297207,
+      "cumulative_profit_loss_rate": 29.72,
       "daily_cash_flow": 0,
-      "daily_profit_loss": 20347,
-      "daily_profit_loss_rate": 1.98,
+      "daily_profit_loss": 270759,
+      "daily_profit_loss_rate": 26.38,
       "date": "2026-07-03",
       "net_cash_invested": 1000000,
-      "stock_asset": 849697,
-      "total_asset": 1046795
+      "stock_asset": 849533,
+      "total_asset": 1297207
     }
   ],
   "portfolio_allocation": [
     {
-      "avg_purchase_price": 807806,
+      "avg_purchase_price": 807650,
       "country": "US",
-      "current_price": 849697,
-      "current_value": 849697,
+      "current_price": 849533,
+      "current_value": 849533,
       "market": "US",
       "name": "\ub9b0\ub370",
-      "profit_loss": 41891,
+      "profit_loss": 41883,
       "profit_loss_rate": 5.18,
       "quantity": 1.0,
       "sector": "\uc18c\uc7ac",
@@ -67,18 +67,18 @@
   ],
   "sector_allocation": [
     {
-      "current_value": 849697,
+      "current_value": 849533,
       "sector": "\uc18c\uc7ac",
       "weight": 100.0
     }
   ],
   "summary": {
-    "cash_asset": 197098,
+    "cash_asset": 447674,
     "currency": "KRW",
-    "stock_asset": 849697,
-    "total_asset": 1046795,
-    "total_profit_loss": 46795,
-    "total_profit_loss_rate": 4.68,
-    "updated_at": "2026-07-02T22:46:20.499846+00:00"
+    "stock_asset": 849533,
+    "total_asset": 1297207,
+    "total_profit_loss": 297207,
+    "total_profit_loss_rate": 29.72,
+    "updated_at": "2026-07-03T04:43:36.292486+00:00"
   }
 }

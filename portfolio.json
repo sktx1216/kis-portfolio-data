@@ -1,19 +1,19 @@
 {
   "account": {
-    "cash_asset_usd": 126.8,
+    "cash_asset_usd": 288.06,
     "stock_asset_usd": 546.64,
-    "total_asset_usd": 673.4399999999999
+    "total_asset_usd": 834.7
   },
   "currency": "USD",
   "data_type": "portfolio_snapshot",
-  "exchange_rate_usd_krw": 1554.4,
+  "exchange_rate_usd_krw": 1554.1,
   "is_realtime": false,
   "positions": [
     {
       "average_purchase_price": 519.69,
-      "exchange_rate": 1554.4,
+      "exchange_rate": 1554.1,
       "name": "\ub9b0\ub370",
-      "portfolio_weight_percent": 81.17,
+      "portfolio_weight_percent": 65.49,
       "profit_loss": 26.95,
       "profit_loss_rate": 5.18,
       "quantity": 1.0,
@@ -23,5 +23,5 @@
     }
   ],
   "snapshot_note": "Last account balance snapshot. Not real-time market data.",
-  "updated_at": "2026-07-02T22:46:20.499846+00:00"
+  "updated_at": "2026-07-03T04:43:36.292486+00:00"
 }
