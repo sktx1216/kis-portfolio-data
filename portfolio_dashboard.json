@@ -38,13 +38,13 @@
     },
     {
       "cash_asset": 447674,
-      "cumulative_profit_loss": 297207,
-      "cumulative_profit_loss_rate": 29.72,
-      "daily_cash_flow": 0,
-      "daily_profit_loss": 270759,
-      "daily_profit_loss_rate": 26.38,
+      "cumulative_profit_loss": 47207,
+      "cumulative_profit_loss_rate": 3.78,
+      "daily_cash_flow": 250000,
+      "daily_profit_loss": 20759,
+      "daily_profit_loss_rate": 2.02,
       "date": "2026-07-03",
-      "net_cash_invested": 1000000,
+      "net_cash_invested": 1250000,
       "stock_asset": 849533,
       "total_asset": 1297207
     }
@@ -77,8 +77,8 @@
     "currency": "KRW",
     "stock_asset": 849533,
     "total_asset": 1297207,
-    "total_profit_loss": 297207,
-    "total_profit_loss_rate": 29.72,
-    "updated_at": "2026-07-03T04:43:36.292486+00:00"
+    "total_profit_loss": 47207,
+    "total_profit_loss_rate": 3.78,
+    "updated_at": "2026-07-03T05:05:28.891836+00:00"
   }
 }
