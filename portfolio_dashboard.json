@@ -71,38 +71,69 @@
       "net_cash_invested": 1250000,
       "stock_asset": 849533,
       "total_asset": 1297207
+    },
+    {
+      "cash_asset": 159913,
+      "cumulative_profit_loss": 19298,
+      "cumulative_profit_loss_rate": 1.54,
+      "daily_cash_flow": 0,
+      "daily_profit_loss": -27909,
+      "daily_profit_loss_rate": -2.15,
+      "date": "2026-07-07",
+      "net_cash_invested": 1250000,
+      "stock_asset": 1109385,
+      "total_asset": 1269298
     }
   ],
   "portfolio_allocation": [
     {
-      "avg_purchase_price": 807650,
+      "avg_purchase_price": 800167,
       "country": "US",
-      "current_price": 849533,
-      "current_value": 849533,
+      "current_price": 829359,
+      "current_value": 829359,
       "market": "US",
       "name": "\ub9b0\ub370",
-      "profit_loss": 41883,
-      "profit_loss_rate": 5.18,
+      "profit_loss": 29193,
+      "profit_loss_rate": 3.64,
       "quantity": 1.0,
       "sector": "\uc18c\uc7ac",
       "symbol": "LIN",
-      "weight": 100.0
+      "weight": 74.76
+    },
+    {
+      "avg_purchase_price": 282073,
+      "country": "US",
+      "current_price": 280025,
+      "current_value": 280025,
+      "market": "US",
+      "name": "\ubd80\ud0b9 \ud640\ub529\uc2a4",
+      "profit_loss": -2048,
+      "profit_loss_rate": -0.73,
+      "quantity": 1.0,
+      "sector": "\uae30\ud0c0",
+      "symbol": "BKNG",
+      "weight": 25.24
     }
   ],
   "sector_allocation": [
     {
-      "current_value": 849533,
+      "current_value": 829359,
       "sector": "\uc18c\uc7ac",
-      "weight": 100.0
+      "weight": 74.76
+    },
+    {
+      "current_value": 280025,
+      "sector": "\uae30\ud0c0",
+      "weight": 25.24
     }
   ],
   "summary": {
-    "cash_asset": 447674,
+    "cash_asset": 159913,
     "currency": "KRW",
-    "stock_asset": 849533,
-    "total_asset": 1297207,
-    "total_profit_loss": 47207,
-    "total_profit_loss_rate": 3.78,
-    "updated_at": "2026-07-05T22:46:21.294933+00:00"
+    "stock_asset": 1109385,
+    "total_asset": 1269298,
+    "total_profit_loss": 19298,
+    "total_profit_loss_rate": 1.54,
+    "updated_at": "2026-07-06T19:18:39.722761+00:00"
   }
 }
