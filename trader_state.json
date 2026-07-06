@@ -64,6 +64,36 @@
         "LIN"
       ],
       "sells": []
+    },
+    "2026-07-06": {
+      "buy_attempts": [
+        "BKNG"
+      ],
+      "buys": [],
+      "orders": [
+        {
+          "action": "BUY_ATTEMPT",
+          "amount": 183.23,
+          "price": 183.23,
+          "qty": 1,
+          "symbol": "BKNG",
+          "timestamp": "2026-07-06T15:57:05.857679+00:00"
+        },
+        {
+          "action": "BUY_SUBMITTED_NOT_CONFIRMED",
+          "amount": 183.23,
+          "order_no": "0030261965",
+          "org_no": "01790",
+          "price": 183.23,
+          "qty": 1,
+          "symbol": "BKNG",
+          "timestamp": "2026-07-06T15:57:54.046685+00:00"
+        }
+      ],
+      "pending_buys": [
+        "BKNG"
+      ],
+      "sells": []
     }
   },
   "positions": {
@@ -72,8 +102,8 @@
       "avg_price": 519.69,
       "entry_date": "2026-07-02",
       "holding_days": 1,
-      "market_value": 535.03,
-      "profit_rate": 2.95,
+      "market_value": 533.74,
+      "profit_rate": 2.7,
       "purchase_amount": 519.69,
       "qty": 1.0
     }
