@@ -83,57 +83,69 @@
       "net_cash_invested": 1250000,
       "stock_asset": 1110971,
       "total_asset": 1270884
+    },
+    {
+      "cash_asset": 159935,
+      "cumulative_profit_loss": 13298,
+      "cumulative_profit_loss_rate": 1.06,
+      "daily_cash_flow": 0,
+      "daily_profit_loss": -7586,
+      "daily_profit_loss_rate": -0.6,
+      "date": "2026-07-08",
+      "net_cash_invested": 1250000,
+      "stock_asset": 1103363,
+      "total_asset": 1263298
     }
   ],
   "portfolio_allocation": [
     {
-      "avg_purchase_price": 800167,
+      "avg_purchase_price": 796061,
       "country": "US",
-      "current_price": 832239,
-      "current_value": 832239,
+      "current_price": 825089,
+      "current_value": 825089,
       "market": "US",
       "name": "\ub9b0\ub370",
-      "profit_loss": 32072,
-      "profit_loss_rate": 4.0,
+      "profit_loss": 29028,
+      "profit_loss_rate": 3.64,
       "quantity": 1.0,
       "sector": "\uc18c\uc7ac",
       "symbol": "LIN",
-      "weight": 74.91
+      "weight": 74.78
     },
     {
-      "avg_purchase_price": 282073,
+      "avg_purchase_price": 280626,
       "country": "US",
-      "current_price": 278732,
-      "current_value": 278732,
+      "current_price": 278274,
+      "current_value": 278274,
       "market": "US",
       "name": "\ubd80\ud0b9 \ud640\ub529\uc2a4",
-      "profit_loss": -3341,
-      "profit_loss_rate": -1.18,
+      "profit_loss": -2351,
+      "profit_loss_rate": -0.84,
       "quantity": 1.0,
       "sector": "\uae30\ud0c0",
       "symbol": "BKNG",
-      "weight": 25.09
+      "weight": 25.22
     }
   ],
   "sector_allocation": [
     {
-      "current_value": 832239,
+      "current_value": 825089,
       "sector": "\uc18c\uc7ac",
-      "weight": 74.91
+      "weight": 74.78
     },
     {
-      "current_value": 278732,
+      "current_value": 278274,
       "sector": "\uae30\ud0c0",
-      "weight": 25.09
+      "weight": 25.22
     }
   ],
   "summary": {
-    "cash_asset": 159913,
+    "cash_asset": 159935,
     "currency": "KRW",
-    "stock_asset": 1110971,
-    "total_asset": 1270884,
-    "total_profit_loss": 20884,
-    "total_profit_loss_rate": 1.67,
-    "updated_at": "2026-07-06T22:46:18.513006+00:00"
+    "stock_asset": 1103363,
+    "total_asset": 1263298,
+    "total_profit_loss": 13298,
+    "total_profit_loss_rate": 1.06,
+    "updated_at": "2026-07-07T19:18:46.682022+00:00"
   }
 }
