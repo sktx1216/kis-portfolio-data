@@ -102,8 +102,8 @@
       "avg_price": 183.2,
       "entry_date": "2026-07-08",
       "holding_days": 0,
-      "market_value": 173.245,
-      "profit_rate": -5.43,
+      "market_value": 174.57,
+      "profit_rate": -4.71,
       "purchase_amount": 183.2,
       "qty": 1.0
     },
@@ -112,8 +112,8 @@
       "avg_price": 519.69,
       "entry_date": "2026-07-02",
       "holding_days": 3,
-      "market_value": 529.25,
-      "profit_rate": 1.83,
+      "market_value": 529.54,
+      "profit_rate": 1.89,
       "purchase_amount": 519.69,
       "qty": 1.0
     }
