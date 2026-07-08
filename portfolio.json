@@ -1,8 +1,8 @@
 {
   "account": {
     "cash_asset_usd": 104.41,
-    "stock_asset_usd": 720.1800000000001,
-    "total_asset_usd": 824.59
+    "stock_asset_usd": 704.105,
+    "total_asset_usd": 808.515
   },
   "currency": "USD",
   "data_type": "portfolio_snapshot",
@@ -13,27 +13,27 @@
       "average_purchase_price": 183.2,
       "exchange_rate": 1526.6,
       "name": "\ubd80\ud0b9 \ud640\ub529\uc2a4",
-      "portfolio_weight_percent": 22.07,
-      "profit_loss": -1.25,
-      "profit_loss_rate": -0.68,
+      "portfolio_weight_percent": 21.62,
+      "profit_loss": -8.39,
+      "profit_loss_rate": -4.57,
       "quantity": 1.0,
       "symbol": "BKNG",
-      "total_current_value": 181.95,
+      "total_current_value": 174.81,
       "total_purchase_amount": 183.2
     },
     {
       "average_purchase_price": 519.69,
       "exchange_rate": 1526.6,
       "name": "\ub9b0\ub370",
-      "portfolio_weight_percent": 65.27,
-      "profit_loss": 18.54,
-      "profit_loss_rate": 3.56,
+      "portfolio_weight_percent": 65.47,
+      "profit_loss": 9.605,
+      "profit_loss_rate": 1.84,
       "quantity": 1.0,
       "symbol": "LIN",
-      "total_current_value": 538.23,
+      "total_current_value": 529.295,
       "total_purchase_amount": 519.69
     }
   ],
   "snapshot_note": "Last account balance snapshot. Not real-time market data.",
-  "updated_at": "2026-07-08T06:39:14.672268+00:00"
+  "updated_at": "2026-07-08T19:18:40.726935+00:00"
 }
