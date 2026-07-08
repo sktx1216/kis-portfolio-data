@@ -6,12 +6,12 @@
   },
   "currency": "USD",
   "data_type": "portfolio_snapshot",
-  "exchange_rate_usd_krw": 1531.8,
+  "exchange_rate_usd_krw": 1526.6,
   "is_realtime": false,
   "positions": [
     {
       "average_purchase_price": 183.2,
-      "exchange_rate": 1531.8,
+      "exchange_rate": 1526.6,
       "name": "\ubd80\ud0b9 \ud640\ub529\uc2a4",
       "portfolio_weight_percent": 22.07,
       "profit_loss": -1.25,
@@ -23,7 +23,7 @@
     },
     {
       "average_purchase_price": 519.69,
-      "exchange_rate": 1531.8,
+      "exchange_rate": 1526.6,
       "name": "\ub9b0\ub370",
       "portfolio_weight_percent": 65.27,
       "profit_loss": 18.54,
@@ -35,5 +35,5 @@
     }
   ],
   "snapshot_note": "Last account balance snapshot. Not real-time market data.",
-  "updated_at": "2026-07-07T22:46:23.340932+00:00"
+  "updated_at": "2026-07-08T06:39:14.672268+00:00"
 }
