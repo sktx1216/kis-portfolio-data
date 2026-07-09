@@ -1,5 +1,11 @@
 {
-  "last_sells": {},
+  "last_sells": {
+    "BKNG": {
+      "action": "SELL_ATTEMPT",
+      "date": "2026-07-09",
+      "reason": "EARLY_DRAWDOWN"
+    }
+  },
   "orders_by_date": {
     "2026-06-22": {
       "buy_attempts": [
@@ -94,6 +100,26 @@
         "BKNG"
       ],
       "sells": []
+    },
+    "2026-07-09": {
+      "buy_attempts": [],
+      "buys": [],
+      "orders": [
+        {
+          "action": "SELL_ATTEMPT",
+          "amount": 172.62,
+          "order_no": "0031277560",
+          "org_no": "01790",
+          "price": 172.62,
+          "qty": 1,
+          "symbol": "BKNG",
+          "timestamp": "2026-07-09T14:33:10.274911+00:00"
+        }
+      ],
+      "pending_buys": [],
+      "sells": [
+        "BKNG"
+      ]
     }
   },
   "positions": {
@@ -101,9 +127,9 @@
       "already_half_sold": false,
       "avg_price": 183.2,
       "entry_date": "2026-07-08",
-      "holding_days": 0,
-      "market_value": 174.44,
-      "profit_rate": -4.78,
+      "holding_days": 1,
+      "market_value": 172.825,
+      "profit_rate": -5.66,
       "purchase_amount": 183.2,
       "qty": 1.0
     },
@@ -111,9 +137,9 @@
       "already_half_sold": false,
       "avg_price": 519.69,
       "entry_date": "2026-07-02",
-      "holding_days": 3,
-      "market_value": 529.785,
-      "profit_rate": 1.94,
+      "holding_days": 4,
+      "market_value": 519.935,
+      "profit_rate": 0.04,
       "purchase_amount": 519.69,
       "qty": 1.0
     }
