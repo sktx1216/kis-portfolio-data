@@ -123,23 +123,13 @@
     }
   },
   "positions": {
-    "BKNG": {
-      "already_half_sold": false,
-      "avg_price": 183.2,
-      "entry_date": "2026-07-08",
-      "holding_days": 1,
-      "market_value": 172.825,
-      "profit_rate": -5.66,
-      "purchase_amount": 183.2,
-      "qty": 1.0
-    },
     "LIN": {
       "already_half_sold": false,
       "avg_price": 519.69,
       "entry_date": "2026-07-02",
       "holding_days": 4,
-      "market_value": 519.935,
-      "profit_rate": 0.04,
+      "market_value": 520.995,
+      "profit_rate": 0.25,
       "purchase_amount": 519.69,
       "qty": 1.0
     }
