@@ -1,8 +1,10 @@
 {
   "account": {
-    "cash_asset_usd": 104.41,
+    "cash_asset_usd": 277.03,
+    "settled_cash_asset_usd": 104.41,
     "stock_asset_usd": 525.56,
-    "total_asset_usd": 629.9699999999999
+    "total_asset_usd": 802.59,
+    "unsettled_sell_proceeds_usd": 172.62
   },
   "currency": "USD",
   "data_type": "portfolio_snapshot",
@@ -12,8 +14,8 @@
     {
       "average_purchase_price": 519.69,
       "exchange_rate": 1509.9,
-      "name": "\ub9b0\ub370",
-      "portfolio_weight_percent": 83.43,
+      "name": "린데",
+      "portfolio_weight_percent": 65.48,
       "profit_loss": 5.87,
       "profit_loss_rate": 1.12,
       "quantity": 1.0,
@@ -22,6 +24,6 @@
       "total_purchase_amount": 519.69
     }
   ],
-  "snapshot_note": "Last account balance snapshot. Not real-time market data.",
+  "snapshot_note": "Last account balance snapshot. Not real-time market data. Cash may include estimated unsettled sell proceeds.",
   "updated_at": "2026-07-09T22:46:20.261279+00:00"
 }

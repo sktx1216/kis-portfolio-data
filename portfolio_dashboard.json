@@ -109,16 +109,16 @@
       "total_asset": 1231004
     },
     {
-      "cash_asset": 157649,
-      "cumulative_profit_loss": -298808,
-      "cumulative_profit_loss_rate": -23.9,
+      "cash_asset": 418288,
+      "cumulative_profit_loss": -38169,
+      "cumulative_profit_loss_rate": -3.05,
       "daily_cash_flow": 0,
-      "daily_profit_loss": -279812,
-      "daily_profit_loss_rate": -22.73,
+      "daily_profit_loss": -19173,
+      "daily_profit_loss_rate": -1.56,
       "date": "2026-07-10",
       "net_cash_invested": 1250000,
       "stock_asset": 793543,
-      "total_asset": 951192
+      "total_asset": 1211831
     }
   ],
   "portfolio_allocation": [
@@ -128,11 +128,11 @@
       "current_price": 793543,
       "current_value": 793543,
       "market": "US",
-      "name": "\ub9b0\ub370",
+      "name": "린데",
       "profit_loss": 8863,
       "profit_loss_rate": 1.12,
       "quantity": 1.0,
-      "sector": "\uc18c\uc7ac",
+      "sector": "소재",
       "symbol": "LIN",
       "weight": 100.0
     }
@@ -140,17 +140,17 @@
   "sector_allocation": [
     {
       "current_value": 793543,
-      "sector": "\uc18c\uc7ac",
+      "sector": "소재",
       "weight": 100.0
     }
   ],
   "summary": {
-    "cash_asset": 157649,
+    "cash_asset": 418288,
     "currency": "KRW",
     "stock_asset": 793543,
-    "total_asset": 951192,
-    "total_profit_loss": -298808,
-    "total_profit_loss_rate": -23.9,
+    "total_asset": 1211831,
+    "total_profit_loss": -38169,
+    "total_profit_loss_rate": -3.05,
     "updated_at": "2026-07-09T22:46:20.261279+00:00"
   }
 }
