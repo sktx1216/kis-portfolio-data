@@ -2,8 +2,8 @@
   "account": {
     "cash_asset_usd": 277.03,
     "settled_cash_asset_usd": 104.41,
-    "stock_asset_usd": 530.58,
-    "total_asset_usd": 807.61,
+    "stock_asset_usd": 529.67,
+    "total_asset_usd": 806.7,
     "unsettled_sell_proceeds_usd": 172.62
   },
   "currency": "USD",
@@ -15,15 +15,15 @@
       "average_purchase_price": 519.69,
       "exchange_rate": 1504.2,
       "name": "\ub9b0\ub370",
-      "portfolio_weight_percent": 65.7,
-      "profit_loss": 10.89,
-      "profit_loss_rate": 2.09,
+      "portfolio_weight_percent": 65.66,
+      "profit_loss": 9.98,
+      "profit_loss_rate": 1.92,
       "quantity": 1.0,
       "symbol": "LIN",
-      "total_current_value": 530.58,
+      "total_current_value": 529.67,
       "total_purchase_amount": 519.69
     }
   ],
   "snapshot_note": "Last account balance snapshot. Not real-time market data. Cash may include estimated unsettled sell proceeds.",
-  "updated_at": "2026-07-10T19:36:40.195515+00:00"
+  "updated_at": "2026-07-10T20:06:35.116203+00:00"
 }
