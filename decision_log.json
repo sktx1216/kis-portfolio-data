@@ -1,8 +1,8 @@
 {
   "data_type": "trading_decision_log",
-  "history_file": "decision_logs/trading_log_20260710_190639.json",
+  "history_file": "decision_logs/trading_log_20260710_180651.json",
   "latest_file": "decision_log.json",
-  "log_id": "trading_log_20260710_190639",
+  "log_id": "trading_log_20260710_180651",
   "raw_rows": [
     {
       "action": "HOLD",
@@ -44,7 +44,7 @@
       "score": "",
       "share_ratio": "",
       "symbol": "LIN",
-      "timestamp": "2026-07-10T19:06:36",
+      "timestamp": "2026-07-10T18:06:38",
       "today_return": null,
       "volatility_20": null,
       "volume_spike_ratio": null
@@ -57,7 +57,7 @@
       "cash": "",
       "cash_ratio": "",
       "cooldown_days": "",
-      "current_price": 726.0683,
+      "current_price": 725.92,
       "cyclical_travel_risk_penalty": "",
       "cyclical_travel_risk_tier": "",
       "distance_from_ma60": null,
@@ -69,9 +69,9 @@
       "intraday_range_percent": null,
       "last_sell_date": "",
       "last_sell_reason": "",
-      "ma20": 722.35029,
+      "ma20": 722.34529,
       "ma5": null,
-      "ma60": 703.8827233333334,
+      "ma60": 703.8810566666667,
       "passed": "",
       "position_vs_52w_high_percent": null,
       "previous_day_return": null,
@@ -89,13 +89,13 @@
       "score": "",
       "share_ratio": "",
       "symbol": "QQQ",
-      "timestamp": "2026-07-10T19:06:37",
+      "timestamp": "2026-07-10T18:06:40",
       "today_return": null,
       "volatility_20": null,
       "volume_spike_ratio": null
     },
     {
-      "action": "NO_BUY",
+      "action": "USE_CANDIDATE_POOL",
       "amount": "",
       "avg_trade_value_20": null,
       "blocked": "",
@@ -122,8 +122,8 @@
       "previous_day_return": null,
       "qty": "",
       "rank": "",
-      "reason": "candidate pool is expired (age=237.8m, ttl=180m)",
-      "reason_ko": "candidate pool is expired (age=237.8m, ttl=180m)",
+      "reason": "candidate pool is fresh",
+      "reason_ko": "candidate pool is fresh",
       "recent_20d_return": null,
       "recent_3d_return": null,
       "recent_5d_return": null,
@@ -134,7 +134,7 @@
       "score": "",
       "share_ratio": "",
       "symbol": "",
-      "timestamp": "2026-07-10T19:06:37",
+      "timestamp": "2026-07-10T18:06:40",
       "today_return": null,
       "volatility_20": null,
       "volume_spike_ratio": null
@@ -167,8 +167,8 @@
       "previous_day_return": null,
       "qty": "",
       "rank": "",
-      "reason": "candidate pool is expired (age=237.8m, ttl=180m)",
-      "reason_ko": "candidate pool is expired (age=237.8m, ttl=180m)",
+      "reason": "no candidate",
+      "reason_ko": "\ub9e4\uc218 \ud6c4\ubcf4 \uc5c6\uc74c",
       "recent_20d_return": null,
       "recent_3d_return": null,
       "recent_5d_return": null,
@@ -179,10 +179,618 @@
       "score": "",
       "share_ratio": "",
       "symbol": "",
-      "timestamp": "2026-07-10T19:06:37",
+      "timestamp": "2026-07-10T18:06:50",
       "today_return": null,
       "volatility_20": null,
       "volume_spike_ratio": null
+    },
+    {
+      "action": "NO_BUY",
+      "amount": 0,
+      "avg_trade_value_20": 18633297202.926003,
+      "blocked": "",
+      "cash": 275.28,
+      "cash_ratio": 114.26910781749493,
+      "cooldown_days": "",
+      "current_price": 314.25,
+      "cyclical_travel_risk_penalty": 0,
+      "cyclical_travel_risk_tier": "none",
+      "distance_from_ma60": 7.264338669271964,
+      "event": "BUY_CANDIDATE_REJECTED",
+      "excluded_reason": "",
+      "excluded_reason_ko": "",
+      "gap_percent": -0.474353298336605,
+      "high_52w": null,
+      "intraday_range_percent": 1.3518275298715299,
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 298.05,
+      "ma5": 313.438,
+      "ma60": 292.967825,
+      "passed": true,
+      "position_vs_52w_high_percent": null,
+      "previous_day_return": 0.9030281757554715,
+      "qty": "",
+      "rank": "",
+      "reason": "first share uses too much available cash (cash_ratio=114.27%)",
+      "reason_ko": "1\uc8fc \ub9e4\uc218 \uae08\uc561\uc774 \uc0ac\uc6a9 \uac00\ub2a5 \ud604\uae08 \ub300\ube44 \ub108\ubb34 \ud07c",
+      "recent_20d_return": 7.774881679127521,
+      "recent_3d_return": 1.15560419751497,
+      "recent_5d_return": 1.8209506528853225,
+      "relative_strength_20_edge": 4.940454124073268,
+      "relative_strength_60_edge": 4.133277941810154,
+      "relative_strength_positive": true,
+      "remaining_cooldown_days": "",
+      "score": 110,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "relative_strength_vs_qqq": {
+          "points": 10,
+          "reason": "20/60-day relative strength vs QQQ is positive"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "AAPL",
+      "timestamp": "2026-07-10T18:06:50",
+      "today_return": -0.622983998482074,
+      "volatility_20": 2.2085242208460776,
+      "volume_spike_ratio": 0.7591331490298362
+    },
+    {
+      "action": "NO_BUY",
+      "amount": 0,
+      "avg_trade_value_20": 15783212074.002926,
+      "blocked": "",
+      "cash": 275.28,
+      "cash_ratio": 202.619151409474,
+      "cooldown_days": "",
+      "current_price": 557.2105,
+      "cyclical_travel_risk_penalty": 0,
+      "cyclical_travel_risk_tier": "none",
+      "distance_from_ma60": 23.446259066729237,
+      "event": "BUY_CANDIDATE_REJECTED",
+      "excluded_reason": "",
+      "excluded_reason_ko": "",
+      "gap_percent": -0.4965978928885062,
+      "high_52w": null,
+      "intraday_range_percent": 3.740394407925196,
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 530.919275,
+      "ma5": 537.8991,
+      "ma60": 451.37900833333333,
+      "passed": true,
+      "position_vs_52w_high_percent": null,
+      "previous_day_return": 5.665774393366907,
+      "qty": "",
+      "rank": "",
+      "reason": "first share uses too much available cash (cash_ratio=202.62%)",
+      "reason_ko": "1\uc8fc \ub9e4\uc218 \uae08\uc561\uc774 \uc0ac\uc6a9 \uac00\ub2a5 \ud604\uae08 \ub300\ube44 \ub108\ubb34 \ud07c",
+      "recent_20d_return": 23.16766136162689,
+      "recent_3d_return": 7.963515529635168,
+      "recent_5d_return": 7.606986983894015,
+      "relative_strength_20_edge": 4.4571437879091125,
+      "relative_strength_60_edge": 20.315198339267425,
+      "relative_strength_positive": true,
+      "remaining_cooldown_days": "",
+      "score": 95,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 5,
+          "reason": "distance from ma60 <= 25%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 10,
+          "reason": "recent 5-day return <= 10%"
+        },
+        "relative_strength_vs_qqq": {
+          "points": 10,
+          "reason": "20/60-day relative strength vs QQQ is positive"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "AMD",
+      "timestamp": "2026-07-10T18:06:50",
+      "today_return": 1.9188067017851917,
+      "volatility_20": 4.841670477049723,
+      "volume_spike_ratio": 0.9038931602419394
+    },
+    {
+      "action": "NO_BUY",
+      "amount": 0,
+      "avg_trade_value_20": 1030702482.393,
+      "blocked": "",
+      "cash": 275.28,
+      "cash_ratio": 131.4806742226097,
+      "cooldown_days": "",
+      "current_price": 361.58,
+      "cyclical_travel_risk_penalty": 0,
+      "cyclical_travel_risk_tier": "none",
+      "distance_from_ma60": 5.367161780167473,
+      "event": "BUY_CANDIDATE_REJECTED",
+      "excluded_reason": "",
+      "excluded_reason_ko": "",
+      "gap_percent": -0.14850668280073087,
+      "high_52w": null,
+      "intraday_range_percent": 1.0341676819138224,
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 356.354,
+      "ma5": 365.546,
+      "ma60": 343.16194333333334,
+      "passed": true,
+      "position_vs_52w_high_percent": null,
+      "previous_day_return": -1.187532269898639,
+      "qty": "",
+      "rank": "",
+      "reason": "first share uses too much available cash (cash_ratio=131.48%)",
+      "reason_ko": "1\uc8fc \ub9e4\uc218 \uae08\uc561\uc774 \uc0ac\uc6a9 \uac00\ub2a5 \ud604\uae08 \ub300\ube44 \ub108\ubb34 \ud07c",
+      "recent_20d_return": 7.061854143842705,
+      "recent_3d_return": -1.7712578103776244,
+      "recent_5d_return": -3.359615127622606,
+      "relative_strength_20_edge": 0.9716437291102276,
+      "relative_strength_60_edge": 2.2361010527056635,
+      "relative_strength_positive": false,
+      "remaining_cooldown_days": "",
+      "score": 90,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "relative_strength_vs_qqq": {
+          "points": -10,
+          "reason": "20/60-day relative strength vs QQQ is not positive"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "AMGN",
+      "timestamp": "2026-07-10T18:06:50",
+      "today_return": -0.5610252461360821,
+      "volatility_20": 1.3613181752375623,
+      "volume_spike_ratio": 0.5926025873028256
+    },
+    {
+      "action": "NO_BUY",
+      "amount": 0,
+      "avg_trade_value_20": 1504033057.325,
+      "blocked": true,
+      "cash": 275.28,
+      "cash_ratio": "",
+      "cooldown_days": 3,
+      "current_price": 178.42,
+      "cyclical_travel_risk_penalty": 10,
+      "cyclical_travel_risk_tier": "travel_air_lodging",
+      "distance_from_ma60": 4.487501600590749,
+      "event": "BUY_CANDIDATE_REJECTED",
+      "excluded_reason": "cooldown active after EARLY_DRAWDOWN: last_sell_date=2026-07-09, remaining_trading_days=3",
+      "excluded_reason_ko": "\ub9e4\ub3c4 \ud6c4 \uc7ac\uc9c4\uc785 \ucfe8\ub2e4\uc6b4 \uc801\uc6a9 \uc911",
+      "gap_percent": 0.33044667274384487,
+      "high_52w": null,
+      "intraday_range_percent": 2.2373651334469002,
+      "last_sell_date": "2026-07-09",
+      "last_sell_reason": "EARLY_DRAWDOWN",
+      "ma20": 175.8915,
+      "ma5": 178.24200000000002,
+      "ma60": 170.75726500000002,
+      "passed": true,
+      "position_vs_52w_high_percent": null,
+      "previous_day_return": 0.7057203511389165,
+      "qty": "",
+      "rank": "",
+      "reason": "cooldown active after EARLY_DRAWDOWN: last_sell_date=2026-07-09, remaining_trading_days=3",
+      "reason_ko": "\ub9e4\ub3c4 \ud6c4 \uc7ac\uc9c4\uc785 \ucfe8\ub2e4\uc6b4 \uc801\uc6a9 \uc911",
+      "recent_20d_return": 11.068227091633464,
+      "recent_3d_return": -1.9400934322616137,
+      "recent_5d_return": -3.3268313827481633,
+      "relative_strength_20_edge": 0.9426584156678519,
+      "relative_strength_60_edge": 1.356440873128939,
+      "relative_strength_positive": false,
+      "remaining_cooldown_days": 3,
+      "score": 80,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "cyclical_travel_risk": {
+          "points": -10,
+          "reason": "cyclical travel/air/lodging sector risk penalty"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "relative_strength_vs_qqq": {
+          "points": -10,
+          "reason": "20/60-day relative strength vs QQQ is not positive"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "BKNG",
+      "timestamp": "2026-07-10T18:06:50",
+      "today_return": 1.6522333637192244,
+      "volatility_20": 2.7585894638689132,
+      "volume_spike_ratio": 0.5403449280437156
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 18633297202.926003,
+      "blocked": "",
+      "cash": "",
+      "cash_ratio": "",
+      "cooldown_days": "",
+      "current_price": 314.25,
+      "cyclical_travel_risk_penalty": 0,
+      "cyclical_travel_risk_tier": "none",
+      "distance_from_ma60": 7.264338669271964,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "excluded_reason_ko": "",
+      "gap_percent": -0.474353298336605,
+      "high_52w": null,
+      "intraday_range_percent": 1.3518275298715299,
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 298.05,
+      "ma5": 313.438,
+      "ma60": 292.967825,
+      "passed": true,
+      "position_vs_52w_high_percent": null,
+      "previous_day_return": 0.9030281757554715,
+      "qty": "",
+      "rank": "",
+      "reason": "passed",
+      "reason_ko": "\ub9e4\uc218 \uc870\uac74 \ud1b5\uacfc",
+      "recent_20d_return": 7.774881679127521,
+      "recent_3d_return": 1.15560419751497,
+      "recent_5d_return": 1.8209506528853225,
+      "relative_strength_20_edge": 4.940454124073268,
+      "relative_strength_60_edge": 4.133277941810154,
+      "relative_strength_positive": true,
+      "remaining_cooldown_days": "",
+      "score": 110,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "relative_strength_vs_qqq": {
+          "points": 10,
+          "reason": "20/60-day relative strength vs QQQ is positive"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "AAPL",
+      "timestamp": "2026-07-10T18:06:50",
+      "today_return": -0.622983998482074,
+      "volatility_20": 2.2085242208460776,
+      "volume_spike_ratio": 0.7591331490298362
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 1030702482.393,
+      "blocked": "",
+      "cash": "",
+      "cash_ratio": "",
+      "cooldown_days": "",
+      "current_price": 361.58,
+      "cyclical_travel_risk_penalty": 0,
+      "cyclical_travel_risk_tier": "none",
+      "distance_from_ma60": 5.367161780167473,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "excluded_reason_ko": "",
+      "gap_percent": -0.14850668280073087,
+      "high_52w": null,
+      "intraday_range_percent": 1.0341676819138224,
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 356.354,
+      "ma5": 365.546,
+      "ma60": 343.16194333333334,
+      "passed": true,
+      "position_vs_52w_high_percent": null,
+      "previous_day_return": -1.187532269898639,
+      "qty": "",
+      "rank": "",
+      "reason": "passed",
+      "reason_ko": "\ub9e4\uc218 \uc870\uac74 \ud1b5\uacfc",
+      "recent_20d_return": 7.061854143842705,
+      "recent_3d_return": -1.7712578103776244,
+      "recent_5d_return": -3.359615127622606,
+      "relative_strength_20_edge": 0.9716437291102276,
+      "relative_strength_60_edge": 2.2361010527056635,
+      "relative_strength_positive": false,
+      "remaining_cooldown_days": "",
+      "score": 90,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "relative_strength_vs_qqq": {
+          "points": -10,
+          "reason": "20/60-day relative strength vs QQQ is not positive"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "AMGN",
+      "timestamp": "2026-07-10T18:06:50",
+      "today_return": -0.5610252461360821,
+      "volatility_20": 1.3613181752375623,
+      "volume_spike_ratio": 0.5926025873028256
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 1504033057.325,
+      "blocked": "",
+      "cash": "",
+      "cash_ratio": "",
+      "cooldown_days": "",
+      "current_price": 178.42,
+      "cyclical_travel_risk_penalty": 10,
+      "cyclical_travel_risk_tier": "travel_air_lodging",
+      "distance_from_ma60": 4.487501600590749,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "excluded_reason_ko": "",
+      "gap_percent": 0.33044667274384487,
+      "high_52w": null,
+      "intraday_range_percent": 2.2373651334469002,
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 175.8915,
+      "ma5": 178.24200000000002,
+      "ma60": 170.75726500000002,
+      "passed": true,
+      "position_vs_52w_high_percent": null,
+      "previous_day_return": 0.7057203511389165,
+      "qty": "",
+      "rank": "",
+      "reason": "passed",
+      "reason_ko": "\ub9e4\uc218 \uc870\uac74 \ud1b5\uacfc",
+      "recent_20d_return": 11.068227091633464,
+      "recent_3d_return": -1.9400934322616137,
+      "recent_5d_return": -3.3268313827481633,
+      "relative_strength_20_edge": 0.9426584156678519,
+      "relative_strength_60_edge": 1.356440873128939,
+      "relative_strength_positive": false,
+      "remaining_cooldown_days": "",
+      "score": 80,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "cyclical_travel_risk": {
+          "points": -10,
+          "reason": "cyclical travel/air/lodging sector risk penalty"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "relative_strength_vs_qqq": {
+          "points": -10,
+          "reason": "20/60-day relative strength vs QQQ is not positive"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "BKNG",
+      "timestamp": "2026-07-10T18:06:50",
+      "today_return": 1.6522333637192244,
+      "volatility_20": 2.7585894638689132,
+      "volume_spike_ratio": 0.5403449280437156
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 15783212074.002926,
+      "blocked": "",
+      "cash": "",
+      "cash_ratio": "",
+      "cooldown_days": "",
+      "current_price": 557.2105,
+      "cyclical_travel_risk_penalty": 0,
+      "cyclical_travel_risk_tier": "none",
+      "distance_from_ma60": 23.446259066729237,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "excluded_reason_ko": "",
+      "gap_percent": -0.4965978928885062,
+      "high_52w": null,
+      "intraday_range_percent": 3.740394407925196,
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 530.919275,
+      "ma5": 537.8991,
+      "ma60": 451.37900833333333,
+      "passed": true,
+      "position_vs_52w_high_percent": null,
+      "previous_day_return": 5.665774393366907,
+      "qty": "",
+      "rank": "",
+      "reason": "passed",
+      "reason_ko": "\ub9e4\uc218 \uc870\uac74 \ud1b5\uacfc",
+      "recent_20d_return": 23.16766136162689,
+      "recent_3d_return": 7.963515529635168,
+      "recent_5d_return": 7.606986983894015,
+      "relative_strength_20_edge": 4.4571437879091125,
+      "relative_strength_60_edge": 20.315198339267425,
+      "relative_strength_positive": true,
+      "remaining_cooldown_days": "",
+      "score": 95,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 5,
+          "reason": "distance from ma60 <= 25%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 10,
+          "reason": "recent 5-day return <= 10%"
+        },
+        "relative_strength_vs_qqq": {
+          "points": 10,
+          "reason": "20/60-day relative strength vs QQQ is positive"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "AMD",
+      "timestamp": "2026-07-10T18:06:50",
+      "today_return": 1.9188067017851917,
+      "volatility_20": 4.841670477049723,
+      "volume_spike_ratio": 0.9038931602419394
     }
   ],
   "rows": [
@@ -226,7 +834,7 @@
       "score": "",
       "share_ratio": "",
       "symbol": "LIN",
-      "timestamp": "2026-07-10T19:06:36",
+      "timestamp": "2026-07-10T18:06:38",
       "today_return": null,
       "volatility_20": null,
       "volume_spike_ratio": null
@@ -239,7 +847,7 @@
       "cash": "",
       "cash_ratio": "",
       "cooldown_days": "",
-      "current_price": 726.0683,
+      "current_price": 725.92,
       "cyclical_travel_risk_penalty": "",
       "cyclical_travel_risk_tier": "",
       "distance_from_ma60": null,
@@ -251,9 +859,9 @@
       "intraday_range_percent": null,
       "last_sell_date": "",
       "last_sell_reason": "",
-      "ma20": 722.35029,
+      "ma20": 722.34529,
       "ma5": null,
-      "ma60": 703.8827233333334,
+      "ma60": 703.8810566666667,
       "passed": "",
       "position_vs_52w_high_percent": null,
       "previous_day_return": null,
@@ -271,13 +879,13 @@
       "score": "",
       "share_ratio": "",
       "symbol": "QQQ",
-      "timestamp": "2026-07-10T19:06:37",
+      "timestamp": "2026-07-10T18:06:40",
       "today_return": null,
       "volatility_20": null,
       "volume_spike_ratio": null
     },
     {
-      "action": "NO_BUY",
+      "action": "USE_CANDIDATE_POOL",
       "amount": "",
       "avg_trade_value_20": null,
       "blocked": "",
@@ -304,8 +912,8 @@
       "previous_day_return": null,
       "qty": "",
       "rank": "",
-      "reason": "candidate pool is expired (age=237.8m, ttl=180m)",
-      "reason_ko": "candidate pool is expired (age=237.8m, ttl=180m)",
+      "reason": "candidate pool is fresh",
+      "reason_ko": "candidate pool is fresh",
       "recent_20d_return": null,
       "recent_3d_return": null,
       "recent_5d_return": null,
@@ -316,7 +924,7 @@
       "score": "",
       "share_ratio": "",
       "symbol": "",
-      "timestamp": "2026-07-10T19:06:37",
+      "timestamp": "2026-07-10T18:06:40",
       "today_return": null,
       "volatility_20": null,
       "volume_spike_ratio": null
@@ -349,8 +957,8 @@
       "previous_day_return": null,
       "qty": "",
       "rank": "",
-      "reason": "candidate pool is expired (age=237.8m, ttl=180m)",
-      "reason_ko": "candidate pool is expired (age=237.8m, ttl=180m)",
+      "reason": "no candidate",
+      "reason_ko": "\ub9e4\uc218 \ud6c4\ubcf4 \uc5c6\uc74c",
       "recent_20d_return": null,
       "recent_3d_return": null,
       "recent_5d_return": null,
@@ -361,12 +969,316 @@
       "score": "",
       "share_ratio": "",
       "symbol": "",
-      "timestamp": "2026-07-10T19:06:37",
+      "timestamp": "2026-07-10T18:06:50",
       "today_return": null,
       "volatility_20": null,
       "volume_spike_ratio": null
+    },
+    {
+      "action": "NO_BUY",
+      "amount": 0,
+      "avg_trade_value_20": 18633297202.926003,
+      "blocked": "",
+      "cash": 275.28,
+      "cash_ratio": 114.26910781749493,
+      "cooldown_days": "",
+      "current_price": 314.25,
+      "cyclical_travel_risk_penalty": 0,
+      "cyclical_travel_risk_tier": "none",
+      "distance_from_ma60": 7.264338669271964,
+      "event": "BUY_CANDIDATE_REJECTED",
+      "excluded_reason": "",
+      "excluded_reason_ko": "",
+      "gap_percent": -0.474353298336605,
+      "high_52w": null,
+      "intraday_range_percent": 1.3518275298715299,
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 298.05,
+      "ma5": 313.438,
+      "ma60": 292.967825,
+      "passed": true,
+      "position_vs_52w_high_percent": null,
+      "previous_day_return": 0.9030281757554715,
+      "qty": "",
+      "rank": "",
+      "reason": "first share uses too much available cash (cash_ratio=114.27%)",
+      "reason_ko": "1\uc8fc \ub9e4\uc218 \uae08\uc561\uc774 \uc0ac\uc6a9 \uac00\ub2a5 \ud604\uae08 \ub300\ube44 \ub108\ubb34 \ud07c",
+      "recent_20d_return": 7.774881679127521,
+      "recent_3d_return": 1.15560419751497,
+      "recent_5d_return": 1.8209506528853225,
+      "relative_strength_20_edge": 4.940454124073268,
+      "relative_strength_60_edge": 4.133277941810154,
+      "relative_strength_positive": true,
+      "remaining_cooldown_days": "",
+      "score": 110,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "relative_strength_vs_qqq": {
+          "points": 10,
+          "reason": "20/60-day relative strength vs QQQ is positive"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "AAPL",
+      "timestamp": "2026-07-10T18:06:50",
+      "today_return": -0.622983998482074,
+      "volatility_20": 2.2085242208460776,
+      "volume_spike_ratio": 0.7591331490298362
+    },
+    {
+      "action": "NO_BUY",
+      "amount": 0,
+      "avg_trade_value_20": 15783212074.002926,
+      "blocked": "",
+      "cash": 275.28,
+      "cash_ratio": 202.619151409474,
+      "cooldown_days": "",
+      "current_price": 557.2105,
+      "cyclical_travel_risk_penalty": 0,
+      "cyclical_travel_risk_tier": "none",
+      "distance_from_ma60": 23.446259066729237,
+      "event": "BUY_CANDIDATE_REJECTED",
+      "excluded_reason": "",
+      "excluded_reason_ko": "",
+      "gap_percent": -0.4965978928885062,
+      "high_52w": null,
+      "intraday_range_percent": 3.740394407925196,
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 530.919275,
+      "ma5": 537.8991,
+      "ma60": 451.37900833333333,
+      "passed": true,
+      "position_vs_52w_high_percent": null,
+      "previous_day_return": 5.665774393366907,
+      "qty": "",
+      "rank": "",
+      "reason": "first share uses too much available cash (cash_ratio=202.62%)",
+      "reason_ko": "1\uc8fc \ub9e4\uc218 \uae08\uc561\uc774 \uc0ac\uc6a9 \uac00\ub2a5 \ud604\uae08 \ub300\ube44 \ub108\ubb34 \ud07c",
+      "recent_20d_return": 23.16766136162689,
+      "recent_3d_return": 7.963515529635168,
+      "recent_5d_return": 7.606986983894015,
+      "relative_strength_20_edge": 4.4571437879091125,
+      "relative_strength_60_edge": 20.315198339267425,
+      "relative_strength_positive": true,
+      "remaining_cooldown_days": "",
+      "score": 95,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 5,
+          "reason": "distance from ma60 <= 25%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 10,
+          "reason": "recent 5-day return <= 10%"
+        },
+        "relative_strength_vs_qqq": {
+          "points": 10,
+          "reason": "20/60-day relative strength vs QQQ is positive"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "AMD",
+      "timestamp": "2026-07-10T18:06:50",
+      "today_return": 1.9188067017851917,
+      "volatility_20": 4.841670477049723,
+      "volume_spike_ratio": 0.9038931602419394
+    },
+    {
+      "action": "NO_BUY",
+      "amount": 0,
+      "avg_trade_value_20": 1030702482.393,
+      "blocked": "",
+      "cash": 275.28,
+      "cash_ratio": 131.4806742226097,
+      "cooldown_days": "",
+      "current_price": 361.58,
+      "cyclical_travel_risk_penalty": 0,
+      "cyclical_travel_risk_tier": "none",
+      "distance_from_ma60": 5.367161780167473,
+      "event": "BUY_CANDIDATE_REJECTED",
+      "excluded_reason": "",
+      "excluded_reason_ko": "",
+      "gap_percent": -0.14850668280073087,
+      "high_52w": null,
+      "intraday_range_percent": 1.0341676819138224,
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 356.354,
+      "ma5": 365.546,
+      "ma60": 343.16194333333334,
+      "passed": true,
+      "position_vs_52w_high_percent": null,
+      "previous_day_return": -1.187532269898639,
+      "qty": "",
+      "rank": "",
+      "reason": "first share uses too much available cash (cash_ratio=131.48%)",
+      "reason_ko": "1\uc8fc \ub9e4\uc218 \uae08\uc561\uc774 \uc0ac\uc6a9 \uac00\ub2a5 \ud604\uae08 \ub300\ube44 \ub108\ubb34 \ud07c",
+      "recent_20d_return": 7.061854143842705,
+      "recent_3d_return": -1.7712578103776244,
+      "recent_5d_return": -3.359615127622606,
+      "relative_strength_20_edge": 0.9716437291102276,
+      "relative_strength_60_edge": 2.2361010527056635,
+      "relative_strength_positive": false,
+      "remaining_cooldown_days": "",
+      "score": 90,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "relative_strength_vs_qqq": {
+          "points": -10,
+          "reason": "20/60-day relative strength vs QQQ is not positive"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "AMGN",
+      "timestamp": "2026-07-10T18:06:50",
+      "today_return": -0.5610252461360821,
+      "volatility_20": 1.3613181752375623,
+      "volume_spike_ratio": 0.5926025873028256
+    },
+    {
+      "action": "NO_BUY",
+      "amount": 0,
+      "avg_trade_value_20": 1504033057.325,
+      "blocked": true,
+      "cash": 275.28,
+      "cash_ratio": "",
+      "cooldown_days": 3,
+      "current_price": 178.42,
+      "cyclical_travel_risk_penalty": 10,
+      "cyclical_travel_risk_tier": "travel_air_lodging",
+      "distance_from_ma60": 4.487501600590749,
+      "event": "BUY_CANDIDATE_REJECTED",
+      "excluded_reason": "cooldown active after EARLY_DRAWDOWN: last_sell_date=2026-07-09, remaining_trading_days=3",
+      "excluded_reason_ko": "\ub9e4\ub3c4 \ud6c4 \uc7ac\uc9c4\uc785 \ucfe8\ub2e4\uc6b4 \uc801\uc6a9 \uc911",
+      "gap_percent": 0.33044667274384487,
+      "high_52w": null,
+      "intraday_range_percent": 2.2373651334469002,
+      "last_sell_date": "2026-07-09",
+      "last_sell_reason": "EARLY_DRAWDOWN",
+      "ma20": 175.8915,
+      "ma5": 178.24200000000002,
+      "ma60": 170.75726500000002,
+      "passed": true,
+      "position_vs_52w_high_percent": null,
+      "previous_day_return": 0.7057203511389165,
+      "qty": "",
+      "rank": "",
+      "reason": "cooldown active after EARLY_DRAWDOWN: last_sell_date=2026-07-09, remaining_trading_days=3",
+      "reason_ko": "\ub9e4\ub3c4 \ud6c4 \uc7ac\uc9c4\uc785 \ucfe8\ub2e4\uc6b4 \uc801\uc6a9 \uc911",
+      "recent_20d_return": 11.068227091633464,
+      "recent_3d_return": -1.9400934322616137,
+      "recent_5d_return": -3.3268313827481633,
+      "relative_strength_20_edge": 0.9426584156678519,
+      "relative_strength_60_edge": 1.356440873128939,
+      "relative_strength_positive": false,
+      "remaining_cooldown_days": 3,
+      "score": 80,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "cyclical_travel_risk": {
+          "points": -10,
+          "reason": "cyclical travel/air/lodging sector risk penalty"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "relative_strength_vs_qqq": {
+          "points": -10,
+          "reason": "20/60-day relative strength vs QQQ is not positive"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "BKNG",
+      "timestamp": "2026-07-10T18:06:50",
+      "today_return": 1.6522333637192244,
+      "volatility_20": 2.7585894638689132,
+      "volume_spike_ratio": 0.5403449280437156
     }
   ],
   "schema_version": 2,
-  "updated_at": "2026-07-10T19:06:39.364729+00:00"
+  "updated_at": "2026-07-10T18:06:51.602021+00:00"
 }
