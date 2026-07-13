@@ -1,29 +1,27 @@
 {
   "account": {
-    "cash_asset_usd": 277.03,
-    "settled_cash_asset_usd": 104.41,
-    "stock_asset_usd": 529.67,
-    "total_asset_usd": 806.7,
-    "unsettled_sell_proceeds_usd": 172.62
+    "cash_asset_usd": 276.8,
+    "stock_asset_usd": 524.37,
+    "total_asset_usd": 801.1700000000001
   },
   "currency": "USD",
   "data_type": "portfolio_snapshot",
-  "exchange_rate_usd_krw": 1504.2,
+  "exchange_rate_usd_krw": 1507.1,
   "is_realtime": false,
   "positions": [
     {
       "average_purchase_price": 519.69,
-      "exchange_rate": 1504.2,
+      "exchange_rate": 1507.1,
       "name": "\ub9b0\ub370",
-      "portfolio_weight_percent": 65.66,
-      "profit_loss": 9.98,
-      "profit_loss_rate": 1.92,
+      "portfolio_weight_percent": 65.45,
+      "profit_loss": 4.68,
+      "profit_loss_rate": 0.9,
       "quantity": 1.0,
       "symbol": "LIN",
-      "total_current_value": 529.67,
+      "total_current_value": 524.37,
       "total_purchase_amount": 519.69
     }
   ],
-  "snapshot_note": "Last account balance snapshot. Not real-time market data. Cash may include estimated unsettled sell proceeds.",
-  "updated_at": "2026-07-10T20:06:35.116203+00:00"
+  "snapshot_note": "Last account balance snapshot. Not real-time market data.",
+  "updated_at": "2026-07-13T19:36:38.738731+00:00"
 }
