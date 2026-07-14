@@ -52,6 +52,81 @@
     {
       "action": "",
       "amount": "",
+      "avg_trade_value_20": 1238342753.4290001,
+      "blocked": "",
+      "cash": "",
+      "cash_ratio": "",
+      "cooldown_days": "",
+      "current_price": 523.37,
+      "cyclical_travel_risk_penalty": 0,
+      "cyclical_travel_risk_tier": "none",
+      "distance_from_ma60": 2.5883913405377434,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "excluded_reason_ko": "",
+      "gap_percent": 0.2265048415409865,
+      "high_52w": null,
+      "intraday_range_percent": 1.826353031172312,
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 523.6575,
+      "ma5": 528.924,
+      "ma60": 510.164935,
+      "passed": false,
+      "position_vs_52w_high_percent": null,
+      "previous_day_return": 0.8048557728898675,
+      "qty": "",
+      "rank": "",
+      "reason": "already held",
+      "reason_ko": "이미 보유 중인 종목",
+      "recent_20d_return": 1.5384913860003069,
+      "recent_3d_return": -0.8149032539276346,
+      "recent_5d_return": -3.1728705690816206,
+      "relative_strength_20_edge": 0.5607694684906184,
+      "relative_strength_60_edge": 0.7831700567946909,
+      "relative_strength_positive": false,
+      "remaining_cooldown_days": "",
+      "score": 70,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "relative_strength_vs_qqq": {
+          "points": -10,
+          "reason": "20/60-day relative strength vs QQQ is not positive"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "LIN",
+      "timestamp": "2026-07-13T15:09:05",
+      "today_return": -1.2118009022442755,
+      "volatility_20": 1.2924290925288913,
+      "volume_spike_ratio": 0.784505427471384
+    },
+    {
+      "action": "",
+      "amount": "",
       "avg_trade_value_20": null,
       "blocked": "",
       "cash": "",
@@ -605,6 +680,81 @@
       "today_return": null,
       "volatility_20": null,
       "volume_spike_ratio": null
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 1238342753.4290001,
+      "blocked": "",
+      "cash": "",
+      "cash_ratio": "",
+      "cooldown_days": "",
+      "current_price": 523.37,
+      "cyclical_travel_risk_penalty": 0,
+      "cyclical_travel_risk_tier": "none",
+      "distance_from_ma60": 2.5883913405377434,
+      "event": "SCAN",
+      "excluded_reason": "",
+      "excluded_reason_ko": "",
+      "gap_percent": 0.2265048415409865,
+      "high_52w": null,
+      "intraday_range_percent": 1.826353031172312,
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 523.6575,
+      "ma5": 528.924,
+      "ma60": 510.164935,
+      "passed": false,
+      "position_vs_52w_high_percent": null,
+      "previous_day_return": 0.8048557728898675,
+      "qty": "",
+      "rank": "",
+      "reason": "already held",
+      "reason_ko": "이미 보유 중인 종목",
+      "recent_20d_return": 1.5384913860003069,
+      "recent_3d_return": -0.8149032539276346,
+      "recent_5d_return": -3.1728705690816206,
+      "relative_strength_20_edge": 0.5607694684906184,
+      "relative_strength_60_edge": 0.7831700567946909,
+      "relative_strength_positive": false,
+      "remaining_cooldown_days": "",
+      "score": 70,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 0,
+          "reason": "current price <= ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "relative_strength_vs_qqq": {
+          "points": -10,
+          "reason": "20/60-day relative strength vs QQQ is not positive"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "LIN",
+      "timestamp": "2026-07-13T15:09:05",
+      "today_return": -1.2118009022442755,
+      "volatility_20": 1.2924290925288913,
+      "volume_spike_ratio": 0.784505427471384
     },
     {
       "action": "",
