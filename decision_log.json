@@ -33,7 +33,7 @@
       "qty": "",
       "rank": "",
       "reason": "no sell condition",
-      "reason_ko": "\ub9e4\ub3c4 \uc870\uac74 \uc5c6\uc74c",
+      "reason_ko": "매도 조건 없음",
       "recent_20d_return": null,
       "recent_3d_return": null,
       "recent_5d_return": null,
@@ -78,7 +78,7 @@
       "qty": "",
       "rank": "",
       "reason": "QQQ current price <= QQQ ma20",
-      "reason_ko": "QQQ \uc57d\uc138: \ud604\uc7ac\uac00\uac00 20\uc77c\uc120 \uc774\ud558",
+      "reason_ko": "QQQ 약세: 현재가가 20일선 이하",
       "recent_20d_return": null,
       "recent_3d_return": null,
       "recent_5d_return": null,
@@ -183,6 +183,81 @@
       "today_return": null,
       "volatility_20": null,
       "volume_spike_ratio": null
+    },
+    {
+      "timestamp": "2026-07-13T19:06:35",
+      "event": "BUY_CANDIDATE",
+      "symbol": "AAPL",
+      "passed": true,
+      "rank": 1,
+      "score": 110,
+      "action": "",
+      "reason": "restored from last candidate pool",
+      "reason_ko": "마지막 후보군 복원",
+      "current_price": 318.77,
+      "ma5": 314.86400000000003,
+      "ma20": 299.258,
+      "ma60": 293.86124333333333,
+      "previous_day_return": -0.28461197900196966,
+      "recent_3d_return": 1.7167108076199034,
+      "recent_5d_return": 1.954199449881644,
+      "recent_20d_return": 7.827351757264145,
+      "today_return": 1.0941266015476403,
+      "gap_percent": 0.5375491564125312,
+      "distance_from_ma60": 8.47636673149581,
+      "high_52w": null,
+      "position_vs_52w_high_percent": null,
+      "intraday_range_percent": 2.2120398167166933,
+      "avg_trade_value_20": 18544933885.2915,
+      "volatility_20": 2.1610262680764354,
+      "volume_spike_ratio": 0.5420123158627164,
+      "relative_strength_20_edge": 7.1357982123477655,
+      "relative_strength_60_edge": 6.671145447752758,
+      "relative_strength_positive": true,
+      "cyclical_travel_risk_tier": "none",
+      "cyclical_travel_risk_penalty": 0,
+      "qty": "",
+      "amount": "",
+      "cash": "",
+      "cash_ratio": "",
+      "share_ratio": "",
+      "blocked": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "cooldown_days": "",
+      "remaining_cooldown_days": "",
+      "excluded_reason": "",
+      "excluded_reason_ko": "",
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "relative_strength_vs_qqq": {
+          "points": 10,
+          "reason": "20/60-day relative strength vs QQQ is positive"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      }
     }
   ],
   "rows": [
@@ -215,7 +290,7 @@
       "qty": "",
       "rank": "",
       "reason": "no sell condition",
-      "reason_ko": "\ub9e4\ub3c4 \uc870\uac74 \uc5c6\uc74c",
+      "reason_ko": "매도 조건 없음",
       "recent_20d_return": null,
       "recent_3d_return": null,
       "recent_5d_return": null,
@@ -260,7 +335,7 @@
       "qty": "",
       "rank": "",
       "reason": "QQQ current price <= QQQ ma20",
-      "reason_ko": "QQQ \uc57d\uc138: \ud604\uc7ac\uac00\uac00 20\uc77c\uc120 \uc774\ud558",
+      "reason_ko": "QQQ 약세: 현재가가 20일선 이하",
       "recent_20d_return": null,
       "recent_3d_return": null,
       "recent_5d_return": null,
@@ -365,6 +440,81 @@
       "today_return": null,
       "volatility_20": null,
       "volume_spike_ratio": null
+    },
+    {
+      "timestamp": "2026-07-13T19:06:35",
+      "event": "BUY_CANDIDATE",
+      "symbol": "AAPL",
+      "passed": true,
+      "rank": 1,
+      "score": 110,
+      "action": "",
+      "reason": "restored from last candidate pool",
+      "reason_ko": "마지막 후보군 복원",
+      "current_price": 318.77,
+      "ma5": 314.86400000000003,
+      "ma20": 299.258,
+      "ma60": 293.86124333333333,
+      "previous_day_return": -0.28461197900196966,
+      "recent_3d_return": 1.7167108076199034,
+      "recent_5d_return": 1.954199449881644,
+      "recent_20d_return": 7.827351757264145,
+      "today_return": 1.0941266015476403,
+      "gap_percent": 0.5375491564125312,
+      "distance_from_ma60": 8.47636673149581,
+      "high_52w": null,
+      "position_vs_52w_high_percent": null,
+      "intraday_range_percent": 2.2120398167166933,
+      "avg_trade_value_20": 18544933885.2915,
+      "volatility_20": 2.1610262680764354,
+      "volume_spike_ratio": 0.5420123158627164,
+      "relative_strength_20_edge": 7.1357982123477655,
+      "relative_strength_60_edge": 6.671145447752758,
+      "relative_strength_positive": true,
+      "cyclical_travel_risk_tier": "none",
+      "cyclical_travel_risk_penalty": 0,
+      "qty": "",
+      "amount": "",
+      "cash": "",
+      "cash_ratio": "",
+      "share_ratio": "",
+      "blocked": "",
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "cooldown_days": "",
+      "remaining_cooldown_days": "",
+      "excluded_reason": "",
+      "excluded_reason_ko": "",
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "relative_strength_vs_qqq": {
+          "points": 10,
+          "reason": "20/60-day relative strength vs QQQ is positive"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      }
     }
   ],
   "schema_version": 2,
