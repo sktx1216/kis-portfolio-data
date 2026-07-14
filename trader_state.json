@@ -120,6 +120,36 @@
       "sells": [
         "BKNG"
       ]
+    },
+    "2026-07-14": {
+      "buy_attempts": [
+        "CSCO"
+      ],
+      "buys": [],
+      "orders": [
+        {
+          "action": "BUY_ATTEMPT",
+          "amount": 238.58,
+          "price": 119.29,
+          "qty": 2,
+          "symbol": "CSCO",
+          "timestamp": "2026-07-14T15:36:43.570223+00:00"
+        },
+        {
+          "action": "BUY_SUBMITTED_NOT_CONFIRMED",
+          "amount": 238.58,
+          "order_no": "0030573414",
+          "org_no": "01790",
+          "price": 119.29,
+          "qty": 2,
+          "symbol": "CSCO",
+          "timestamp": "2026-07-14T15:37:31.171648+00:00"
+        }
+      ],
+      "pending_buys": [
+        "CSCO"
+      ],
+      "sells": []
     }
   },
   "positions": {
@@ -128,8 +158,8 @@
       "avg_price": 519.69,
       "entry_date": "2026-07-02",
       "holding_days": 7,
-      "market_value": 529.905,
-      "profit_rate": 1.96,
+      "market_value": 525.53,
+      "profit_rate": 1.12,
       "purchase_amount": 519.69,
       "qty": 1.0
     }
