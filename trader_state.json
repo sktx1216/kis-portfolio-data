@@ -169,16 +169,5 @@
       ]
     }
   },
-  "positions": {
-    "LIN": {
-      "already_half_sold": false,
-      "avg_price": 519.69,
-      "entry_date": "2026-07-02",
-      "holding_days": 7,
-      "market_value": 523.06,
-      "profit_rate": 0.64,
-      "purchase_amount": 519.69,
-      "qty": 1.0
-    }
-  }
+  "positions": {}
 }
