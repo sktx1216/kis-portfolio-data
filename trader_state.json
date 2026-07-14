@@ -128,6 +128,7 @@
     },
     "2026-07-14": {
       "buy_attempts": [
+        "AAPL",
         "CSCO"
       ],
       "buys": [],
@@ -159,9 +160,28 @@
           "qty": 1,
           "symbol": "LIN",
           "timestamp": "2026-07-14T16:36:40.928047+00:00"
+        },
+        {
+          "action": "BUY_ATTEMPT",
+          "amount": 315.14,
+          "price": 315.14,
+          "qty": 1,
+          "symbol": "AAPL",
+          "timestamp": "2026-07-14T17:36:46.077439+00:00"
+        },
+        {
+          "action": "BUY_SUBMITTED_NOT_CONFIRMED",
+          "amount": 315.14,
+          "order_no": "0030598650",
+          "org_no": "01790",
+          "price": 315.14,
+          "qty": 1,
+          "symbol": "AAPL",
+          "timestamp": "2026-07-14T17:37:34.239216+00:00"
         }
       ],
       "pending_buys": [
+        "AAPL",
         "CSCO"
       ],
       "sells": [
