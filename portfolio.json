@@ -2,8 +2,8 @@
   "account": {
     "cash_asset_usd": 762.98,
     "settled_cash_asset_usd": 240.43,
-    "stock_asset_usd": 549.375,
-    "total_asset_usd": 1312.36,
+    "stock_asset_usd": 549.0,
+    "total_asset_usd": 1311.98,
     "unsettled_sell_proceeds_usd": 522.55
   },
   "currency": "USD",
@@ -15,27 +15,27 @@
       "average_purchase_price": 314.86,
       "exchange_rate": 1504.9,
       "name": "\uc560\ud50c",
-      "portfolio_weight_percent": 24.03,
-      "profit_loss": 0.555,
-      "profit_loss_rate": 0.18,
+      "portfolio_weight_percent": 24.0,
+      "profit_loss": 0.0,
+      "profit_loss_rate": 0.0,
       "quantity": 1.0,
       "symbol": "AAPL",
-      "total_current_value": 315.415,
+      "total_current_value": 314.86,
       "total_purchase_amount": 314.86
     },
     {
       "average_purchase_price": 119.18,
       "exchange_rate": 1504.9,
       "name": "\uc2dc\uc2a4\ucf54 \uc2dc\uc2a4\ud15c\uc988",
-      "portfolio_weight_percent": 17.83,
-      "profit_loss": -4.4,
-      "profit_loss_rate": -1.85,
+      "portfolio_weight_percent": 17.85,
+      "profit_loss": -4.22,
+      "profit_loss_rate": -1.77,
       "quantity": 2.0,
       "symbol": "CSCO",
-      "total_current_value": 233.96,
+      "total_current_value": 234.14,
       "total_purchase_amount": 238.36
     }
   ],
   "snapshot_note": "Last account balance snapshot. Not real-time market data. Cash may include estimated unsettled sell proceeds.",
-  "updated_at": "2026-07-14T19:36:37.564213+00:00"
+  "updated_at": "2026-07-14T20:06:38.880023+00:00"
 }

@@ -146,66 +146,66 @@
     },
     {
       "cash_asset": 1148209,
-      "cumulative_profit_loss": 724971,
-      "cumulative_profit_loss_rate": 58.0,
+      "cumulative_profit_loss": 724399,
+      "cumulative_profit_loss_rate": 57.95,
       "daily_cash_flow": 0,
-      "daily_profit_loss": 767980,
-      "daily_profit_loss_rate": 63.63,
+      "daily_profit_loss": 767408,
+      "daily_profit_loss_rate": 63.58,
       "date": "2026-07-15",
       "net_cash_invested": 1250000,
-      "stock_asset": 826754,
-      "total_asset": 1974971
+      "stock_asset": 826190,
+      "total_asset": 1974399
     }
   ],
   "portfolio_allocation": [
     {
       "avg_purchase_price": 473833,
       "country": "US",
-      "current_price": 474668,
-      "current_value": 474668,
+      "current_price": 473833,
+      "current_value": 473833,
       "market": "US",
       "name": "\uc560\ud50c",
-      "profit_loss": 835,
-      "profit_loss_rate": 0.18,
+      "profit_loss": 0,
+      "profit_loss_rate": 0.0,
       "quantity": 1.0,
       "sector": "\uc815\ubcf4\uae30\uc220",
       "symbol": "AAPL",
-      "weight": 57.41
+      "weight": 57.35
     },
     {
       "avg_purchase_price": 179354,
       "country": "US",
-      "current_price": 176043,
-      "current_value": 352086,
+      "current_price": 176179,
+      "current_value": 352357,
       "market": "US",
       "name": "\uc2dc\uc2a4\ucf54 \uc2dc\uc2a4\ud15c\uc988",
-      "profit_loss": -6622,
-      "profit_loss_rate": -1.85,
+      "profit_loss": -6351,
+      "profit_loss_rate": -1.77,
       "quantity": 2.0,
       "sector": "\uae30\ud0c0",
       "symbol": "CSCO",
-      "weight": 42.59
+      "weight": 42.65
     }
   ],
   "sector_allocation": [
     {
-      "current_value": 474668,
+      "current_value": 473833,
       "sector": "\uc815\ubcf4\uae30\uc220",
-      "weight": 57.41
+      "weight": 57.35
     },
     {
-      "current_value": 352086,
+      "current_value": 352357,
       "sector": "\uae30\ud0c0",
-      "weight": 42.59
+      "weight": 42.65
     }
   ],
   "summary": {
     "cash_asset": 1148209,
     "currency": "KRW",
-    "stock_asset": 826754,
-    "total_asset": 1974971,
-    "total_profit_loss": 724971,
-    "total_profit_loss_rate": 58.0,
-    "updated_at": "2026-07-14T19:36:37.564213+00:00"
+    "stock_asset": 826190,
+    "total_asset": 1974399,
+    "total_profit_loss": 724399,
+    "total_profit_loss_rate": 57.95,
+    "updated_at": "2026-07-14T20:06:38.880023+00:00"
   }
 }
