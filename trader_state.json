@@ -4,6 +4,11 @@
       "action": "SELL_ATTEMPT",
       "date": "2026-07-09",
       "reason": "EARLY_DRAWDOWN"
+    },
+    "LIN": {
+      "action": "SELL_ATTEMPT",
+      "date": "2026-07-14",
+      "reason": "PROFIT_WEAK_RELATIVE_MOMENTUM"
     }
   },
   "orders_by_date": {
@@ -144,12 +149,24 @@
           "qty": 2,
           "symbol": "CSCO",
           "timestamp": "2026-07-14T15:37:31.171648+00:00"
+        },
+        {
+          "action": "SELL_ATTEMPT",
+          "amount": 522.55,
+          "order_no": "0030588693",
+          "org_no": "01790",
+          "price": 522.55,
+          "qty": 1,
+          "symbol": "LIN",
+          "timestamp": "2026-07-14T16:36:40.928047+00:00"
         }
       ],
       "pending_buys": [
         "CSCO"
       ],
-      "sells": []
+      "sells": [
+        "LIN"
+      ]
     }
   },
   "positions": {
@@ -158,8 +175,8 @@
       "avg_price": 519.69,
       "entry_date": "2026-07-02",
       "holding_days": 7,
-      "market_value": 525.3,
-      "profit_rate": 1.07,
+      "market_value": 523.06,
+      "profit_rate": 0.64,
       "purchase_amount": 519.69,
       "qty": 1.0
     }
