@@ -143,38 +143,69 @@
       "net_cash_invested": 1250000,
       "stock_asset": 789826,
       "total_asset": 1206991
+    },
+    {
+      "cash_asset": 1148209,
+      "cumulative_profit_loss": 724971,
+      "cumulative_profit_loss_rate": 58.0,
+      "daily_cash_flow": 0,
+      "daily_profit_loss": 767980,
+      "daily_profit_loss_rate": 63.63,
+      "date": "2026-07-15",
+      "net_cash_invested": 1250000,
+      "stock_asset": 826754,
+      "total_asset": 1974971
     }
   ],
   "portfolio_allocation": [
     {
-      "avg_purchase_price": 783225,
+      "avg_purchase_price": 473833,
       "country": "US",
-      "current_price": 789826,
-      "current_value": 789826,
+      "current_price": 474668,
+      "current_value": 474668,
       "market": "US",
-      "name": "\ub9b0\ub370",
-      "profit_loss": 6601,
-      "profit_loss_rate": 0.84,
+      "name": "\uc560\ud50c",
+      "profit_loss": 835,
+      "profit_loss_rate": 0.18,
       "quantity": 1.0,
-      "sector": "\uc18c\uc7ac",
-      "symbol": "LIN",
-      "weight": 100.0
+      "sector": "\uc815\ubcf4\uae30\uc220",
+      "symbol": "AAPL",
+      "weight": 57.41
+    },
+    {
+      "avg_purchase_price": 179354,
+      "country": "US",
+      "current_price": 176043,
+      "current_value": 352086,
+      "market": "US",
+      "name": "\uc2dc\uc2a4\ucf54 \uc2dc\uc2a4\ud15c\uc988",
+      "profit_loss": -6622,
+      "profit_loss_rate": -1.85,
+      "quantity": 2.0,
+      "sector": "\uae30\ud0c0",
+      "symbol": "CSCO",
+      "weight": 42.59
     }
   ],
   "sector_allocation": [
     {
-      "current_value": 789826,
-      "sector": "\uc18c\uc7ac",
-      "weight": 100.0
+      "current_value": 474668,
+      "sector": "\uc815\ubcf4\uae30\uc220",
+      "weight": 57.41
+    },
+    {
+      "current_value": 352086,
+      "sector": "\uae30\ud0c0",
+      "weight": 42.59
     }
   ],
   "summary": {
-    "cash_asset": 417165,
+    "cash_asset": 1148209,
     "currency": "KRW",
-    "stock_asset": 789826,
-    "total_asset": 1206991,
-    "total_profit_loss": -43009,
-    "total_profit_loss_rate": -3.44,
-    "updated_at": "2026-07-13T20:06:37.431743+00:00"
+    "stock_asset": 826754,
+    "total_asset": 1974971,
+    "total_profit_loss": 724971,
+    "total_profit_loss_rate": 58.0,
+    "updated_at": "2026-07-14T19:36:37.564213+00:00"
   }
 }

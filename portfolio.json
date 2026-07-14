@@ -1,27 +1,41 @@
 {
   "account": {
-    "cash_asset_usd": 276.8,
-    "stock_asset_usd": 524.07,
-    "total_asset_usd": 800.8700000000001
+    "cash_asset_usd": 762.98,
+    "settled_cash_asset_usd": 240.43,
+    "stock_asset_usd": 549.375,
+    "total_asset_usd": 1312.36,
+    "unsettled_sell_proceeds_usd": 522.55
   },
   "currency": "USD",
   "data_type": "portfolio_snapshot",
-  "exchange_rate_usd_krw": 1507.1,
+  "exchange_rate_usd_krw": 1504.9,
   "is_realtime": false,
   "positions": [
     {
-      "average_purchase_price": 519.69,
-      "exchange_rate": 1507.1,
-      "name": "\ub9b0\ub370",
-      "portfolio_weight_percent": 65.44,
-      "profit_loss": 4.38,
-      "profit_loss_rate": 0.84,
+      "average_purchase_price": 314.86,
+      "exchange_rate": 1504.9,
+      "name": "\uc560\ud50c",
+      "portfolio_weight_percent": 24.03,
+      "profit_loss": 0.555,
+      "profit_loss_rate": 0.18,
       "quantity": 1.0,
-      "symbol": "LIN",
-      "total_current_value": 524.07,
-      "total_purchase_amount": 519.69
+      "symbol": "AAPL",
+      "total_current_value": 315.415,
+      "total_purchase_amount": 314.86
+    },
+    {
+      "average_purchase_price": 119.18,
+      "exchange_rate": 1504.9,
+      "name": "\uc2dc\uc2a4\ucf54 \uc2dc\uc2a4\ud15c\uc988",
+      "portfolio_weight_percent": 17.83,
+      "profit_loss": -4.4,
+      "profit_loss_rate": -1.85,
+      "quantity": 2.0,
+      "symbol": "CSCO",
+      "total_current_value": 233.96,
+      "total_purchase_amount": 238.36
     }
   ],
-  "snapshot_note": "Last account balance snapshot. Not real-time market data.",
-  "updated_at": "2026-07-13T20:06:37.431743+00:00"
+  "snapshot_note": "Last account balance snapshot. Not real-time market data. Cash may include estimated unsettled sell proceeds.",
+  "updated_at": "2026-07-14T19:36:37.564213+00:00"
 }
