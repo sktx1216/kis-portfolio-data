@@ -258,6 +258,306 @@
           "reason": "20-day volatility <= 5%"
         }
       }
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 15530326542.621983,
+      "blocked": "",
+      "cash": "",
+      "cash_ratio": "",
+      "cooldown_days": "",
+      "current_price": 548.955,
+      "cyclical_travel_risk_penalty": 0,
+      "cyclical_travel_risk_tier": "none",
+      "distance_from_ma60": 20.321289877484784,
+      "event": "BUY_CANDIDATE",
+      "excluded_reason": "",
+      "excluded_reason_ko": "",
+      "gap_percent": -3.642295076090263,
+      "high_52w": null,
+      "intraday_range_percent": 4.288748345255589,
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 533.98861,
+      "ma5": 537.45644,
+      "ma60": 456.2409533333333,
+      "passed": false,
+      "position_vs_52w_high_percent": null,
+      "previous_day_return": 2.0430933567456844,
+      "qty": "",
+      "rank": 2,
+      "reason": "today return is outside -1% to 4%",
+      "reason_ko": "당일 등락률이 허용 범위 밖",
+      "recent_20d_return": 12.387143003378043,
+      "recent_3d_return": 6.097737748958765,
+      "recent_5d_return": -0.5606376234036592,
+      "relative_strength_20_edge": 3.4184263044250707,
+      "relative_strength_60_edge": 18.51606859374173,
+      "relative_strength_positive": true,
+      "remaining_cooldown_days": "",
+      "score": 100,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 5,
+          "reason": "distance from ma60 <= 25%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "relative_strength_vs_qqq": {
+          "points": 10,
+          "reason": "20/60-day relative strength vs QQQ is positive"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "AMD",
+      "timestamp": "2026-07-13T19:06:35",
+      "today_return": -1.6015702020111378,
+      "volatility_20": 4.779177508474704,
+      "volume_spike_ratio": 0.7109406401994964
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 192029375.55025,
+      "blocked": "",
+      "cash": "",
+      "cash_ratio": "",
+      "cooldown_days": "",
+      "current_price": 105.835,
+      "cyclical_travel_risk_penalty": 0,
+      "cyclical_travel_risk_tier": "none",
+      "distance_from_ma60": 9.809518934667306,
+      "event": "BUY_CANDIDATE",
+      "excluded_reason": "",
+      "excluded_reason_ko": "",
+      "gap_percent": 0.03779289493575089,
+      "high_52w": null,
+      "intraday_range_percent": 1.5070628808995234,
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 101.83025,
+      "ma5": 105.739,
+      "ma60": 96.38053333333333,
+      "passed": false,
+      "position_vs_52w_high_percent": null,
+      "previous_day_return": 0.7136739937196657,
+      "qty": "",
+      "rank": 3,
+      "reason": "20-day average trade value is too low",
+      "reason_ko": "20일 평균 거래대금 부족",
+      "recent_20d_return": 8.337598525949419,
+      "recent_3d_return": 0.3841411362989433,
+      "recent_5d_return": -1.0610451528465958,
+      "relative_strength_20_edge": 4.548442234771411,
+      "relative_strength_60_edge": 8.004297650924252,
+      "relative_strength_positive": true,
+      "remaining_cooldown_days": "",
+      "score": 100,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "relative_strength_vs_qqq": {
+          "points": 10,
+          "reason": "20/60-day relative strength vs QQQ is positive"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "CCEP",
+      "timestamp": "2026-07-13T19:06:35",
+      "today_return": -0.004724111866982739,
+      "volatility_20": 1.6052951197850274,
+      "volume_spike_ratio": 0.681076652551582
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 846710864.017,
+      "blocked": "",
+      "cash": "",
+      "cash_ratio": "",
+      "cooldown_days": "",
+      "current_price": 387.125,
+      "cyclical_travel_risk_penalty": 0,
+      "cyclical_travel_risk_tier": "none",
+      "distance_from_ma60": 5.977418403319201,
+      "event": "BUY_CANDIDATE",
+      "excluded_reason": "",
+      "excluded_reason_ko": "",
+      "gap_percent": 1.538381445714121,
+      "high_52w": null,
+      "intraday_range_percent": 3.069845914561009,
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 380.36725,
+      "ma5": 380.473,
+      "ma60": 365.2900833333333,
+      "passed": false,
+      "position_vs_52w_high_percent": null,
+      "previous_day_return": -0.4611996372587024,
+      "qty": "",
+      "rank": 4,
+      "reason": "20-day average trade value is too low",
+      "reason_ko": "20일 평균 거래대금 부족",
+      "recent_20d_return": 0.8821076770730185,
+      "recent_3d_return": 3.4927551729668993,
+      "recent_5d_return": 3.0217952470926512,
+      "relative_strength_20_edge": 2.392310002081388,
+      "relative_strength_60_edge": 4.172197119576149,
+      "relative_strength_positive": true,
+      "remaining_cooldown_days": "",
+      "score": 100,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "relative_strength_vs_qqq": {
+          "points": 10,
+          "reason": "20/60-day relative strength vs QQQ is positive"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "CDNS",
+      "timestamp": "2026-07-13T19:06:35",
+      "today_return": 0.7691907228570605,
+      "volatility_20": 1.522908539749695,
+      "volume_spike_ratio": 0.42282124922594255
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 557171602.766,
+      "blocked": "",
+      "cash": "",
+      "cash_ratio": "",
+      "cooldown_days": "",
+      "current_price": 49.47,
+      "cyclical_travel_risk_penalty": 0,
+      "cyclical_travel_risk_tier": "none",
+      "distance_from_ma60": 7.255884818410463,
+      "event": "BUY_CANDIDATE",
+      "excluded_reason": "",
+      "excluded_reason_ko": "",
+      "gap_percent": 0.3339404978749405,
+      "high_52w": null,
+      "intraday_range_percent": 0.8288688972000413,
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 47.679,
+      "ma5": 49.086,
+      "ma60": 46.12334333333333,
+      "passed": false,
+      "position_vs_52w_high_percent": null,
+      "previous_day_return": 0.12158054711244315,
+      "qty": "",
+      "rank": 5,
+      "reason": "20-day average trade value is too low",
+      "reason_ko": "20일 평균 거래대금 부족",
+      "recent_20d_return": 4.444209859600967,
+      "recent_3d_return": 1.601971657424528,
+      "recent_5d_return": 1.3521819299323834,
+      "relative_strength_20_edge": 4.372042495522999,
+      "relative_strength_60_edge": 5.45066353466741,
+      "relative_strength_positive": true,
+      "remaining_cooldown_days": "",
+      "score": 100,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "relative_strength_vs_qqq": {
+          "points": 10,
+          "reason": "20/60-day relative strength vs QQQ is positive"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "CSX",
+      "timestamp": "2026-07-13T19:06:35",
+      "today_return": 0.12143290831816422,
+      "volatility_20": 1.1994589855291076,
+      "volume_spike_ratio": 0.6601626511604982
     }
   ],
   "rows": [
@@ -515,6 +815,306 @@
           "reason": "20-day volatility <= 5%"
         }
       }
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 15530326542.621983,
+      "blocked": "",
+      "cash": "",
+      "cash_ratio": "",
+      "cooldown_days": "",
+      "current_price": 548.955,
+      "cyclical_travel_risk_penalty": 0,
+      "cyclical_travel_risk_tier": "none",
+      "distance_from_ma60": 20.321289877484784,
+      "event": "BUY_CANDIDATE",
+      "excluded_reason": "",
+      "excluded_reason_ko": "",
+      "gap_percent": -3.642295076090263,
+      "high_52w": null,
+      "intraday_range_percent": 4.288748345255589,
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 533.98861,
+      "ma5": 537.45644,
+      "ma60": 456.2409533333333,
+      "passed": false,
+      "position_vs_52w_high_percent": null,
+      "previous_day_return": 2.0430933567456844,
+      "qty": "",
+      "rank": 2,
+      "reason": "today return is outside -1% to 4%",
+      "reason_ko": "당일 등락률이 허용 범위 밖",
+      "recent_20d_return": 12.387143003378043,
+      "recent_3d_return": 6.097737748958765,
+      "recent_5d_return": -0.5606376234036592,
+      "relative_strength_20_edge": 3.4184263044250707,
+      "relative_strength_60_edge": 18.51606859374173,
+      "relative_strength_positive": true,
+      "remaining_cooldown_days": "",
+      "score": 100,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 10,
+          "reason": "20-day average trade value >= 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 5,
+          "reason": "distance from ma60 <= 25%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "relative_strength_vs_qqq": {
+          "points": 10,
+          "reason": "20/60-day relative strength vs QQQ is positive"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "AMD",
+      "timestamp": "2026-07-13T19:06:35",
+      "today_return": -1.6015702020111378,
+      "volatility_20": 4.779177508474704,
+      "volume_spike_ratio": 0.7109406401994964
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 192029375.55025,
+      "blocked": "",
+      "cash": "",
+      "cash_ratio": "",
+      "cooldown_days": "",
+      "current_price": 105.835,
+      "cyclical_travel_risk_penalty": 0,
+      "cyclical_travel_risk_tier": "none",
+      "distance_from_ma60": 9.809518934667306,
+      "event": "BUY_CANDIDATE",
+      "excluded_reason": "",
+      "excluded_reason_ko": "",
+      "gap_percent": 0.03779289493575089,
+      "high_52w": null,
+      "intraday_range_percent": 1.5070628808995234,
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 101.83025,
+      "ma5": 105.739,
+      "ma60": 96.38053333333333,
+      "passed": false,
+      "position_vs_52w_high_percent": null,
+      "previous_day_return": 0.7136739937196657,
+      "qty": "",
+      "rank": 3,
+      "reason": "20-day average trade value is too low",
+      "reason_ko": "20일 평균 거래대금 부족",
+      "recent_20d_return": 8.337598525949419,
+      "recent_3d_return": 0.3841411362989433,
+      "recent_5d_return": -1.0610451528465958,
+      "relative_strength_20_edge": 4.548442234771411,
+      "relative_strength_60_edge": 8.004297650924252,
+      "relative_strength_positive": true,
+      "remaining_cooldown_days": "",
+      "score": 100,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "relative_strength_vs_qqq": {
+          "points": 10,
+          "reason": "20/60-day relative strength vs QQQ is positive"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "CCEP",
+      "timestamp": "2026-07-13T19:06:35",
+      "today_return": -0.004724111866982739,
+      "volatility_20": 1.6052951197850274,
+      "volume_spike_ratio": 0.681076652551582
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 846710864.017,
+      "blocked": "",
+      "cash": "",
+      "cash_ratio": "",
+      "cooldown_days": "",
+      "current_price": 387.125,
+      "cyclical_travel_risk_penalty": 0,
+      "cyclical_travel_risk_tier": "none",
+      "distance_from_ma60": 5.977418403319201,
+      "event": "BUY_CANDIDATE",
+      "excluded_reason": "",
+      "excluded_reason_ko": "",
+      "gap_percent": 1.538381445714121,
+      "high_52w": null,
+      "intraday_range_percent": 3.069845914561009,
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 380.36725,
+      "ma5": 380.473,
+      "ma60": 365.2900833333333,
+      "passed": false,
+      "position_vs_52w_high_percent": null,
+      "previous_day_return": -0.4611996372587024,
+      "qty": "",
+      "rank": 4,
+      "reason": "20-day average trade value is too low",
+      "reason_ko": "20일 평균 거래대금 부족",
+      "recent_20d_return": 0.8821076770730185,
+      "recent_3d_return": 3.4927551729668993,
+      "recent_5d_return": 3.0217952470926512,
+      "relative_strength_20_edge": 2.392310002081388,
+      "relative_strength_60_edge": 4.172197119576149,
+      "relative_strength_positive": true,
+      "remaining_cooldown_days": "",
+      "score": 100,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "relative_strength_vs_qqq": {
+          "points": 10,
+          "reason": "20/60-day relative strength vs QQQ is positive"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "CDNS",
+      "timestamp": "2026-07-13T19:06:35",
+      "today_return": 0.7691907228570605,
+      "volatility_20": 1.522908539749695,
+      "volume_spike_ratio": 0.42282124922594255
+    },
+    {
+      "action": "",
+      "amount": "",
+      "avg_trade_value_20": 557171602.766,
+      "blocked": "",
+      "cash": "",
+      "cash_ratio": "",
+      "cooldown_days": "",
+      "current_price": 49.47,
+      "cyclical_travel_risk_penalty": 0,
+      "cyclical_travel_risk_tier": "none",
+      "distance_from_ma60": 7.255884818410463,
+      "event": "BUY_CANDIDATE",
+      "excluded_reason": "",
+      "excluded_reason_ko": "",
+      "gap_percent": 0.3339404978749405,
+      "high_52w": null,
+      "intraday_range_percent": 0.8288688972000413,
+      "last_sell_date": "",
+      "last_sell_reason": "",
+      "ma20": 47.679,
+      "ma5": 49.086,
+      "ma60": 46.12334333333333,
+      "passed": false,
+      "position_vs_52w_high_percent": null,
+      "previous_day_return": 0.12158054711244315,
+      "qty": "",
+      "rank": 5,
+      "reason": "20-day average trade value is too low",
+      "reason_ko": "20일 평균 거래대금 부족",
+      "recent_20d_return": 4.444209859600967,
+      "recent_3d_return": 1.601971657424528,
+      "recent_5d_return": 1.3521819299323834,
+      "relative_strength_20_edge": 4.372042495522999,
+      "relative_strength_60_edge": 5.45066353466741,
+      "relative_strength_positive": true,
+      "remaining_cooldown_days": "",
+      "score": 100,
+      "score_breakdown": {
+        "avg_trade_value_20": {
+          "points": 0,
+          "reason": "20-day average trade value < 1,000,000,000"
+        },
+        "current_price_above_ma20": {
+          "points": 20,
+          "reason": "current price > ma20"
+        },
+        "distance_from_ma60": {
+          "points": 15,
+          "reason": "distance from ma60 <= 10%"
+        },
+        "ma_alignment": {
+          "points": 30,
+          "reason": "ma5 > ma20 > ma60"
+        },
+        "recent_5d_return": {
+          "points": 15,
+          "reason": "recent 5-day return <= 5%"
+        },
+        "relative_strength_vs_qqq": {
+          "points": 10,
+          "reason": "20/60-day relative strength vs QQQ is positive"
+        },
+        "volatility_20": {
+          "points": 10,
+          "reason": "20-day volatility <= 5%"
+        }
+      },
+      "share_ratio": "",
+      "symbol": "CSX",
+      "timestamp": "2026-07-13T19:06:35",
+      "today_return": 0.12143290831816422,
+      "volatility_20": 1.1994589855291076,
+      "volume_spike_ratio": 0.6601626511604982
     }
   ],
   "schema_version": 2,
