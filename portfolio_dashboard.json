@@ -1,16 +1,25 @@
 {
+  "summary": {
+    "currency": "KRW",
+    "total_asset": 1188013,
+    "stock_asset": 826190,
+    "cash_asset": 361823,
+    "total_profit_loss": -61987,
+    "total_profit_loss_rate": -4.96,
+    "updated_at": "2026-07-14T20:06:38.880023+00:00"
+  },
   "asset_history": [
     {
+      "date": "2026-06-30",
+      "total_asset": 1000000,
+      "stock_asset": 0,
       "cash_asset": 1000000,
-      "cumulative_profit_loss": 0,
-      "cumulative_profit_loss_rate": 0.0,
       "daily_cash_flow": 1000000,
+      "net_cash_invested": 1000000,
       "daily_profit_loss": 0,
       "daily_profit_loss_rate": 0,
-      "date": "2026-06-30",
-      "net_cash_invested": 1000000,
-      "stock_asset": 0,
-      "total_asset": 1000000
+      "cumulative_profit_loss": 0,
+      "cumulative_profit_loss_rate": 0.0
     },
     {
       "cash_asset": 196337,
@@ -145,67 +154,58 @@
       "total_asset": 1206991
     },
     {
-      "cash_asset": 1148209,
-      "cumulative_profit_loss": 724399,
-      "cumulative_profit_loss_rate": 57.95,
-      "daily_cash_flow": 0,
-      "daily_profit_loss": 767408,
-      "daily_profit_loss_rate": 63.58,
       "date": "2026-07-15",
-      "net_cash_invested": 1250000,
+      "total_asset": 1188013,
       "stock_asset": 826190,
-      "total_asset": 1974399
+      "cash_asset": 361823,
+      "daily_cash_flow": 0,
+      "net_cash_invested": 1250000,
+      "daily_profit_loss": -18978,
+      "daily_profit_loss_rate": -1.57,
+      "cumulative_profit_loss": -61987,
+      "cumulative_profit_loss_rate": -4.96
     }
   ],
   "portfolio_allocation": [
     {
-      "avg_purchase_price": 473833,
-      "country": "US",
-      "current_price": 473833,
-      "current_value": 473833,
-      "market": "US",
-      "name": "\uc560\ud50c",
-      "profit_loss": 0,
-      "profit_loss_rate": 0.0,
-      "quantity": 1.0,
-      "sector": "\uc815\ubcf4\uae30\uc220",
       "symbol": "AAPL",
-      "weight": 57.35
+      "name": "애플",
+      "sector": "정보기술",
+      "market": "US",
+      "country": "US",
+      "current_value": 473833,
+      "weight": 57.35,
+      "quantity": 1.0,
+      "current_price": 473833,
+      "avg_purchase_price": 473833,
+      "profit_loss": 0,
+      "profit_loss_rate": 0.0
     },
     {
-      "avg_purchase_price": 179354,
-      "country": "US",
-      "current_price": 176179,
-      "current_value": 352357,
-      "market": "US",
-      "name": "\uc2dc\uc2a4\ucf54 \uc2dc\uc2a4\ud15c\uc988",
-      "profit_loss": -6351,
-      "profit_loss_rate": -1.77,
-      "quantity": 2.0,
-      "sector": "\uae30\ud0c0",
       "symbol": "CSCO",
-      "weight": 42.65
+      "name": "시스코 시스템즈",
+      "sector": "기타",
+      "market": "US",
+      "country": "US",
+      "current_value": 352357,
+      "weight": 42.65,
+      "quantity": 2.0,
+      "current_price": 176179,
+      "avg_purchase_price": 179354,
+      "profit_loss": -6351,
+      "profit_loss_rate": -1.77
     }
   ],
   "sector_allocation": [
     {
+      "sector": "정보기술",
       "current_value": 473833,
-      "sector": "\uc815\ubcf4\uae30\uc220",
       "weight": 57.35
     },
     {
+      "sector": "기타",
       "current_value": 352357,
-      "sector": "\uae30\ud0c0",
       "weight": 42.65
     }
-  ],
-  "summary": {
-    "cash_asset": 1148209,
-    "currency": "KRW",
-    "stock_asset": 826190,
-    "total_asset": 1974399,
-    "total_profit_loss": 724399,
-    "total_profit_loss_rate": 57.95,
-    "updated_at": "2026-07-14T20:06:38.880023+00:00"
-  }
+  ]
 }

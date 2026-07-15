@@ -1,10 +1,8 @@
 {
   "account": {
-    "cash_asset_usd": 762.98,
-    "settled_cash_asset_usd": 240.43,
+    "cash_asset_usd": 240.43,
     "stock_asset_usd": 549.0,
-    "total_asset_usd": 1311.98,
-    "unsettled_sell_proceeds_usd": 522.55
+    "total_asset_usd": 789.43
   },
   "currency": "USD",
   "data_type": "portfolio_snapshot",
@@ -14,8 +12,8 @@
     {
       "average_purchase_price": 314.86,
       "exchange_rate": 1504.9,
-      "name": "\uc560\ud50c",
-      "portfolio_weight_percent": 24.0,
+      "name": "애플",
+      "portfolio_weight_percent": 39.88,
       "profit_loss": 0.0,
       "profit_loss_rate": 0.0,
       "quantity": 1.0,
@@ -26,8 +24,8 @@
     {
       "average_purchase_price": 119.18,
       "exchange_rate": 1504.9,
-      "name": "\uc2dc\uc2a4\ucf54 \uc2dc\uc2a4\ud15c\uc988",
-      "portfolio_weight_percent": 17.85,
+      "name": "시스코 시스템즈",
+      "portfolio_weight_percent": 29.66,
       "profit_loss": -4.22,
       "profit_loss_rate": -1.77,
       "quantity": 2.0,
@@ -36,6 +34,6 @@
       "total_purchase_amount": 238.36
     }
   ],
-  "snapshot_note": "Last account balance snapshot. Not real-time market data. Cash may include estimated unsettled sell proceeds.",
+  "snapshot_note": "Last account balance snapshot. Not real-time market data.",
   "updated_at": "2026-07-14T20:06:38.880023+00:00"
 }
