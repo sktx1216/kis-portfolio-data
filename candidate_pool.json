@@ -4,27 +4,27 @@
       "asset_type": "STOCK",
       "exchange": "NASD",
       "metrics": {
-        "avg_trade_value_20": 18599062796.9955,
-        "avg_volume_20": 62988139.65,
-        "current_price": 315.49,
+        "avg_trade_value_20": 18591619950.93275,
+        "avg_volume_20": 62813046.05,
+        "current_price": 324.145,
         "cyclical_travel_risk_penalty": 0,
         "cyclical_travel_risk_tier": "none",
-        "distance_from_ma60": 7.051078595293103,
-        "gap_percent": -1.1565976489868013,
+        "distance_from_ma60": 9.655885569789625,
+        "gap_percent": 0.8781680746998699,
         "has_52w_high_data": false,
         "high_52w": null,
-        "intraday_range_percent": 1.3721906960341146,
-        "ma20": 300.40500000000003,
-        "ma5": 315.546,
-        "ma60": 294.70978166666663,
+        "intraday_range_percent": 2.6345644774990573,
+        "ma20": 301.75975,
+        "ma5": 317.571,
+        "ma60": 295.60200833333334,
         "position_vs_52w_high_percent": null,
-        "previous_day_return": 0.6311049092984966,
-        "previous_volume": 43257804.0,
-        "recent_20d_return": 8.367396008655925,
-        "recent_3d_return": -0.2308519385238128,
-        "recent_5d_return": 1.5547543938711161,
-        "relative_strength_20_edge": 5.230149693012354,
-        "relative_strength_60_edge": 5.052641361562782,
+        "previous_day_return": -0.7721155967350457,
+        "previous_volume": 36336829.0,
+        "recent_20d_return": 9.35328250455434,
+        "recent_3d_return": 2.7987441329442975,
+        "recent_5d_return": 3.431826159098894,
+        "relative_strength_20_edge": 8.159100021359322,
+        "relative_strength_60_edge": 8.561537461368317,
         "relative_strength_positive": true,
         "score_breakdown": {
           "avg_trade_value_20": {
@@ -56,90 +56,24 @@
             "reason": "20-day volatility <= 5%"
           }
         },
-        "today_return": -0.5735715861460378,
-        "volatility_20": 2.1448963782898556,
-        "volume_spike_ratio": 0.6867610988412483
+        "today_return": 2.9489296830337297,
+        "volatility_20": 2.2246559932609244,
+        "volume_spike_ratio": 0.5784917510778798
       },
       "name": "Apple Inc.",
       "rank": 1,
       "reason": "passed",
       "score": 110,
       "symbol": "AAPL"
-    },
-    {
-      "asset_type": "STOCK",
-      "exchange": "NASD",
-      "metrics": {
-        "avg_trade_value_20": 2877172698.29161,
-        "avg_volume_20": 24538341.6,
-        "current_price": 118.88,
-        "cyclical_travel_risk_penalty": 0,
-        "cyclical_travel_risk_tier": "none",
-        "distance_from_ma60": 7.905003658858245,
-        "gap_percent": 0.3270440251572415,
-        "has_52w_high_data": false,
-        "high_52w": null,
-        "intraday_range_percent": 1.5521251850285633,
-        "ma20": 117.409655,
-        "ma5": 118.306,
-        "ma60": 110.17098,
-        "position_vs_52w_high_percent": null,
-        "previous_day_return": -1.6981287610254747,
-        "previous_volume": 17569181.0,
-        "recent_20d_return": -1.4659917595465255,
-        "recent_3d_return": 0.48178514073196066,
-        "recent_5d_return": 6.3422488594686355,
-        "relative_strength_20_edge": 1.4609158058269345,
-        "relative_strength_60_edge": 5.906566425127924,
-        "relative_strength_positive": false,
-        "score_breakdown": {
-          "avg_trade_value_20": {
-            "points": 10,
-            "reason": "20-day average trade value >= 1,000,000,000"
-          },
-          "current_price_above_ma20": {
-            "points": 20,
-            "reason": "current price > ma20"
-          },
-          "distance_from_ma60": {
-            "points": 15,
-            "reason": "distance from ma60 <= 10%"
-          },
-          "ma_alignment": {
-            "points": 30,
-            "reason": "ma5 > ma20 > ma60"
-          },
-          "recent_5d_return": {
-            "points": 10,
-            "reason": "recent 5-day return <= 10%"
-          },
-          "relative_strength_vs_qqq": {
-            "points": -10,
-            "reason": "20/60-day relative strength vs QQQ is not positive"
-          },
-          "volatility_20": {
-            "points": 10,
-            "reason": "20-day volatility <= 5%"
-          }
-        },
-        "today_return": -0.3102725366876391,
-        "volatility_20": 2.189766393341122,
-        "volume_spike_ratio": 0.7159889321941789
-      },
-      "name": "Cisco",
-      "rank": 2,
-      "reason": "passed",
-      "score": 85,
-      "symbol": "CSCO"
     }
   ],
   "data_type": "candidate_pool",
-  "expires_at": "2026-07-14T18:09:04.243093+00:00",
+  "expires_at": "2026-07-15T18:09:15.062206+00:00",
   "market": {
     "allowed": false,
-    "current_price": 720.56,
-    "ma20": 722.09401,
-    "ma60": 706.4708583333334,
+    "current_price": 715.32,
+    "ma20": 720.657605,
+    "ma60": 707.5761483333333,
     "reason": "QQQ current price <= QQQ ma20",
     "state": "weak",
     "symbol": "QQQ"
@@ -149,5 +83,5 @@
   "ttl_minutes": 180,
   "universe": "NASDAQ100+HELD",
   "universe_count": 101,
-  "updated_at": "2026-07-14T15:09:04.243093+00:00"
+  "updated_at": "2026-07-15T15:09:15.062206+00:00"
 }
