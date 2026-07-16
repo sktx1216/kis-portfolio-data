@@ -5,15 +5,15 @@
       "date": "2026-07-09",
       "reason": "EARLY_DRAWDOWN"
     },
-    "LIN": {
-      "action": "SELL_ATTEMPT",
-      "date": "2026-07-14",
-      "reason": "PROFIT_WEAK_RELATIVE_MOMENTUM"
-    },
     "CSCO": {
       "action": "MANUAL_SELL",
       "date": "2026-07-16",
       "reason": "EARLY_DRAWDOWN"
+    },
+    "LIN": {
+      "action": "SELL_ATTEMPT",
+      "date": "2026-07-14",
+      "reason": "PROFIT_WEAK_RELATIVE_MOMENTUM"
     }
   },
   "orders_by_date": {
@@ -213,5 +213,16 @@
       ]
     }
   },
-  "positions": {}
+  "positions": {
+    "AAPL": {
+      "already_half_sold": false,
+      "avg_price": 314.86,
+      "entry_date": "2026-07-14",
+      "holding_days": 2,
+      "market_value": 327.65,
+      "profit_rate": 4.06,
+      "purchase_amount": 314.86,
+      "qty": 1.0
+    }
+  }
 }
