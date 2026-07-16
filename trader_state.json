@@ -194,7 +194,9 @@
       ]
     },
     "2026-07-16": {
-      "buy_attempts": [],
+      "buy_attempts": [
+        "AAPL"
+      ],
       "buys": [],
       "orders": [
         {
@@ -205,9 +207,29 @@
           "reason": "EARLY_DRAWDOWN",
           "symbol": "CSCO",
           "timestamp": "2026-07-16T04:03:36.877205+00:00"
+        },
+        {
+          "action": "BUY_ATTEMPT",
+          "amount": 331.22,
+          "price": 331.22,
+          "qty": 1,
+          "symbol": "AAPL",
+          "timestamp": "2026-07-16T15:36:48.238207+00:00"
+        },
+        {
+          "action": "BUY_SUBMITTED_NOT_CONFIRMED",
+          "amount": 331.22,
+          "order_no": "0031183168",
+          "org_no": "01790",
+          "price": 331.22,
+          "qty": 1,
+          "symbol": "AAPL",
+          "timestamp": "2026-07-16T15:37:36.305344+00:00"
         }
       ],
-      "pending_buys": [],
+      "pending_buys": [
+        "AAPL"
+      ],
       "sells": [
         "CSCO"
       ]
@@ -219,8 +241,8 @@
       "avg_price": 314.86,
       "entry_date": "2026-07-14",
       "holding_days": 2,
-      "market_value": 330.655,
-      "profit_rate": 5.01,
+      "market_value": 330.95,
+      "profit_rate": 5.11,
       "purchase_amount": 314.86,
       "qty": 1.0
     }
