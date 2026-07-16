@@ -9,6 +9,11 @@
       "action": "SELL_ATTEMPT",
       "date": "2026-07-14",
       "reason": "PROFIT_WEAK_RELATIVE_MOMENTUM"
+    },
+    "CSCO": {
+      "action": "MANUAL_SELL",
+      "date": "2026-07-16",
+      "reason": "EARLY_DRAWDOWN"
     }
   },
   "orders_by_date": {
@@ -186,6 +191,25 @@
       ],
       "sells": [
         "LIN"
+      ]
+    },
+    "2026-07-16": {
+      "buy_attempts": [],
+      "buys": [],
+      "orders": [
+        {
+          "action": "MANUAL_SELL",
+          "amount": 207.97,
+          "price": 103.99,
+          "qty": 2,
+          "reason": "EARLY_DRAWDOWN",
+          "symbol": "CSCO",
+          "timestamp": "2026-07-16T04:03:36.877205+00:00"
+        }
+      ],
+      "pending_buys": [],
+      "sells": [
+        "CSCO"
       ]
     }
   },
