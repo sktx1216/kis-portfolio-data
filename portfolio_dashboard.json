@@ -169,24 +169,24 @@
       "total_asset": 1159969
     },
     {
-      "cash_asset": 303730,
-      "cumulative_profit_loss": 46045,
-      "cumulative_profit_loss_rate": 3.68,
+      "cash_asset": 200169,
+      "cumulative_profit_loss": -57516,
+      "cumulative_profit_loss_rate": -4.6,
       "daily_cash_flow": 0,
-      "daily_profit_loss": 136076,
-      "daily_profit_loss_rate": 11.73,
+      "daily_profit_loss": 32515,
+      "daily_profit_loss_rate": 2.8,
       "date": "2026-07-17",
       "net_cash_invested": 1250000,
       "stock_asset": 992315,
-      "total_asset": 1296045
+      "total_asset": 1192484
     },
     {
       "cash_asset": 202641,
       "cumulative_profit_loss": -53615,
       "cumulative_profit_loss_rate": -4.29,
       "daily_cash_flow": 0,
-      "daily_profit_loss": -99660,
-      "daily_profit_loss_rate": -7.69,
+      "daily_profit_loss": 3901,
+      "daily_profit_loss_rate": 0.33,
       "date": "2026-07-18",
       "net_cash_invested": 1250000,
       "stock_asset": 993744,
