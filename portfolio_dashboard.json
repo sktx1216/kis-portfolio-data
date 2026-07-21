@@ -218,27 +218,27 @@
     },
     {
       "cash_asset": 201715,
-      "cumulative_profit_loss": -76626,
-      "cumulative_profit_loss_rate": -6.13,
+      "cumulative_profit_loss": -77308,
+      "cumulative_profit_loss_rate": -6.18,
       "daily_cash_flow": 0,
-      "daily_profit_loss": 1504,
-      "daily_profit_loss_rate": 0.13,
+      "daily_profit_loss": 822,
+      "daily_profit_loss_rate": 0.07,
       "date": "2026-07-22",
       "net_cash_invested": 1250000,
-      "stock_asset": 971658,
-      "total_asset": 1173374
+      "stock_asset": 970977,
+      "total_asset": 1172692
     }
   ],
   "portfolio_allocation": [
     {
       "avg_purchase_price": 478360,
       "country": "US",
-      "current_price": 485829,
-      "current_value": 971658,
+      "current_price": 485488,
+      "current_value": 970977,
       "market": "US",
       "name": "\uc560\ud50c",
-      "profit_loss": 14939,
-      "profit_loss_rate": 1.56,
+      "profit_loss": 14257,
+      "profit_loss_rate": 1.49,
       "quantity": 2.0,
       "sector": "\uc815\ubcf4\uae30\uc220",
       "symbol": "AAPL",
@@ -247,7 +247,7 @@
   ],
   "sector_allocation": [
     {
-      "current_value": 971658,
+      "current_value": 970977,
       "sector": "\uc815\ubcf4\uae30\uc220",
       "weight": 100.0
     }
@@ -255,10 +255,10 @@
   "summary": {
     "cash_asset": 201715,
     "currency": "KRW",
-    "stock_asset": 971658,
-    "total_asset": 1173374,
-    "total_profit_loss": -76626,
-    "total_profit_loss_rate": -6.13,
-    "updated_at": "2026-07-21T19:36:38.848230+00:00"
+    "stock_asset": 970977,
+    "total_asset": 1172692,
+    "total_profit_loss": -77308,
+    "total_profit_loss_rate": -6.18,
+    "updated_at": "2026-07-21T20:06:38.252321+00:00"
   }
 }
