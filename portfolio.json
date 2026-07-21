@@ -1,27 +1,27 @@
 {
   "account": {
     "cash_asset_usd": 136.11,
-    "stock_asset_usd": 653.4,
-    "total_asset_usd": 789.51
+    "stock_asset_usd": 655.64,
+    "total_asset_usd": 791.75
   },
   "currency": "USD",
   "data_type": "portfolio_snapshot",
-  "exchange_rate_usd_krw": 1484.3,
+  "exchange_rate_usd_krw": 1482.0,
   "is_realtime": false,
   "positions": [
     {
       "average_purchase_price": 322.78,
-      "exchange_rate": 1484.3,
+      "exchange_rate": 1482.0,
       "name": "\uc560\ud50c",
-      "portfolio_weight_percent": 82.76,
-      "profit_loss": 7.84,
-      "profit_loss_rate": 1.21,
+      "portfolio_weight_percent": 82.81,
+      "profit_loss": 10.08,
+      "profit_loss_rate": 1.56,
       "quantity": 2.0,
       "symbol": "AAPL",
-      "total_current_value": 653.4,
+      "total_current_value": 655.64,
       "total_purchase_amount": 645.56
     }
   ],
   "snapshot_note": "Last account balance snapshot. Not real-time market data.",
-  "updated_at": "2026-07-20T20:06:39.587856+00:00"
+  "updated_at": "2026-07-21T19:36:38.848230+00:00"
 }
