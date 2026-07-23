@@ -240,9 +240,9 @@
       "already_half_sold": false,
       "avg_price": 322.78,
       "entry_date": "2026-07-14",
-      "holding_days": 6,
-      "market_value": 648.64,
-      "profit_rate": 0.47,
+      "holding_days": 7,
+      "market_value": 643.99,
+      "profit_rate": -0.24,
       "purchase_amount": 645.56,
       "qty": 2.0
     }
