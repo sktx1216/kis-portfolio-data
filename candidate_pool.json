@@ -4,27 +4,27 @@
       "asset_type": "STOCK",
       "exchange": "NASD",
       "metrics": {
-        "avg_trade_value_20": 18278949943.844738,
-        "avg_volume_20": 59410551.1,
-        "current_price": 330.5424,
+        "avg_trade_value_20": 15418582787.745499,
+        "avg_volume_20": 48871898.85,
+        "current_price": 339.24,
         "cyclical_travel_risk_penalty": 0,
         "cyclical_travel_risk_tier": "none",
-        "distance_from_ma60": 9.297665150238066,
-        "gap_percent": 0.11813716346451564,
+        "distance_from_ma60": 11.731538136917763,
+        "gap_percent": 0.5645306588192955,
         "has_52w_high_data": false,
         "high_52w": null,
-        "intraday_range_percent": 2.8045519557241327,
-        "ma20": 314.26162,
-        "ma5": 326.48447999999996,
-        "ma60": 302.42402666666663,
+        "intraday_range_percent": 1.6406203221364102,
+        "ma20": 317.1585,
+        "ma5": 329.51,
+        "ma60": 303.62063,
         "position_vs_52w_high_percent": null,
-        "previous_day_return": -1.2979839823253125,
-        "previous_volume": 40840778.0,
-        "recent_20d_return": 20.13170997637652,
-        "recent_3d_return": 0.8550680417404033,
-        "recent_5d_return": -0.9581111044525747,
-        "relative_strength_20_edge": 8.63953743133904,
-        "relative_strength_60_edge": 12.887480480568437,
+        "previous_day_return": 3.5316794130448192,
+        "previous_volume": 47489415.0,
+        "recent_20d_return": 19.543308196490262,
+        "recent_3d_return": 4.09647427045936,
+        "recent_5d_return": 3.8733580330077677,
+        "relative_strength_20_edge": 11.031958920933294,
+        "relative_strength_60_edge": 16.15871448492473,
         "relative_strength_positive": true,
         "score_breakdown": {
           "avg_trade_value_20": {
@@ -36,8 +36,8 @@
             "reason": "current price > ma20"
           },
           "distance_from_ma60": {
-            "points": 15,
-            "reason": "distance from ma60 <= 10%"
+            "points": 10,
+            "reason": "distance from ma60 <= 20%"
           },
           "ma_alignment": {
             "points": 30,
@@ -56,14 +56,14 @@
             "reason": "20-day volatility <= 5%"
           }
         },
-        "today_return": 2.761425107256099,
-        "volatility_20": 1.7740782036378218,
-        "volume_spike_ratio": 0.6874330778594646
+        "today_return": 1.8677556903489378,
+        "volatility_20": 1.7992678976666576,
+        "volume_spike_ratio": 0.9717120905360525
       },
       "name": "Apple Inc.",
       "rank": 1,
       "reason": "passed",
-      "score": 110,
+      "score": 105,
       "symbol": "AAPL"
     }
   ],
@@ -71,9 +71,9 @@
   "expires_at": null,
   "market": {
     "allowed": false,
-    "current_price": 687.13,
-    "ma20": 711.8534999999999,
-    "ma60": 712.82319,
+    "current_price": 681.56,
+    "ma20": 710.4649999999999,
+    "ma60": 713.12163,
     "reason": "QQQ current price <= QQQ ma20",
     "state": "weak",
     "symbol": "QQQ"
@@ -83,5 +83,5 @@
   "ttl_minutes": 0,
   "universe": "NASDAQ100+HELD",
   "universe_count": 101,
-  "updated_at": "2026-07-24T15:08:32.523192+00:00"
+  "updated_at": "2026-07-27T15:08:24.252522+00:00"
 }
