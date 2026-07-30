@@ -1,149 +1,12 @@
 {
-  "candidates": [
-    {
-      "asset_type": "STOCK",
-      "exchange": "NASD",
-      "metrics": {
-        "avg_trade_value_20": 15221681981.834,
-        "avg_volume_20": 47258802.1,
-        "current_price": 340.47,
-        "cyclical_travel_risk_penalty": 0,
-        "cyclical_travel_risk_tier": "none",
-        "distance_from_ma60": 11.358929729709043,
-        "gap_percent": -0.11467889908256534,
-        "has_52w_high_data": false,
-        "high_52w": null,
-        "intraday_range_percent": 1.222313854853918,
-        "ma20": 322.514,
-        "ma5": 334.42600000000004,
-        "ma60": 305.741085,
-        "position_vs_52w_high_percent": null,
-        "previous_day_return": 0.9409040990175255,
-        "previous_volume": 51859042.0,
-        "recent_20d_return": 17.663118606580053,
-        "recent_3d_return": 2.2371028767041112,
-        "recent_5d_return": 4.473902236951122,
-        "relative_strength_20_edge": 10.729759628875545,
-        "relative_strength_60_edge": 17.65552431868944,
-        "relative_strength_positive": true,
-        "score_breakdown": {
-          "avg_trade_value_20": {
-            "points": 10,
-            "reason": "20-day average trade value >= 1,000,000,000"
-          },
-          "current_price_above_ma20": {
-            "points": 20,
-            "reason": "current price > ma20"
-          },
-          "distance_from_ma60": {
-            "points": 10,
-            "reason": "distance from ma60 <= 20%"
-          },
-          "ma_alignment": {
-            "points": 30,
-            "reason": "ma5 > ma20 > ma60"
-          },
-          "recent_5d_return": {
-            "points": 15,
-            "reason": "recent 5-day return <= 5%"
-          },
-          "relative_strength_vs_qqq": {
-            "points": 10,
-            "reason": "20/60-day relative strength vs QQQ is positive"
-          },
-          "volatility_20": {
-            "points": 10,
-            "reason": "20-day volatility <= 5%"
-          }
-        },
-        "today_return": 0.11467889908258755,
-        "volatility_20": 1.7356719419465938,
-        "volume_spike_ratio": 1.0973414410772802
-      },
-      "name": "Apple Inc.",
-      "rank": 1,
-      "reason": "passed",
-      "score": 105,
-      "symbol": "AAPL"
-    },
-    {
-      "asset_type": "STOCK",
-      "exchange": "NASD",
-      "metrics": {
-        "avg_trade_value_20": 1066593484.04382,
-        "avg_volume_20": 5858022.7,
-        "current_price": 199.675,
-        "cyclical_travel_risk_penalty": 10,
-        "cyclical_travel_risk_tier": "travel_air_lodging",
-        "distance_from_ma60": 16.548445298898496,
-        "gap_percent": -1.9758165671566852,
-        "has_52w_high_data": false,
-        "high_52w": null,
-        "intraday_range_percent": 2.7029282277055477,
-        "ma20": 181.54654,
-        "ma5": 187.22016000000002,
-        "ma60": 171.32360666666668,
-        "position_vs_52w_high_percent": null,
-        "previous_day_return": 6.70271427806628,
-        "previous_volume": 9074020.0,
-        "recent_20d_return": 12.025920107719923,
-        "recent_3d_return": 12.51831398625043,
-        "recent_5d_return": 12.265264815023059,
-        "relative_strength_20_edge": 15.147821125010697,
-        "relative_strength_60_edge": 22.845039887878894,
-        "relative_strength_positive": true,
-        "score_breakdown": {
-          "avg_trade_value_20": {
-            "points": 10,
-            "reason": "20-day average trade value >= 1,000,000,000"
-          },
-          "current_price_above_ma20": {
-            "points": 20,
-            "reason": "current price > ma20"
-          },
-          "cyclical_travel_risk": {
-            "points": -10,
-            "reason": "cyclical travel/air/lodging sector risk penalty"
-          },
-          "distance_from_ma60": {
-            "points": 10,
-            "reason": "distance from ma60 <= 20%"
-          },
-          "ma_alignment": {
-            "points": 30,
-            "reason": "ma5 > ma20 > ma60"
-          },
-          "recent_5d_return": {
-            "points": 5,
-            "reason": "recent 5-day return <= 15%"
-          },
-          "relative_strength_vs_qqq": {
-            "points": 10,
-            "reason": "20/60-day relative strength vs QQQ is positive"
-          },
-          "volatility_20": {
-            "points": 10,
-            "reason": "20-day volatility <= 5%"
-          }
-        },
-        "today_return": 0.18313180472631085,
-        "volatility_20": 2.691428545496655,
-        "volume_spike_ratio": 1.5489902420487376
-      },
-      "name": "Booking Holdings",
-      "rank": 2,
-      "reason": "passed",
-      "score": 85,
-      "symbol": "BKNG"
-    }
-  ],
+  "candidates": [],
   "data_type": "candidate_pool",
   "expires_at": null,
   "market": {
     "allowed": false,
-    "current_price": 668.2699,
-    "ma20": 704.6560000000001,
-    "ma60": 713.1863533333333,
+    "current_price": 680.56,
+    "ma20": 702.100025,
+    "ma60": 713.218175,
     "reason": "QQQ current price <= QQQ ma20",
     "state": "weak",
     "symbol": "QQQ"
@@ -153,5 +16,5 @@
   "ttl_minutes": 0,
   "universe": "NASDAQ100+HELD",
   "universe_count": 101,
-  "updated_at": "2026-07-29T15:08:48.784282+00:00"
+  "updated_at": "2026-07-30T15:08:27.894583+00:00"
 }
