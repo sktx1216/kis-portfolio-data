@@ -1,12 +1,79 @@
 {
-  "candidates": [],
+  "candidates": [
+    {
+      "asset_type": "STOCK",
+      "exchange": "NASD",
+      "metrics": {
+        "avg_trade_value_20": 1030287848.159,
+        "avg_volume_20": 3974147.25,
+        "current_price": 266.49,
+        "cyclical_travel_risk_penalty": 0,
+        "cyclical_travel_risk_tier": "none",
+        "distance_from_ma60": 12.465103912793008,
+        "gap_percent": 0.5369377420315846,
+        "has_52w_high_data": false,
+        "high_52w": null,
+        "intraday_range_percent": 5.67836833725075,
+        "ma20": 258.6625,
+        "ma5": 260.398,
+        "ma60": 236.95350000000002,
+        "position_vs_52w_high_percent": null,
+        "previous_day_return": 1.6502649507948552,
+        "previous_volume": 4427151.0,
+        "recent_20d_return": 2.3544323244738097,
+        "recent_3d_return": 6.222098214285721,
+        "recent_5d_return": 7.951875556995858,
+        "relative_strength_20_edge": 5.1891164120113515,
+        "relative_strength_60_edge": 16.334258638721344,
+        "relative_strength_positive": true,
+        "score_breakdown": {
+          "avg_trade_value_20": {
+            "points": 10,
+            "reason": "20-day average trade value >= 1,000,000,000"
+          },
+          "current_price_above_ma20": {
+            "points": 20,
+            "reason": "current price > ma20"
+          },
+          "distance_from_ma60": {
+            "points": 10,
+            "reason": "distance from ma60 <= 20%"
+          },
+          "ma_alignment": {
+            "points": 30,
+            "reason": "ma5 > ma20 > ma60"
+          },
+          "recent_5d_return": {
+            "points": 10,
+            "reason": "recent 5-day return <= 10%"
+          },
+          "relative_strength_vs_qqq": {
+            "points": 10,
+            "reason": "20/60-day relative strength vs QQQ is positive"
+          },
+          "volatility_20": {
+            "points": 10,
+            "reason": "20-day volatility <= 5%"
+          }
+        },
+        "today_return": -0.7707774798927591,
+        "volatility_20": 2.485154028472961,
+        "volume_spike_ratio": 1.1139876611265473
+      },
+      "name": "Datadog",
+      "rank": 1,
+      "reason": "passed",
+      "score": 100,
+      "symbol": "DDOG"
+    }
+  ],
   "data_type": "candidate_pool",
   "expires_at": null,
   "market": {
     "allowed": false,
-    "current_price": 680.56,
-    "ma20": 702.100025,
-    "ma60": 713.218175,
+    "current_price": 685.855,
+    "ma20": 700.912625,
+    "ma60": 713.3513483333334,
     "reason": "QQQ current price <= QQQ ma20",
     "state": "weak",
     "symbol": "QQQ"
@@ -16,5 +83,5 @@
   "ttl_minutes": 0,
   "universe": "NASDAQ100+HELD",
   "universe_count": 101,
-  "updated_at": "2026-07-30T15:08:27.894583+00:00"
+  "updated_at": "2026-07-31T15:09:15.953301+00:00"
 }
