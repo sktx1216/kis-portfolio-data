@@ -282,5 +282,16 @@
       ]
     }
   },
-  "positions": {}
+  "positions": {
+    "ADBE": {
+      "already_half_sold": false,
+      "avg_price": 252.68,
+      "entry_date": "2026-08-04",
+      "holding_days": 0,
+      "market_value": 507.12,
+      "profit_rate": 0.35,
+      "purchase_amount": 505.36,
+      "qty": 2.0
+    }
+  }
 }
