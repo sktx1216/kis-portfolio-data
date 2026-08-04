@@ -260,16 +260,5 @@
       ]
     }
   },
-  "positions": {
-    "AAPL": {
-      "already_half_sold": false,
-      "avg_price": 322.78,
-      "entry_date": "2026-07-14",
-      "holding_days": 15,
-      "market_value": 606.278,
-      "profit_rate": -6.08,
-      "purchase_amount": 645.56,
-      "qty": 2.0
-    }
-  }
+  "positions": {}
 }
