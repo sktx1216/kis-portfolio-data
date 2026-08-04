@@ -1,27 +1,29 @@
 {
   "account": {
-    "cash_asset_usd": 136.11,
-    "stock_asset_usd": 606.12,
-    "total_asset_usd": 742.23
+    "cash_asset_usd": 235.3,
+    "settled_cash_asset_usd": 136.11,
+    "stock_asset_usd": 515.52,
+    "total_asset_usd": 750.82,
+    "unsettled_sell_proceeds_usd": 99.19
   },
   "currency": "USD",
   "data_type": "portfolio_snapshot",
-  "exchange_rate_usd_krw": 1433.6,
+  "exchange_rate_usd_krw": 1429.9,
   "is_realtime": false,
   "positions": [
     {
-      "average_purchase_price": 322.78,
-      "exchange_rate": 1433.6,
-      "name": "\uc560\ud50c",
-      "portfolio_weight_percent": 81.66,
-      "profit_loss": -39.44,
-      "profit_loss_rate": -6.1,
+      "average_purchase_price": 252.68,
+      "exchange_rate": 1429.9,
+      "name": "\uc5b4\ub3c4\ube44",
+      "portfolio_weight_percent": 68.66,
+      "profit_loss": 10.16,
+      "profit_loss_rate": 2.01,
       "quantity": 2.0,
-      "symbol": "AAPL",
-      "total_current_value": 606.12,
-      "total_purchase_amount": 645.56
+      "symbol": "ADBE",
+      "total_current_value": 515.52,
+      "total_purchase_amount": 505.36
     }
   ],
-  "snapshot_note": "Last account balance snapshot. Not real-time market data.",
-  "updated_at": "2026-08-03T20:06:45.817951+00:00"
+  "snapshot_note": "Last account balance snapshot. Not real-time market data. Cash may include estimated unsettled sell proceeds.",
+  "updated_at": "2026-08-04T19:36:40.270624+00:00"
 }

@@ -335,38 +335,50 @@
       "net_cash_invested": 1250000,
       "stock_asset": 868934,
       "total_asset": 1064061
+    },
+    {
+      "cash_asset": 336455,
+      "cumulative_profit_loss": -176402,
+      "cumulative_profit_loss_rate": -14.11,
+      "daily_cash_flow": 0,
+      "daily_profit_loss": 9537,
+      "daily_profit_loss_rate": 0.9,
+      "date": "2026-08-05",
+      "net_cash_invested": 1250000,
+      "stock_asset": 737142,
+      "total_asset": 1073598
     }
   ],
   "portfolio_allocation": [
     {
-      "avg_purchase_price": 462737,
+      "avg_purchase_price": 361307,
       "country": "US",
-      "current_price": 434467,
-      "current_value": 868934,
+      "current_price": 368571,
+      "current_value": 737142,
       "market": "US",
-      "name": "\uc560\ud50c",
-      "profit_loss": -56541,
-      "profit_loss_rate": -6.1,
+      "name": "\uc5b4\ub3c4\ube44",
+      "profit_loss": 14528,
+      "profit_loss_rate": 2.01,
       "quantity": 2.0,
-      "sector": "\uc815\ubcf4\uae30\uc220",
-      "symbol": "AAPL",
+      "sector": "\uae30\ud0c0",
+      "symbol": "ADBE",
       "weight": 100.0
     }
   ],
   "sector_allocation": [
     {
-      "current_value": 868934,
-      "sector": "\uc815\ubcf4\uae30\uc220",
+      "current_value": 737142,
+      "sector": "\uae30\ud0c0",
       "weight": 100.0
     }
   ],
   "summary": {
-    "cash_asset": 195127,
+    "cash_asset": 336455,
     "currency": "KRW",
-    "stock_asset": 868934,
-    "total_asset": 1064061,
-    "total_profit_loss": -185939,
-    "total_profit_loss_rate": -14.88,
-    "updated_at": "2026-08-03T20:06:45.817951+00:00"
+    "stock_asset": 737142,
+    "total_asset": 1073598,
+    "total_profit_loss": -176402,
+    "total_profit_loss_rate": -14.11,
+    "updated_at": "2026-08-04T19:36:40.270624+00:00"
   }
 }
