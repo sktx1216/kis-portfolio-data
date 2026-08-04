@@ -240,7 +240,9 @@
       ]
     },
     "2026-08-04": {
-      "buy_attempts": [],
+      "buy_attempts": [
+        "ADBE"
+      ],
       "buys": [],
       "orders": [
         {
@@ -252,9 +254,29 @@
           "qty": 2,
           "symbol": "AAPL",
           "timestamp": "2026-08-04T13:36:56.248127+00:00"
+        },
+        {
+          "action": "BUY_ATTEMPT",
+          "amount": 505.9,
+          "price": 252.95,
+          "qty": 2,
+          "symbol": "ADBE",
+          "timestamp": "2026-08-04T15:37:00.808660+00:00"
+        },
+        {
+          "action": "BUY_SUBMITTED_NOT_CONFIRMED",
+          "amount": 505.9,
+          "order_no": "0030598943",
+          "org_no": "01790",
+          "price": 252.95,
+          "qty": 2,
+          "symbol": "ADBE",
+          "timestamp": "2026-08-04T15:37:49.087643+00:00"
         }
       ],
-      "pending_buys": [],
+      "pending_buys": [
+        "ADBE"
+      ],
       "sells": [
         "AAPL"
       ]
