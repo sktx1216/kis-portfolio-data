@@ -1,5 +1,10 @@
 {
   "last_sells": {
+    "AAPL": {
+      "action": "SELL_ATTEMPT",
+      "date": "2026-08-04",
+      "reason": "STALE_POSITION"
+    },
     "BKNG": {
       "action": "SELL_ATTEMPT",
       "date": "2026-07-09",
@@ -233,6 +238,26 @@
       "sells": [
         "CSCO"
       ]
+    },
+    "2026-08-04": {
+      "buy_attempts": [],
+      "buys": [],
+      "orders": [
+        {
+          "action": "SELL_ATTEMPT",
+          "amount": 604.74,
+          "order_no": "0030494302",
+          "org_no": "01790",
+          "price": 302.37,
+          "qty": 2,
+          "symbol": "AAPL",
+          "timestamp": "2026-08-04T13:36:56.248127+00:00"
+        }
+      ],
+      "pending_buys": [],
+      "sells": [
+        "AAPL"
+      ]
     }
   },
   "positions": {
@@ -240,9 +265,9 @@
       "already_half_sold": false,
       "avg_price": 322.78,
       "entry_date": "2026-07-14",
-      "holding_days": 14,
-      "market_value": 612.3198,
-      "profit_rate": -5.14,
+      "holding_days": 15,
+      "market_value": 606.278,
+      "profit_rate": -6.08,
       "purchase_amount": 645.56,
       "qty": 2.0
     }
