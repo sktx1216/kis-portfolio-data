@@ -349,28 +349,28 @@
       "total_asset": 1214214
     },
     {
-      "cash_asset": 618953,
-      "cumulative_profit_loss": -262057,
-      "cumulative_profit_loss_rate": -20.96,
+      "cash_asset": 760117,
+      "cumulative_profit_loss": -119537,
+      "cumulative_profit_loss_rate": -9.56,
       "daily_cash_flow": 0,
-      "daily_profit_loss": -226271,
-      "daily_profit_loss_rate": -18.64,
+      "daily_profit_loss": -83751,
+      "daily_profit_loss_rate": -6.9,
       "date": "2026-08-06",
       "net_cash_invested": 1250000,
-      "stock_asset": 368990,
-      "total_asset": 987943
+      "stock_asset": 370347,
+      "total_asset": 1130463
     }
   ],
   "portfolio_allocation": [
     {
       "avg_purchase_price": 360878,
       "country": "US",
-      "current_price": 368990,
-      "current_value": 368990,
+      "current_price": 370347,
+      "current_value": 370347,
       "market": "US",
       "name": "\uc5b4\ub3c4\ube44",
-      "profit_loss": 8112,
-      "profit_loss_rate": 2.25,
+      "profit_loss": 9469,
+      "profit_loss_rate": 2.62,
       "quantity": 1.0,
       "sector": "\uae30\ud0c0",
       "symbol": "ADBE",
@@ -379,18 +379,18 @@
   ],
   "sector_allocation": [
     {
-      "current_value": 368990,
+      "current_value": 370347,
       "sector": "\uae30\ud0c0",
       "weight": 100.0
     }
   ],
   "summary": {
-    "cash_asset": 618953,
+    "cash_asset": 760117,
     "currency": "KRW",
-    "stock_asset": 368990,
-    "total_asset": 987943,
-    "total_profit_loss": -262057,
-    "total_profit_loss_rate": -20.96,
-    "updated_at": "2026-08-05T19:36:41.434716+00:00"
+    "stock_asset": 370347,
+    "total_asset": 1130463,
+    "total_profit_loss": -119537,
+    "total_profit_loss_rate": -9.56,
+    "updated_at": "2026-08-05T20:06:46.064026+00:00"
   }
 }
