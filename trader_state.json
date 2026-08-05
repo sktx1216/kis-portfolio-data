@@ -5,6 +5,11 @@
       "date": "2026-08-04",
       "reason": "STALE_POSITION"
     },
+    "ADBE": {
+      "action": "SELL_ATTEMPT",
+      "date": "2026-08-05",
+      "reason": "TAKE_PROFIT_HALF_3"
+    },
     "BKNG": {
       "action": "SELL_ATTEMPT",
       "date": "2026-07-09",
@@ -280,16 +285,36 @@
       "sells": [
         "AAPL"
       ]
+    },
+    "2026-08-05": {
+      "buy_attempts": [],
+      "buys": [],
+      "orders": [
+        {
+          "action": "SELL_ATTEMPT",
+          "amount": 260.17,
+          "order_no": "0030868311",
+          "org_no": "01790",
+          "price": 260.17,
+          "qty": 1,
+          "symbol": "ADBE",
+          "timestamp": "2026-08-05T13:37:01.476516+00:00"
+        }
+      ],
+      "pending_buys": [],
+      "sells": [
+        "ADBE"
+      ]
     }
   },
   "positions": {
     "ADBE": {
-      "already_half_sold": false,
+      "already_half_sold": true,
       "avg_price": 252.68,
       "entry_date": "2026-08-04",
-      "holding_days": 0,
-      "market_value": 512.6,
-      "profit_rate": 1.43,
+      "holding_days": 1,
+      "market_value": 521.12,
+      "profit_rate": 3.12,
       "purchase_amount": 505.36,
       "qty": 2.0
     }
