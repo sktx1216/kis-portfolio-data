@@ -311,12 +311,16 @@
     "ADBE": {
       "already_half_sold": true,
       "avg_price": 252.68,
+      "drawdown_from_peak_percent": 0.0,
       "entry_date": "2026-08-04",
-      "holding_days": 1,
-      "market_value": 258.15,
-      "profit_rate": 2.16,
+      "holding_days": 2,
+      "market_value": 252.65,
+      "partial_take_profit_done": true,
+      "peak_price": 252.715,
+      "peak_profit_percent": -0.01,
+      "profit_rate": -0.01,
       "purchase_amount": 252.68,
-      "qty": 1.0
+      "qty": 2.0
     }
   }
 }
