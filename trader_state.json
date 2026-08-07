@@ -307,7 +307,9 @@
       ]
     },
     "2026-08-07": {
-      "buy_attempts": [],
+      "buy_attempts": [
+        "INTU"
+      ],
       "buys": [],
       "orders": [
         {
@@ -319,9 +321,29 @@
           "qty": 1,
           "symbol": "ADBE",
           "timestamp": "2026-08-07T13:36:51.903892+00:00"
+        },
+        {
+          "action": "BUY_ATTEMPT",
+          "amount": 661.78,
+          "price": 330.89,
+          "qty": 2,
+          "symbol": "INTU",
+          "timestamp": "2026-08-07T15:36:56.934414+00:00"
+        },
+        {
+          "action": "BUY_SUBMITTED_NOT_CONFIRMED",
+          "amount": 661.78,
+          "order_no": "0031530378",
+          "org_no": "01790",
+          "price": 330.89,
+          "qty": 2,
+          "symbol": "INTU",
+          "timestamp": "2026-08-07T15:37:45.281440+00:00"
         }
       ],
-      "pending_buys": [],
+      "pending_buys": [
+        "INTU"
+      ],
       "sells": [
         "ADBE"
       ]
