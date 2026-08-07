@@ -373,42 +373,56 @@
       "stock_asset": 369229,
       "total_asset": 1410401,
       "unsettled_sell_proceeds": 93669
+    },
+    {
+      "cash_asset": 375173,
+      "cumulative_profit_loss": -198890,
+      "cumulative_profit_loss_rate": -13.26,
+      "daily_cash_flow": 0,
+      "daily_profit_loss": -109291,
+      "daily_profit_loss_rate": -7.75,
+      "date": "2026-08-08",
+      "net_cash_invested": 1500000,
+      "settled_cash_asset": 375173,
+      "stock_asset": 925937,
+      "total_asset": 1301110,
+      "unsettled_sell_proceeds": 0
     }
   ],
   "portfolio_allocation": [
     {
-      "avg_purchase_price": 358502,
+      "avg_purchase_price": 469261,
       "country": "US",
-      "current_price": 369229,
-      "current_value": 369229,
+      "current_price": 462969,
+      "current_value": 925937,
       "market": "US",
-      "name": "\uc5b4\ub3c4\ube44",
-      "profit_loss": 10726,
-      "profit_loss_rate": 2.99,
-      "quantity": 1.0,
+      "name": "\uc778\ud29c\uc774\ud2b8",
+      "profit_loss": -12585,
+      "profit_loss_rate": -1.34,
+      "quantity": 2.0,
       "sector": "\uae30\ud0c0",
-      "symbol": "ADBE",
+      "symbol": "INTU",
       "weight": 100.0
     }
   ],
   "sector_allocation": [
     {
-      "current_value": 369229,
+      "current_value": 925937,
       "sector": "\uae30\ud0c0",
       "weight": 100.0
     }
   ],
   "summary": {
-    "cash_asset": 1041172,
+    "cash_asset": 375173,
     "cash_asset_basis": "settled_plus_unsettled",
     "cash_asset_includes_unsettled": true,
     "currency": "KRW",
-    "settled_cash_asset": 947503,
-    "stock_asset": 369229,
-    "total_asset": 1410401,
-    "total_profit_loss": -89599,
-    "total_profit_loss_rate": -5.97,
-    "unsettled_sell_proceeds": 93669,
-    "updated_at": "2026-08-07T01:25:01.350058+00:00"
+    "settled_cash_asset": 375173,
+    "stock_asset": 925937,
+    "total_asset": 1301110,
+    "total_profit_loss": -198890,
+    "total_profit_loss_rate": -13.26,
+    "unsettled_sell_proceeds": 0,
+    "updated_at": "2026-08-07T19:36:40.038064+00:00"
   }
 }
