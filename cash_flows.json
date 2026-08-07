@@ -14,10 +14,9 @@
     "type": "deposit"
   },
   {
-    "amount": 250000,
-    "currency": "KRW",
     "date": "2026-08-07",
-    "note": "",
-    "type": "deposit"
+    "type": "deposit",
+    "amount": 250000,
+    "currency": "KRW"
   }
 ]
