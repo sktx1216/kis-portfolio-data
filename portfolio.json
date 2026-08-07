@@ -1,29 +1,41 @@
 {
   "account": {
-    "cash_asset_usd": 632.33,
-    "settled_cash_asset_usd": 408.31,
-    "stock_asset_usd": 257.785,
-    "total_asset_usd": 890.12,
-    "unsettled_sell_proceeds_usd": 224.02
+    "cash_asset_usd": 864.91,
+    "settled_cash_asset_usd": 0.0,
+    "stock_asset_usd": 2194.48,
+    "total_asset_usd": 3059.39,
+    "unsettled_sell_proceeds_usd": 864.91
   },
   "currency": "USD",
   "data_type": "portfolio_snapshot",
-  "exchange_rate_usd_krw": 1424.8,
+  "exchange_rate_usd_krw": 1418.8,
   "is_realtime": false,
   "positions": [
     {
-      "average_purchase_price": 252.68,
-      "exchange_rate": 1424.8,
-      "name": "\uc5b4\ub3c4\ube44",
-      "portfolio_weight_percent": 28.96,
-      "profit_loss": 5.105,
-      "profit_loss_rate": 2.02,
-      "quantity": 2.0,
-      "symbol": "ADBE",
-      "total_current_value": 257.785,
-      "total_purchase_amount": 252.68
+      "average_purchase_price": 1899.755,
+      "exchange_rate": 1418.8,
+      "name": "ASML \ud640\ub529(ADR)",
+      "portfolio_weight_percent": 55.71,
+      "profit_loss": -195.385,
+      "profit_loss_rate": -10.28,
+      "quantity": 1.0,
+      "symbol": "ASML",
+      "total_current_value": 1704.37,
+      "total_purchase_amount": 1899.755
+    },
+    {
+      "average_purchase_price": 514.0,
+      "exchange_rate": 1418.8,
+      "name": "\ub9b0\ub370",
+      "portfolio_weight_percent": 16.02,
+      "profit_loss": -23.89,
+      "profit_loss_rate": -4.65,
+      "quantity": 1.0,
+      "symbol": "LIN",
+      "total_current_value": 490.11,
+      "total_purchase_amount": 514.0
     }
   ],
   "snapshot_note": "Last account balance snapshot. Not real-time market data. Cash may include estimated unsettled sell proceeds.",
-  "updated_at": "2026-08-06T19:36:44.480623+00:00"
+  "updated_at": "2026-08-07T00:08:07.215298+00:00"
 }
