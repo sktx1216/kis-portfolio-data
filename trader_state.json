@@ -327,20 +327,5 @@
       ]
     }
   },
-  "positions": {
-    "ADBE": {
-      "already_half_sold": true,
-      "avg_price": 252.68,
-      "drawdown_from_peak_percent": 0.0,
-      "entry_date": "2026-08-04",
-      "holding_days": 3,
-      "market_value": 262.94,
-      "partial_take_profit_done": true,
-      "peak_price": 263.44,
-      "peak_profit_percent": 4.06,
-      "profit_rate": 4.06,
-      "purchase_amount": 252.68,
-      "qty": 1.0
-    }
-  }
+  "positions": {}
 }
