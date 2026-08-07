@@ -1,29 +1,29 @@
 {
   "account": {
-    "cash_asset_usd": 632.33,
-    "settled_cash_asset_usd": 408.31,
-    "stock_asset_usd": 257.785,
-    "total_asset_usd": 890.12,
-    "unsettled_sell_proceeds_usd": 224.02
+    "cash_asset_usd": 733.84,
+    "settled_cash_asset_usd": 667.82,
+    "stock_asset_usd": 260.24,
+    "total_asset_usd": 994.08,
+    "unsettled_sell_proceeds_usd": 66.02
   },
   "currency": "USD",
   "data_type": "portfolio_snapshot",
-  "exchange_rate_usd_krw": 1424.8,
+  "exchange_rate_usd_krw": 1418.8,
   "is_realtime": false,
   "positions": [
     {
       "average_purchase_price": 252.68,
-      "exchange_rate": 1424.8,
+      "exchange_rate": 1418.8,
       "name": "\uc5b4\ub3c4\ube44",
-      "portfolio_weight_percent": 28.96,
-      "profit_loss": 5.105,
-      "profit_loss_rate": 2.02,
-      "quantity": 2.0,
+      "portfolio_weight_percent": 26.18,
+      "profit_loss": 7.56,
+      "profit_loss_rate": 2.99,
+      "quantity": 1.0,
       "symbol": "ADBE",
-      "total_current_value": 257.785,
+      "total_current_value": 260.24,
       "total_purchase_amount": 252.68
     }
   ],
   "snapshot_note": "Last account balance snapshot. Not real-time market data. Cash may include estimated unsettled sell proceeds.",
-  "updated_at": "2026-08-06T19:36:44.480623+00:00"
+  "updated_at": "2026-08-07T01:25:01.350058+00:00"
 }
