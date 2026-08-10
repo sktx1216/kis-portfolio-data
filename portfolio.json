@@ -1,27 +1,27 @@
 {
   "account": {
-    "cash_asset_usd": 264.43,
-    "stock_asset_usd": 650.44,
-    "total_asset_usd": 914.8700000000001
+    "cash_asset_usd": 267.2,
+    "stock_asset_usd": 666.43,
+    "total_asset_usd": 933.6299999999999
   },
   "currency": "USD",
   "data_type": "portfolio_snapshot",
-  "exchange_rate_usd_krw": 1418.8,
+  "exchange_rate_usd_krw": 1420.1,
   "is_realtime": false,
   "positions": [
     {
       "average_purchase_price": 330.745,
-      "exchange_rate": 1418.8,
+      "exchange_rate": 1420.1,
       "name": "\uc778\ud29c\uc774\ud2b8",
-      "portfolio_weight_percent": 71.1,
-      "profit_loss": -11.05,
-      "profit_loss_rate": -1.67,
+      "portfolio_weight_percent": 71.38,
+      "profit_loss": 4.94,
+      "profit_loss_rate": 0.75,
       "quantity": 2.0,
       "symbol": "INTU",
-      "total_current_value": 650.44,
+      "total_current_value": 666.43,
       "total_purchase_amount": 661.49
     }
   ],
   "snapshot_note": "Last account balance snapshot. Not real-time market data.",
-  "updated_at": "2026-08-07T20:06:44.900320+00:00"
+  "updated_at": "2026-08-10T19:36:38.628068+00:00"
 }
