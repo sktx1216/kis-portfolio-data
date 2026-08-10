@@ -353,14 +353,14 @@
     "INTU": {
       "already_half_sold": false,
       "avg_price": 330.745,
-      "drawdown_from_peak_percent": 0.03,
+      "drawdown_from_peak_percent": 0.0,
       "entry_date": "2026-08-07",
       "holding_days": 1,
-      "market_value": 660.49,
+      "market_value": 663.26,
       "partial_take_profit_done": false,
-      "peak_price": 330.35,
-      "peak_profit_percent": -0.12,
-      "profit_rate": -0.15,
+      "peak_price": 331.72,
+      "peak_profit_percent": 0.27,
+      "profit_rate": 0.27,
       "purchase_amount": 661.49,
       "qty": 2.0
     }
