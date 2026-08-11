@@ -356,11 +356,11 @@
       "drawdown_from_peak_percent": 0.0,
       "entry_date": "2026-08-07",
       "holding_days": 2,
-      "market_value": 668.4926,
+      "market_value": 668.56,
       "partial_take_profit_done": false,
-      "peak_price": 334.14,
-      "peak_profit_percent": 1.05,
-      "profit_rate": 1.05,
+      "peak_price": 334.3286,
+      "peak_profit_percent": 1.06,
+      "profit_rate": 1.06,
       "purchase_amount": 661.49,
       "qty": 2.0
     }
