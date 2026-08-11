@@ -404,16 +404,16 @@
     },
     {
       "cash_asset": 378168,
-      "cumulative_profit_loss": -169944,
-      "cumulative_profit_loss_rate": -11.33,
+      "cumulative_profit_loss": -169505,
+      "cumulative_profit_loss_rate": -11.3,
       "daily_cash_flow": 0,
-      "daily_profit_loss": 558,
-      "daily_profit_loss_rate": 0.04,
+      "daily_profit_loss": 997,
+      "daily_profit_loss_rate": 0.07,
       "date": "2026-08-12",
       "net_cash_invested": 1500000,
       "settled_cash_asset": 378168,
-      "stock_asset": 951888,
-      "total_asset": 1330056,
+      "stock_asset": 952327,
+      "total_asset": 1330495,
       "unsettled_sell_proceeds": 0
     }
   ],
@@ -421,12 +421,12 @@
     {
       "avg_purchase_price": 468103,
       "country": "US",
-      "current_price": 475944,
-      "current_value": 951888,
+      "current_price": 476164,
+      "current_value": 952327,
       "market": "US",
       "name": "\uc778\ud29c\uc774\ud2b8",
-      "profit_loss": 15682,
-      "profit_loss_rate": 1.67,
+      "profit_loss": 16120,
+      "profit_loss_rate": 1.72,
       "quantity": 2.0,
       "sector": "\uae30\ud0c0",
       "symbol": "INTU",
@@ -435,7 +435,7 @@
   ],
   "sector_allocation": [
     {
-      "current_value": 951888,
+      "current_value": 952327,
       "sector": "\uae30\ud0c0",
       "weight": 100.0
     }
@@ -446,11 +446,11 @@
     "cash_asset_includes_unsettled": true,
     "currency": "KRW",
     "settled_cash_asset": 378168,
-    "stock_asset": 951888,
-    "total_asset": 1330056,
-    "total_profit_loss": -169944,
-    "total_profit_loss_rate": -11.33,
+    "stock_asset": 952327,
+    "total_asset": 1330495,
+    "total_profit_loss": -169505,
+    "total_profit_loss_rate": -11.3,
     "unsettled_sell_proceeds": 0,
-    "updated_at": "2026-08-11T19:36:40.375759+00:00"
+    "updated_at": "2026-08-11T20:06:42.655813+00:00"
   }
 }
