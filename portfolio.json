@@ -1,8 +1,8 @@
 {
   "account": {
-    "cash_asset_usd": 267.2,
-    "stock_asset_usd": 669.58,
-    "total_asset_usd": 936.78
+    "cash_asset_usd": 47.63,
+    "stock_asset_usd": 903.2,
+    "total_asset_usd": 950.83
   },
   "currency": "USD",
   "data_type": "portfolio_snapshot",
@@ -10,18 +10,18 @@
   "is_realtime": false,
   "positions": [
     {
-      "average_purchase_price": 330.745,
+      "average_purchase_price": 223.8267,
       "exchange_rate": 1415.0,
-      "name": "\uc778\ud29c\uc774\ud2b8",
-      "portfolio_weight_percent": 71.48,
-      "profit_loss": 8.09,
-      "profit_loss_rate": 1.22,
-      "quantity": 2.0,
-      "symbol": "INTU",
-      "total_current_value": 669.58,
-      "total_purchase_amount": 661.49
+      "name": "\uc5d4\ube44\ub514\uc544",
+      "portfolio_weight_percent": 94.99,
+      "profit_loss": 7.8932,
+      "profit_loss_rate": 0.88,
+      "quantity": 4.0,
+      "symbol": "NVDA",
+      "total_current_value": 903.2,
+      "total_purchase_amount": 895.3068
     }
   ],
   "snapshot_note": "Last account balance snapshot. Not real-time market data.",
-  "updated_at": "2026-08-12T20:06:47.848673+00:00"
+  "updated_at": "2026-08-13T19:36:41.488640+00:00"
 }

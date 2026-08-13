@@ -429,42 +429,56 @@
       "stock_asset": 947456,
       "total_asset": 1325544,
       "unsettled_sell_proceeds": 0
+    },
+    {
+      "cash_asset": 67396,
+      "cumulative_profit_loss": -154576,
+      "cumulative_profit_loss_rate": -10.31,
+      "daily_cash_flow": 0,
+      "daily_profit_loss": 19880,
+      "daily_profit_loss_rate": 1.5,
+      "date": "2026-08-14",
+      "net_cash_invested": 1500000,
+      "settled_cash_asset": 67396,
+      "stock_asset": 1278028,
+      "total_asset": 1345424,
+      "unsettled_sell_proceeds": 0
     }
   ],
   "portfolio_allocation": [
     {
-      "avg_purchase_price": 468004,
+      "avg_purchase_price": 316715,
       "country": "US",
-      "current_price": 473728,
-      "current_value": 947456,
+      "current_price": 319507,
+      "current_value": 1278028,
       "market": "US",
-      "name": "\uc778\ud29c\uc774\ud2b8",
-      "profit_loss": 11447,
-      "profit_loss_rate": 1.22,
-      "quantity": 2.0,
-      "sector": "\uae30\ud0c0",
-      "symbol": "INTU",
+      "name": "\uc5d4\ube44\ub514\uc544",
+      "profit_loss": 11169,
+      "profit_loss_rate": 0.88,
+      "quantity": 4.0,
+      "sector": "\ubc18\ub3c4\uccb4",
+      "symbol": "NVDA",
       "weight": 100.0
     }
   ],
   "sector_allocation": [
     {
-      "current_value": 947456,
-      "sector": "\uae30\ud0c0",
+      "current_value": 1278028,
+      "sector": "\ubc18\ub3c4\uccb4",
       "weight": 100.0
     }
   ],
   "summary": {
-    "cash_asset": 378088,
+    "cash_asset": 67396,
     "cash_asset_basis": "settled_plus_unsettled",
     "cash_asset_includes_unsettled": true,
     "currency": "KRW",
-    "settled_cash_asset": 378088,
-    "stock_asset": 947456,
-    "total_asset": 1325544,
-    "total_profit_loss": -174456,
-    "total_profit_loss_rate": -11.63,
+    "settled_cash_asset": 67396,
+    "stock_asset": 1278028,
+    "total_asset": 1345424,
+    "total_profit_loss": -154576,
+    "total_profit_loss_rate": -10.31,
     "unsettled_sell_proceeds": 0,
-    "updated_at": "2026-08-12T20:06:47.848673+00:00"
+    "updated_at": "2026-08-13T19:36:41.488640+00:00"
   }
 }
