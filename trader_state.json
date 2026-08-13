@@ -410,14 +410,14 @@
     "NVDA": {
       "already_half_sold": false,
       "avg_price": 223.8267,
-      "drawdown_from_peak_percent": 0.09,
+      "drawdown_from_peak_percent": 0.13,
       "entry_date": "2026-08-13",
       "holding_days": 0,
-      "market_value": 901.18,
+      "market_value": 900.8796,
       "partial_take_profit_done": false,
       "peak_price": 225.51,
       "peak_profit_percent": 0.75,
-      "profit_rate": 0.66,
+      "profit_rate": 0.62,
       "purchase_amount": 895.3068,
       "qty": 4.0
     }
