@@ -20,6 +20,11 @@
       "date": "2026-07-16",
       "reason": "EARLY_DRAWDOWN"
     },
+    "INTU": {
+      "action": "SELL_ATTEMPT",
+      "date": "2026-08-13",
+      "reason": "PARTIAL_TAKE_PROFIT"
+    },
     "LIN": {
       "action": "SELL_ATTEMPT",
       "date": "2026-07-14",
@@ -347,20 +352,40 @@
       "sells": [
         "ADBE"
       ]
+    },
+    "2026-08-13": {
+      "buy_attempts": [],
+      "buys": [],
+      "orders": [
+        {
+          "action": "SELL_ATTEMPT",
+          "amount": 339.68,
+          "order_no": "0031007700",
+          "org_no": "01790",
+          "price": 339.68,
+          "qty": 1,
+          "symbol": "INTU",
+          "timestamp": "2026-08-13T13:36:41.105827+00:00"
+        }
+      ],
+      "pending_buys": [],
+      "sells": [
+        "INTU"
+      ]
     }
   },
   "positions": {
     "INTU": {
       "already_half_sold": false,
       "avg_price": 330.745,
-      "drawdown_from_peak_percent": 1.37,
+      "drawdown_from_peak_percent": 0.0,
       "entry_date": "2026-08-07",
-      "holding_days": 3,
-      "market_value": 663.5,
+      "holding_days": 4,
+      "market_value": 680.16,
       "partial_take_profit_done": false,
-      "peak_price": 336.275,
-      "peak_profit_percent": 1.67,
-      "profit_rate": 0.3,
+      "peak_price": 340.02,
+      "peak_profit_percent": 2.82,
+      "profit_rate": 2.82,
       "purchase_amount": 661.49,
       "qty": 2.0
     }
