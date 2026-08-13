@@ -354,7 +354,9 @@
       ]
     },
     "2026-08-13": {
-      "buy_attempts": [],
+      "buy_attempts": [
+        "NVDA"
+      ],
       "buys": [],
       "orders": [
         {
@@ -376,28 +378,33 @@
           "qty": 1,
           "symbol": "INTU",
           "timestamp": "2026-08-13T14:06:47.807071+00:00"
+        },
+        {
+          "action": "BUY_ATTEMPT",
+          "amount": 896.04,
+          "price": 224.01,
+          "qty": 4,
+          "symbol": "NVDA",
+          "timestamp": "2026-08-13T15:36:53.163160+00:00"
+        },
+        {
+          "action": "BUY_SUBMITTED_NOT_CONFIRMED",
+          "amount": 896.04,
+          "order_no": "0031097647",
+          "org_no": "01790",
+          "price": 224.01,
+          "qty": 4,
+          "symbol": "NVDA",
+          "timestamp": "2026-08-13T15:37:41.647203+00:00"
         }
       ],
-      "pending_buys": [],
+      "pending_buys": [
+        "NVDA"
+      ],
       "sells": [
         "INTU"
       ]
     }
   },
-  "positions": {
-    "INTU": {
-      "already_half_sold": true,
-      "avg_price": 330.745,
-      "drawdown_from_peak_percent": 0.0,
-      "entry_date": "2026-08-07",
-      "holding_days": 4,
-      "market_value": 344.5525,
-      "partial_take_profit_done": true,
-      "peak_price": 344.5525,
-      "peak_profit_percent": 4.17,
-      "profit_rate": 4.17,
-      "purchase_amount": 330.745,
-      "qty": 2.0
-    }
-  }
+  "positions": {}
 }
