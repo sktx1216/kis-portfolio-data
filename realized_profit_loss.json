@@ -3,7 +3,7 @@
   "by_exchange": [
     {
       "exchange": "NASD",
-      "profit_loss": -27,
+      "profit_loss": -27.31,
       "raw_sections": {
         "output1": 7,
         "output2": 1
@@ -11,43 +11,43 @@
       "rows": [
         {
           "name": "\uc778\ud29c\uc774\ud2b8",
-          "profit_loss": 21,
+          "profit_loss": 21.21,
           "quantity": null,
           "symbol": "INTU"
         },
         {
           "name": "\uc5b4\ub3c4\ube44",
-          "profit_loss": 10,
+          "profit_loss": 9.84,
           "quantity": null,
           "symbol": "ADBE"
         },
         {
           "name": "\uc5b4\ub3c4\ube44",
-          "profit_loss": 7,
+          "profit_loss": 6.83,
           "quantity": null,
           "symbol": "ADBE"
         },
         {
           "name": "\uc560\ud50c",
-          "profit_loss": -42,
+          "profit_loss": -41.75,
           "quantity": null,
           "symbol": "AAPL"
         },
         {
           "name": "\uc2dc\uc2a4\ucf54 \uc2dc\uc2a4\ud15c\uc988",
-          "profit_loss": -14,
+          "profit_loss": -14.39,
           "quantity": null,
           "symbol": "CSCO"
         },
         {
           "name": "\ub9b0\ub370",
-          "profit_loss": 2,
+          "profit_loss": 1.76,
           "quantity": null,
           "symbol": "LIN"
         },
         {
           "name": "\ubd80\ud0b9 \ud640\ub529\uc2a4",
-          "profit_loss": -11,
+          "profit_loss": -10.81,
           "quantity": null,
           "symbol": "BKNG"
         }
@@ -56,7 +56,7 @@
     },
     {
       "exchange": "NYSE",
-      "profit_loss": 0,
+      "profit_loss": 0.0,
       "raw_sections": {
         "output1": 0,
         "output2": 1
@@ -66,7 +66,7 @@
     },
     {
       "exchange": "AMEX",
-      "profit_loss": 0,
+      "profit_loss": 0.0,
       "raw_sections": {
         "output1": 0,
         "output2": 1
@@ -87,10 +87,10 @@
       },
       "status": "ok",
       "summary": {
-        "profit_loss": -27,
+        "profit_loss": -27.31,
         "trade_count": 7
       },
-      "updated_at": "2026-08-14T10:59:23.989161+09:00"
+      "updated_at": "2026-08-14T11:02:40.395086+09:00"
     }
   ],
   "period": {
@@ -99,8 +99,8 @@
   },
   "status": "ok",
   "summary": {
-    "profit_loss": -27,
+    "profit_loss": -27.31,
     "trade_count": 7
   },
-  "updated_at": "2026-08-14T10:59:23.989161+09:00"
+  "updated_at": "2026-08-14T11:02:40.395086+09:00"
 }
