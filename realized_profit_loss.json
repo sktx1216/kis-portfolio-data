@@ -1,0 +1,163 @@
+{
+  "basis": "kis_overseas_period_profit",
+  "by_exchange": [
+    {
+      "buy_amount": 0,
+      "exchange": "NASD",
+      "fee": 0,
+      "profit_loss": 0,
+      "raw_sections": {
+        "output1": 7,
+        "output2": 1
+      },
+      "rows": [
+        {
+          "buy_amount": 0,
+          "fee": 0,
+          "name": "\uc778\ud29c\uc774\ud2b8",
+          "profit_loss": 21,
+          "profit_loss_rate": 0,
+          "quantity": null,
+          "sell_amount": 0,
+          "symbol": "INTU",
+          "tax": 0
+        },
+        {
+          "buy_amount": 0,
+          "fee": 0,
+          "name": "\uc5b4\ub3c4\ube44",
+          "profit_loss": 10,
+          "profit_loss_rate": 0,
+          "quantity": null,
+          "sell_amount": 0,
+          "symbol": "ADBE",
+          "tax": 0
+        },
+        {
+          "buy_amount": 0,
+          "fee": 0,
+          "name": "\uc5b4\ub3c4\ube44",
+          "profit_loss": 7,
+          "profit_loss_rate": 0,
+          "quantity": null,
+          "sell_amount": 0,
+          "symbol": "ADBE",
+          "tax": 0
+        },
+        {
+          "buy_amount": 0,
+          "fee": 0,
+          "name": "\uc560\ud50c",
+          "profit_loss": -42,
+          "profit_loss_rate": 0,
+          "quantity": null,
+          "sell_amount": 0,
+          "symbol": "AAPL",
+          "tax": 0
+        },
+        {
+          "buy_amount": 0,
+          "fee": 0,
+          "name": "\uc2dc\uc2a4\ucf54 \uc2dc\uc2a4\ud15c\uc988",
+          "profit_loss": -14,
+          "profit_loss_rate": 0,
+          "quantity": null,
+          "sell_amount": 0,
+          "symbol": "CSCO",
+          "tax": 0
+        },
+        {
+          "buy_amount": 0,
+          "fee": 0,
+          "name": "\ub9b0\ub370",
+          "profit_loss": 2,
+          "profit_loss_rate": 0,
+          "quantity": null,
+          "sell_amount": 0,
+          "symbol": "LIN",
+          "tax": 0
+        },
+        {
+          "buy_amount": 0,
+          "fee": 0,
+          "name": "\ubd80\ud0b9 \ud640\ub529\uc2a4",
+          "profit_loss": -11,
+          "profit_loss_rate": 0,
+          "quantity": null,
+          "sell_amount": 0,
+          "symbol": "BKNG",
+          "tax": 0
+        }
+      ],
+      "sell_amount": 0,
+      "tax": 0,
+      "trade_count": 7
+    },
+    {
+      "buy_amount": 0,
+      "exchange": "NYSE",
+      "fee": 0,
+      "profit_loss": 0,
+      "raw_sections": {
+        "output1": 0,
+        "output2": 1
+      },
+      "rows": [],
+      "sell_amount": 0,
+      "tax": 0,
+      "trade_count": 0
+    },
+    {
+      "buy_amount": 0,
+      "exchange": "AMEX",
+      "fee": 0,
+      "profit_loss": 0,
+      "raw_sections": {
+        "output1": 0,
+        "output2": 1
+      },
+      "rows": [],
+      "sell_amount": 0,
+      "tax": 0,
+      "trade_count": 0
+    }
+  ],
+  "currency": "KRW",
+  "currency_basis_code": "01",
+  "errors": [],
+  "history": [
+    {
+      "currency": "KRW",
+      "period": {
+        "end": "2026-08-14",
+        "start": "2026-06-28"
+      },
+      "status": "ok",
+      "summary": {
+        "buy_amount": 0,
+        "fee": 0,
+        "profit_loss": 0,
+        "profit_loss_rate": 0.0,
+        "sell_amount": 0,
+        "tax": 0,
+        "trade_count": 7
+      },
+      "updated_at": "2026-08-14T09:52:54.434271+09:00"
+    }
+  ],
+  "period": {
+    "end": "2026-08-14",
+    "start": "2026-06-28"
+  },
+  "status": "ok",
+  "summary": {
+    "buy_amount": 0,
+    "fee": 0,
+    "profit_loss": 0,
+    "profit_loss_rate": 0.0,
+    "sell_amount": 0,
+    "tax": 0,
+    "trade_count": 7
+  },
+  "updated_at": "2026-08-14T09:52:54.434271+09:00"
+}

@@ -431,30 +431,30 @@
       "unsettled_sell_proceeds": 0
     },
     {
-      "cash_asset": 67396,
-      "cumulative_profit_loss": -157180,
-      "cumulative_profit_loss_rate": -10.48,
+      "cash_asset": 74084,
+      "cumulative_profit_loss": -150808,
+      "cumulative_profit_loss_rate": -10.05,
       "daily_cash_flow": 0,
-      "daily_profit_loss": 17276,
-      "daily_profit_loss_rate": 1.3,
+      "daily_profit_loss": 23648,
+      "daily_profit_loss_rate": 1.78,
       "date": "2026-08-14",
       "net_cash_invested": 1500000,
-      "settled_cash_asset": 67396,
-      "stock_asset": 1275424,
-      "total_asset": 1342820,
+      "settled_cash_asset": 74084,
+      "stock_asset": 1275108,
+      "total_asset": 1349192,
       "unsettled_sell_proceeds": 0
     }
   ],
   "portfolio_allocation": [
     {
-      "avg_purchase_price": 316715,
+      "avg_purchase_price": 316692,
       "country": "US",
-      "current_price": 318856,
-      "current_value": 1275424,
+      "current_price": 318777,
+      "current_value": 1275108,
       "market": "US",
       "name": "\uc5d4\ube44\ub514\uc544",
-      "profit_loss": 8565,
-      "profit_loss_rate": 0.68,
+      "profit_loss": 8338,
+      "profit_loss_rate": 0.66,
       "quantity": 4.0,
       "sector": "\ubc18\ub3c4\uccb4",
       "symbol": "NVDA",
@@ -463,22 +463,22 @@
   ],
   "sector_allocation": [
     {
-      "current_value": 1275424,
+      "current_value": 1275108,
       "sector": "\ubc18\ub3c4\uccb4",
       "weight": 100.0
     }
   ],
   "summary": {
-    "cash_asset": 67396,
+    "cash_asset": 74084,
     "cash_asset_basis": "settled_plus_unsettled",
     "cash_asset_includes_unsettled": true,
     "currency": "KRW",
-    "settled_cash_asset": 67396,
-    "stock_asset": 1275424,
-    "total_asset": 1342820,
-    "total_profit_loss": -157180,
-    "total_profit_loss_rate": -10.48,
+    "settled_cash_asset": 74084,
+    "stock_asset": 1275108,
+    "total_asset": 1349192,
+    "total_profit_loss": -150808,
+    "total_profit_loss_rate": -10.05,
     "unsettled_sell_proceeds": 0,
-    "updated_at": "2026-08-13T20:06:35.949561+00:00"
+    "updated_at": "2026-08-14T00:52:54.434231+00:00"
   }
 }
