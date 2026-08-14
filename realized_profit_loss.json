@@ -122,12 +122,12 @@
       "trade_count": 0
     }
   ],
-  "currency": "KRW",
+  "currency": "USD",
   "currency_basis_code": "01",
   "errors": [],
   "history": [
     {
-      "currency": "KRW",
+      "currency": "USD",
       "period": {
         "end": "2026-08-13",
         "start": "2026-06-28"
@@ -142,25 +142,7 @@
         "tax": 0,
         "trade_count": 7
       },
-      "updated_at": "2026-08-14T09:55:14.855011+09:00"
-    },
-    {
-      "currency": "KRW",
-      "period": {
-        "end": "2026-08-14",
-        "start": "2026-06-28"
-      },
-      "status": "ok",
-      "summary": {
-        "buy_amount": 0,
-        "fee": 0,
-        "profit_loss": 0,
-        "profit_loss_rate": 0.0,
-        "sell_amount": 0,
-        "tax": 0,
-        "trade_count": 7
-      },
-      "updated_at": "2026-08-14T09:52:54.434271+09:00"
+      "updated_at": "2026-08-14T09:56:57.273314+09:00"
     }
   ],
   "period": {
@@ -177,5 +159,5 @@
     "tax": 0,
     "trade_count": 7
   },
-  "updated_at": "2026-08-14T09:55:14.855011+09:00"
+  "updated_at": "2026-08-14T09:56:57.273314+09:00"
 }
