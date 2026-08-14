@@ -98,10 +98,23 @@
         "trade_count": 7
       },
       "updated_at": "2026-08-14T11:32:21.455022+09:00"
+    },
+    {
+      "currency": "USD",
+      "period": {
+        "end": "2026-08-14",
+        "start": "2026-06-28"
+      },
+      "status": "ok",
+      "summary": {
+        "profit_loss": -27.31,
+        "trade_count": 7
+      },
+      "updated_at": "2026-08-15T05:06:37.308744+09:00"
     }
   ],
   "period": {
-    "end": "2026-08-13",
+    "end": "2026-08-14",
     "start": "2026-06-28"
   },
   "status": "ok",
@@ -109,5 +122,5 @@
     "profit_loss": -27.31,
     "trade_count": 7
   },
-  "updated_at": "2026-08-14T11:32:21.455022+09:00"
+  "updated_at": "2026-08-15T05:06:37.308744+09:00"
 }
