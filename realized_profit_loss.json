@@ -13,43 +13,50 @@
           "name": "\uc778\ud29c\uc774\ud2b8",
           "profit_loss": 21.21,
           "quantity": 2.0,
-          "symbol": "INTU"
+          "symbol": "INTU",
+          "trade_date": "2026-08-13"
         },
         {
           "name": "\uc5b4\ub3c4\ube44",
           "profit_loss": 9.84,
           "quantity": 1.0,
-          "symbol": "ADBE"
+          "symbol": "ADBE",
+          "trade_date": "2026-08-07"
         },
         {
           "name": "\uc5b4\ub3c4\ube44",
           "profit_loss": 6.83,
           "quantity": 1.0,
-          "symbol": "ADBE"
+          "symbol": "ADBE",
+          "trade_date": "2026-08-05"
         },
         {
           "name": "\uc560\ud50c",
           "profit_loss": -41.75,
           "quantity": 2.0,
-          "symbol": "AAPL"
+          "symbol": "AAPL",
+          "trade_date": "2026-08-04"
         },
         {
           "name": "\uc2dc\uc2a4\ucf54 \uc2dc\uc2a4\ud15c\uc988",
           "profit_loss": -14.39,
           "quantity": 2.0,
-          "symbol": "CSCO"
+          "symbol": "CSCO",
+          "trade_date": "2026-07-16"
         },
         {
           "name": "\ub9b0\ub370",
           "profit_loss": 1.76,
           "quantity": 1.0,
-          "symbol": "LIN"
+          "symbol": "LIN",
+          "trade_date": "2026-07-14"
         },
         {
           "name": "\ubd80\ud0b9 \ud640\ub529\uc2a4",
           "profit_loss": -10.81,
           "quantity": 1.0,
-          "symbol": "BKNG"
+          "symbol": "BKNG",
+          "trade_date": "2026-07-09"
         }
       ],
       "trade_count": 7
@@ -90,7 +97,7 @@
         "profit_loss": -27.31,
         "trade_count": 7
       },
-      "updated_at": "2026-08-14T11:21:10.580647+09:00"
+      "updated_at": "2026-08-14T11:32:21.455022+09:00"
     }
   ],
   "period": {
@@ -102,5 +109,5 @@
     "profit_loss": -27.31,
     "trade_count": 7
   },
-  "updated_at": "2026-08-14T11:21:10.580647+09:00"
+  "updated_at": "2026-08-14T11:32:21.455022+09:00"
 }
