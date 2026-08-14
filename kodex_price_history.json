@@ -73,9 +73,17 @@
       "date": "2026-08-13",
       "price": 10555.0,
       "time": "14:23"
+    },
+    {
+      "alert_sent": false,
+      "average_before": 10518.33,
+      "below_average": false,
+      "date": "2026-08-14",
+      "price": 10620.0,
+      "time": "15:39"
     }
   ],
   "source": "Backfilled from Naver daily close prices as approximate 14:00 samples.",
   "symbol": "483290",
-  "updated_at": "2026-08-13T14:23:56.667611+09:00"
+  "updated_at": "2026-08-14T15:39:46.551655+09:00"
 }
