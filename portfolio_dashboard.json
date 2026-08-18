@@ -471,18 +471,32 @@
       "stock_asset": 1273806,
       "total_asset": 1347890,
       "unsettled_sell_proceeds": 0
+    },
+    {
+      "cash_asset": 74100,
+      "cumulative_profit_loss": -184713,
+      "cumulative_profit_loss_rate": -12.31,
+      "daily_cash_flow": 0,
+      "daily_profit_loss": -32603,
+      "daily_profit_loss_rate": -2.42,
+      "date": "2026-08-19",
+      "net_cash_invested": 1500000,
+      "settled_cash_asset": 74100,
+      "stock_asset": 1241187,
+      "total_asset": 1315287,
+      "unsettled_sell_proceeds": 0
     }
   ],
   "portfolio_allocation": [
     {
-      "avg_purchase_price": 316692,
+      "avg_purchase_price": 316760,
       "country": "US",
-      "current_price": 318452,
-      "current_value": 1273806,
+      "current_price": 310297,
+      "current_value": 1241187,
       "market": "US",
       "name": "\uc5d4\ube44\ub514\uc544",
-      "profit_loss": 7037,
-      "profit_loss_rate": 0.56,
+      "profit_loss": -25851,
+      "profit_loss_rate": -2.04,
       "quantity": 4.0,
       "sector": "\ubc18\ub3c4\uccb4",
       "symbol": "NVDA",
@@ -491,22 +505,22 @@
   ],
   "sector_allocation": [
     {
-      "current_value": 1273806,
+      "current_value": 1241187,
       "sector": "\ubc18\ub3c4\uccb4",
       "weight": 100.0
     }
   ],
   "summary": {
-    "cash_asset": 74084,
+    "cash_asset": 74100,
     "cash_asset_basis": "settled_plus_unsettled",
     "cash_asset_includes_unsettled": true,
     "currency": "KRW",
-    "settled_cash_asset": 74084,
-    "stock_asset": 1273806,
-    "total_asset": 1347890,
-    "total_profit_loss": -152110,
-    "total_profit_loss_rate": -10.14,
+    "settled_cash_asset": 74100,
+    "stock_asset": 1241187,
+    "total_asset": 1315287,
+    "total_profit_loss": -184713,
+    "total_profit_loss_rate": -12.31,
     "unsettled_sell_proceeds": 0,
-    "updated_at": "2026-08-17T20:06:37.566633+00:00"
+    "updated_at": "2026-08-18T19:36:39.847637+00:00"
   }
 }
