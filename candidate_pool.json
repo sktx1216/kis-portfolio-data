@@ -4,160 +4,28 @@
       "asset_type": "STOCK",
       "exchange": "NASD",
       "metrics": {
-        "avg_trade_value_20": 24521182646.46675,
-        "avg_volume_20": 116902326.1,
-        "current_price": 226.8061,
+        "avg_trade_value_20": 1043707097.9194651,
+        "avg_volume_20": 2631950.0,
+        "current_price": 423.3701,
         "cyclical_travel_risk_penalty": 0,
         "cyclical_travel_risk_tier": "none",
-        "distance_from_ma60": 8.86574789529282,
-        "gap_percent": 0.381950612897497,
+        "distance_from_ma60": 15.286611597340594,
+        "gap_percent": 0.5388907434784596,
         "has_52w_high_data": false,
         "high_52w": null,
-        "intraday_range_percent": 0.973203572856951,
-        "ma20": 211.57125000000002,
-        "ma5": 223.77100000000002,
-        "ma60": 208.33559166666666,
+        "intraday_range_percent": 1.2716295873740124,
+        "ma20": 397.969255,
+        "ma5": 418.39601999999996,
+        "ma60": 367.2326683333333,
         "position_vs_52w_high_percent": null,
-        "previous_day_return": -0.062139369729252714,
-        "previous_volume": 75680870.0,
-        "recent_20d_return": 11.573248720975982,
-        "recent_3d_return": 1.2120576554063067,
-        "recent_5d_return": 4.254700068949657,
-        "relative_strength_20_edge": 3.1816668222424793,
-        "relative_strength_60_edge": 6.304495013195233,
+        "previous_day_return": 1.004311071505981,
+        "previous_volume": 2880643.0,
+        "recent_20d_return": 15.599088029707286,
+        "recent_3d_return": 1.3234970323568795,
+        "recent_5d_return": 2.189258991069276,
+        "relative_strength_20_edge": 4.85207418519169,
+        "relative_strength_60_edge": 15.151060454123488,
         "relative_strength_positive": true,
-        "score_breakdown": {
-          "avg_trade_value_20": {
-            "points": 10,
-            "reason": "20-day average trade value >= 1,000,000,000"
-          },
-          "current_price_above_ma20": {
-            "points": 20,
-            "reason": "current price > ma20"
-          },
-          "distance_from_ma60": {
-            "points": 15,
-            "reason": "distance from ma60 <= 10%"
-          },
-          "ma_alignment": {
-            "points": 30,
-            "reason": "ma5 > ma20 > ma60"
-          },
-          "recent_5d_return": {
-            "points": 15,
-            "reason": "recent 5-day return <= 5%"
-          },
-          "relative_strength_vs_qqq": {
-            "points": 10,
-            "reason": "20/60-day relative strength vs QQQ is positive"
-          },
-          "volatility_20": {
-            "points": 10,
-            "reason": "20-day volatility <= 5%"
-          }
-        },
-        "today_return": 0.7310801208029849,
-        "volatility_20": 2.3765601306187984,
-        "volume_spike_ratio": 0.6473854928708729
-      },
-      "name": "Nvidia",
-      "rank": 1,
-      "reason": "passed",
-      "score": 110,
-      "symbol": "NVDA"
-    },
-    {
-      "asset_type": "STOCK",
-      "exchange": "NASD",
-      "metrics": {
-        "avg_trade_value_20": 12118332194.117,
-        "avg_volume_20": 46906869.2,
-        "current_price": 261.01,
-        "cyclical_travel_risk_penalty": 0,
-        "cyclical_travel_risk_tier": "none",
-        "distance_from_ma60": 4.031359669663259,
-        "gap_percent": 1.062250142775567,
-        "has_52w_high_data": false,
-        "high_52w": null,
-        "intraday_range_percent": 2.180098431251931,
-        "ma20": 257.072,
-        "ma5": 265.674,
-        "ma60": 250.8955,
-        "position_vs_52w_high_percent": null,
-        "previous_day_return": -0.9353901859465275,
-        "previous_volume": 27251660.0,
-        "recent_20d_return": 4.408176327053082,
-        "recent_3d_return": -2.3458545345704795,
-        "recent_5d_return": -6.14189650832464,
-        "relative_strength_20_edge": -2.4872795838719597,
-        "relative_strength_60_edge": 1.4701067875656726,
-        "relative_strength_positive": false,
-        "score_breakdown": {
-          "avg_trade_value_20": {
-            "points": 10,
-            "reason": "20-day average trade value >= 1,000,000,000"
-          },
-          "current_price_above_ma20": {
-            "points": 20,
-            "reason": "current price > ma20"
-          },
-          "distance_from_ma60": {
-            "points": 15,
-            "reason": "distance from ma60 <= 10%"
-          },
-          "ma_alignment": {
-            "points": 30,
-            "reason": "ma5 > ma20 > ma60"
-          },
-          "recent_5d_return": {
-            "points": 15,
-            "reason": "recent 5-day return <= 5%"
-          },
-          "relative_strength_vs_qqq": {
-            "points": -10,
-            "reason": "20/60-day relative strength vs QQQ is not positive"
-          },
-          "volatility_20": {
-            "points": 10,
-            "reason": "20-day volatility <= 5%"
-          }
-        },
-        "today_return": -0.6244051018465591,
-        "volatility_20": 4.071238343682062,
-        "volume_spike_ratio": 0.5809737563981353
-      },
-      "name": "Amazon",
-      "rank": 2,
-      "reason": "passed",
-      "score": 90,
-      "symbol": "AMZN"
-    },
-    {
-      "asset_type": "STOCK",
-      "exchange": "NASD",
-      "metrics": {
-        "avg_trade_value_20": 1033254301.7717501,
-        "avg_volume_20": 2625539.35,
-        "current_price": 416.985,
-        "cyclical_travel_risk_penalty": 0,
-        "cyclical_travel_risk_tier": "none",
-        "distance_from_ma60": 14.005007378467171,
-        "gap_percent": -0.5370776233712959,
-        "has_52w_high_data": false,
-        "high_52w": null,
-        "intraday_range_percent": 1.800682261208597,
-        "ma20": 394.993,
-        "ma5": 416.10299999999995,
-        "ma60": 365.76025000000004,
-        "position_vs_52w_high_percent": null,
-        "previous_day_return": -0.6294275320696929,
-        "previous_volume": 2036768.0,
-        "recent_20d_return": 14.502842079248701,
-        "recent_3d_return": 0.1934259214762868,
-        "recent_5d_return": -0.05153403643335386,
-        "relative_strength_20_edge": 1.5485474620397621,
-        "relative_strength_60_edge": 11.443754496369586,
-        "relative_strength_positive": false,
         "score_breakdown": {
           "avg_trade_value_20": {
             "points": 10,
@@ -180,6 +48,72 @@
             "reason": "recent 5-day return <= 5%"
           },
           "relative_strength_vs_qqq": {
+            "points": 10,
+            "reason": "20/60-day relative strength vs QQQ is positive"
+          },
+          "volatility_20": {
+            "points": 10,
+            "reason": "20-day volatility <= 5%"
+          }
+        },
+        "today_return": 0.9514282989174561,
+        "volatility_20": 1.699784519122898,
+        "volume_spike_ratio": 1.094490016907616
+      },
+      "name": "Amgen",
+      "rank": 1,
+      "reason": "passed",
+      "score": 105,
+      "symbol": "AMGN"
+    },
+    {
+      "asset_type": "STOCK",
+      "exchange": "NASD",
+      "metrics": {
+        "avg_trade_value_20": 12298949621.0345,
+        "avg_volume_20": 47524786.1,
+        "current_price": 261.09,
+        "cyclical_travel_risk_penalty": 0,
+        "cyclical_travel_risk_tier": "none",
+        "distance_from_ma60": 4.112349409801386,
+        "gap_percent": -0.2602273162144564,
+        "has_52w_high_data": false,
+        "high_52w": null,
+        "intraday_range_percent": 1.7266131222597236,
+        "ma20": 257.7625,
+        "ma5": 263.492,
+        "ma60": 250.77716666666666,
+        "position_vs_52w_high_percent": null,
+        "previous_day_return": -0.510184656386814,
+        "previous_volume": 43896516.0,
+        "recent_20d_return": 5.469602100585735,
+        "recent_3d_return": -1.523780786783846,
+        "recent_5d_return": -4.106218092334812,
+        "relative_strength_20_edge": -0.2396236967557197,
+        "relative_strength_60_edge": 3.9767982665842805,
+        "relative_strength_positive": false,
+        "score_breakdown": {
+          "avg_trade_value_20": {
+            "points": 10,
+            "reason": "20-day average trade value >= 1,000,000,000"
+          },
+          "current_price_above_ma20": {
+            "points": 20,
+            "reason": "current price > ma20"
+          },
+          "distance_from_ma60": {
+            "points": 15,
+            "reason": "distance from ma60 <= 10%"
+          },
+          "ma_alignment": {
+            "points": 30,
+            "reason": "ma5 > ma20 > ma60"
+          },
+          "recent_5d_return": {
+            "points": 15,
+            "reason": "recent 5-day return <= 5%"
+          },
+          "relative_strength_vs_qqq": {
             "points": -10,
             "reason": "20/60-day relative strength vs QQQ is not positive"
           },
@@ -188,24 +122,24 @@
             "reason": "20-day volatility <= 5%"
           }
         },
-        "today_return": 0.42749452084487327,
-        "volatility_20": 1.70926471214009,
-        "volume_spike_ratio": 0.775752227823209
+        "today_return": -0.08419119053998392,
+        "volatility_20": 4.0572849264034065,
+        "volume_spike_ratio": 0.9236552039947004
       },
-      "name": "Amgen",
-      "rank": 3,
+      "name": "Amazon",
+      "rank": 2,
       "reason": "passed",
-      "score": 85,
-      "symbol": "AMGN"
+      "score": 90,
+      "symbol": "AMZN"
     }
   ],
   "data_type": "candidate_pool",
   "expires_at": null,
   "market": {
     "allowed": true,
-    "current_price": 734.42,
-    "ma20": 706.0440000000001,
-    "ma60": 716.0796316666667,
+    "current_price": 717.07,
+    "ma20": 706.22125,
+    "ma60": 716.0594566666666,
     "reason": "QQQ current price > QQQ ma20",
     "state": "normal",
     "symbol": "QQQ"
@@ -215,5 +149,5 @@
   "ttl_minutes": 0,
   "universe": "NASDAQ100+HELD",
   "universe_count": 101,
-  "updated_at": "2026-08-17T15:09:10.685400+00:00"
+  "updated_at": "2026-08-18T15:09:19.108280+00:00"
 }
