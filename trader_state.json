@@ -406,20 +406,5 @@
       ]
     }
   },
-  "positions": {
-    "NVDA": {
-      "already_half_sold": false,
-      "avg_price": 223.8267,
-      "drawdown_from_peak_percent": 3.49,
-      "entry_date": "2026-08-13",
-      "holding_days": 3,
-      "market_value": 879.2,
-      "partial_take_profit_done": false,
-      "peak_price": 227.6001,
-      "peak_profit_percent": 1.7,
-      "profit_rate": -1.79,
-      "purchase_amount": 895.3068,
-      "qty": 4.0
-    }
-  }
+  "positions": {}
 }
