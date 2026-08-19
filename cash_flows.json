@@ -19,5 +19,11 @@
     "date": "2026-08-07",
     "note": "",
     "type": "deposit"
+  },
+  {
+    "date": "2026-08-20",
+    "type": "deposit",
+    "amount": 4500000,
+    "currency": "KRW"
   }
 ]
