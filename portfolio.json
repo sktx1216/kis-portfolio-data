@@ -1,27 +1,14 @@
 {
   "account": {
-    "cash_asset_usd": 52.36,
-    "stock_asset_usd": 878.96,
-    "total_asset_usd": 931.32
+    "cash_asset_usd": 3244.96,
+    "stock_asset_usd": 0.0,
+    "total_asset_usd": 3244.96
   },
   "currency": "USD",
   "data_type": "portfolio_snapshot",
-  "exchange_rate_usd_krw": 1415.2,
+  "exchange_rate_usd_krw": null,
   "is_realtime": false,
-  "positions": [
-    {
-      "average_purchase_price": 223.8267,
-      "exchange_rate": 1415.2,
-      "name": "\uc5d4\ube44\ub514\uc544",
-      "portfolio_weight_percent": 94.38,
-      "profit_loss": -16.3468,
-      "profit_loss_rate": -1.82,
-      "quantity": 4.0,
-      "symbol": "NVDA",
-      "total_current_value": 878.96,
-      "total_purchase_amount": 895.3068
-    }
-  ],
+  "positions": [],
   "snapshot_note": "Last account balance snapshot. Not real-time market data.",
-  "updated_at": "2026-08-18T20:06:47.570948+00:00"
+  "updated_at": "2026-08-19T19:36:43.308289+00:00"
 }
