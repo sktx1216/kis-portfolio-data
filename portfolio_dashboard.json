@@ -488,32 +488,46 @@
     },
     {
       "cash_asset": 3245,
-      "cumulative_profit_loss": -1496755,
-      "cumulative_profit_loss_rate": -99.78,
-      "daily_cash_flow": 0,
-      "daily_profit_loss": -1314759,
-      "daily_profit_loss_rate": -99.75,
+      "cumulative_profit_loss": -5996755,
+      "cumulative_profit_loss_rate": -99.95,
+      "daily_cash_flow": 4500000,
+      "daily_profit_loss": -5814759,
+      "daily_profit_loss_rate": -441.18,
       "date": "2026-08-20",
-      "net_cash_invested": 1500000,
+      "net_cash_invested": 6000000,
       "settled_cash_asset": 3245,
       "stock_asset": 0,
       "total_asset": 3245,
+      "unsettled_sell_proceeds": 0
+    },
+    {
+      "cash_asset": 4121,
+      "cumulative_profit_loss": -5995879,
+      "cumulative_profit_loss_rate": -99.93,
+      "daily_cash_flow": 0,
+      "daily_profit_loss": 876,
+      "daily_profit_loss_rate": 27.0,
+      "date": "2026-08-21",
+      "net_cash_invested": 6000000,
+      "settled_cash_asset": 4121,
+      "stock_asset": 0,
+      "total_asset": 4121,
       "unsettled_sell_proceeds": 0
     }
   ],
   "portfolio_allocation": [],
   "sector_allocation": [],
   "summary": {
-    "cash_asset": 3245,
+    "cash_asset": 4121,
     "cash_asset_basis": "settled_plus_unsettled",
     "cash_asset_includes_unsettled": true,
     "currency": "KRW",
-    "settled_cash_asset": 3245,
+    "settled_cash_asset": 4121,
     "stock_asset": 0,
-    "total_asset": 3245,
-    "total_profit_loss": -1496755,
-    "total_profit_loss_rate": -99.78,
+    "total_asset": 4121,
+    "total_profit_loss": -5995879,
+    "total_profit_loss_rate": -99.93,
     "unsettled_sell_proceeds": 0,
-    "updated_at": "2026-08-19T20:06:37.357668+00:00"
+    "updated_at": "2026-08-20T19:36:44.066179+00:00"
   }
 }
