@@ -4,27 +4,225 @@
       "asset_type": "STOCK",
       "exchange": "NASD",
       "metrics": {
-        "avg_trade_value_20": 1184331763.403,
-        "avg_volume_20": 5859474.5,
-        "current_price": 211.56,
-        "cyclical_travel_risk_penalty": 10,
-        "cyclical_travel_risk_tier": "travel_air_lodging",
-        "distance_from_ma60": 15.197129154244738,
-        "gap_percent": -0.46948356807511304,
+        "avg_trade_value_20": 1255206020.6757,
+        "avg_volume_20": 4846977.85,
+        "current_price": 276.211,
+        "cyclical_travel_risk_penalty": 0,
+        "cyclical_travel_risk_tier": "none",
+        "distance_from_ma60": 17.059714393300318,
+        "gap_percent": 0.05510249063256367,
         "has_52w_high_data": false,
         "high_52w": null,
-        "intraday_range_percent": 1.192455698607997,
-        "ma20": 203.3885,
-        "ma5": 209.92199999999997,
-        "ma60": 183.65041000000002,
+        "intraday_range_percent": 2.552608180201532,
+        "ma20": 260.51405,
+        "ma5": 267.61620000000005,
+        "ma60": 235.95735000000002,
         "position_vs_52w_high_percent": null,
-        "previous_day_return": 2.280912364945986,
-        "previous_volume": 5144691.0,
-        "recent_20d_return": 22.409303940288126,
-        "recent_3d_return": 3.320961125219779,
-        "recent_5d_return": -0.8343489265960402,
-        "relative_strength_20_edge": 3.3119239169834724,
-        "relative_strength_60_edge": 15.610693541592081,
+        "previous_day_return": -0.0917532205380378,
+        "previous_volume": 2631358.0,
+        "recent_20d_return": 22.700457554084675,
+        "recent_3d_return": 4.967317777608882,
+        "recent_5d_return": 4.617453223240675,
+        "relative_strength_20_edge": 5.554393899331478,
+        "relative_strength_60_edge": 17.47856005966981,
+        "relative_strength_positive": true,
+        "score_breakdown": {
+          "avg_trade_value_20": {
+            "points": 10,
+            "reason": "20-day average trade value >= 1,000,000,000"
+          },
+          "current_price_above_ma20": {
+            "points": 20,
+            "reason": "current price > ma20"
+          },
+          "distance_from_ma60": {
+            "points": 10,
+            "reason": "distance from ma60 <= 20%"
+          },
+          "ma_alignment": {
+            "points": 30,
+            "reason": "ma5 > ma20 > ma60"
+          },
+          "recent_5d_return": {
+            "points": 15,
+            "reason": "recent 5-day return <= 5%"
+          },
+          "relative_strength_vs_qqq": {
+            "points": 10,
+            "reason": "20/60-day relative strength vs QQQ is positive"
+          },
+          "volatility_20": {
+            "points": 10,
+            "reason": "20-day volatility <= 5%"
+          }
+        },
+        "today_return": 1.4660936007640846,
+        "volatility_20": 3.0806409081007815,
+        "volume_spike_ratio": 0.5428863265797677
+      },
+      "name": "Adobe Inc.",
+      "rank": 1,
+      "reason": "passed",
+      "score": 105,
+      "symbol": "ADBE"
+    },
+    {
+      "asset_type": "STOCK",
+      "exchange": "NASD",
+      "metrics": {
+        "avg_trade_value_20": 1085209984.50612,
+        "avg_volume_20": 2691620.15,
+        "current_price": 439.38,
+        "cyclical_travel_risk_penalty": 0,
+        "cyclical_travel_risk_tier": "none",
+        "distance_from_ma60": 18.68293651913411,
+        "gap_percent": 0.1159527840263408,
+        "has_52w_high_data": false,
+        "high_52w": null,
+        "intraday_range_percent": 2.5455307652894943,
+        "ma20": 405.91498,
+        "ma5": 430.02648,
+        "ma60": 370.2132866666667,
+        "position_vs_52w_high_percent": null,
+        "previous_day_return": -1.950908831694409,
+        "previous_volume": 2914326.0,
+        "recent_20d_return": 17.526785771603535,
+        "recent_3d_return": 3.919239202751301,
+        "recent_5d_return": 6.439572323094911,
+        "relative_strength_20_edge": 7.773360502493798,
+        "relative_strength_60_edge": 19.101782185503602,
+        "relative_strength_positive": true,
+        "score_breakdown": {
+          "avg_trade_value_20": {
+            "points": 10,
+            "reason": "20-day average trade value >= 1,000,000,000"
+          },
+          "current_price_above_ma20": {
+            "points": 20,
+            "reason": "current price > ma20"
+          },
+          "distance_from_ma60": {
+            "points": 10,
+            "reason": "distance from ma60 <= 20%"
+          },
+          "ma_alignment": {
+            "points": 30,
+            "reason": "ma5 > ma20 > ma60"
+          },
+          "recent_5d_return": {
+            "points": 10,
+            "reason": "recent 5-day return <= 10%"
+          },
+          "relative_strength_vs_qqq": {
+            "points": 10,
+            "reason": "20/60-day relative strength vs QQQ is positive"
+          },
+          "volatility_20": {
+            "points": 10,
+            "reason": "20-day volatility <= 5%"
+          }
+        },
+        "today_return": 1.8946684909904699,
+        "volatility_20": 1.9609689924960272,
+        "volume_spike_ratio": 1.0827404453782232
+      },
+      "name": "Amgen",
+      "rank": 2,
+      "reason": "passed",
+      "score": 100,
+      "symbol": "AMGN"
+    },
+    {
+      "asset_type": "STOCK",
+      "exchange": "NASD",
+      "metrics": {
+        "avg_trade_value_20": 1193994157.02,
+        "avg_volume_20": 3591354.75,
+        "current_price": 369.43,
+        "cyclical_travel_risk_penalty": 0,
+        "cyclical_travel_risk_tier": "none",
+        "distance_from_ma60": 22.817529132925962,
+        "gap_percent": 0.829026998645932,
+        "has_52w_high_data": false,
+        "high_52w": null,
+        "intraday_range_percent": 3.229927514094477,
+        "ma20": 334.4,
+        "ma5": 355.956,
+        "ma60": 300.79582500000004,
+        "position_vs_52w_high_percent": null,
+        "previous_day_return": -0.16553094049163164,
+        "previous_volume": 3288867.0,
+        "recent_20d_return": 24.668443964499055,
+        "recent_3d_return": 5.427927285180223,
+        "recent_5d_return": 6.87669964705202,
+        "relative_strength_20_edge": 10.004496769486915,
+        "relative_strength_60_edge": 23.236374799295454,
+        "relative_strength_positive": true,
+        "score_breakdown": {
+          "avg_trade_value_20": {
+            "points": 10,
+            "reason": "20-day average trade value >= 1,000,000,000"
+          },
+          "current_price_above_ma20": {
+            "points": 20,
+            "reason": "current price > ma20"
+          },
+          "distance_from_ma60": {
+            "points": 5,
+            "reason": "distance from ma60 <= 25%"
+          },
+          "ma_alignment": {
+            "points": 30,
+            "reason": "ma5 > ma20 > ma60"
+          },
+          "recent_5d_return": {
+            "points": 10,
+            "reason": "recent 5-day return <= 10%"
+          },
+          "relative_strength_vs_qqq": {
+            "points": 10,
+            "reason": "20/60-day relative strength vs QQQ is positive"
+          },
+          "volatility_20": {
+            "points": 10,
+            "reason": "20-day volatility <= 5%"
+          }
+        },
+        "today_return": 2.089148036587729,
+        "volatility_20": 3.0823593150557396,
+        "volume_spike_ratio": 0.9157733582292309
+      },
+      "name": "Intuit",
+      "rank": 3,
+      "reason": "passed",
+      "score": 95,
+      "symbol": "INTU"
+    },
+    {
+      "asset_type": "STOCK",
+      "exchange": "NASD",
+      "metrics": {
+        "avg_trade_value_20": 1184612808.4959998,
+        "avg_volume_20": 5822107.0,
+        "current_price": 210.84,
+        "cyclical_travel_risk_penalty": 10,
+        "cyclical_travel_risk_tier": "travel_air_lodging",
+        "distance_from_ma60": 14.377193514549846,
+        "gap_percent": 0.19535903178158343,
+        "has_52w_high_data": false,
+        "high_52w": null,
+        "intraday_range_percent": 2.588588879732412,
+        "ma20": 204.974,
+        "ma5": 209.344,
+        "ma60": 184.33744833333333,
+        "position_vs_52w_high_percent": null,
+        "previous_day_return": -1.469483568075114,
+        "previous_volume": 3852890.0,
+        "recent_20d_return": 18.80987264735714,
+        "recent_3d_return": 1.243697478991601,
+        "recent_5d_return": -0.5753088748467361,
+        "relative_strength_20_edge": 2.390844678567028,
+        "relative_strength_60_edge": 14.79603918091934,
         "relative_strength_positive": true,
         "score_breakdown": {
           "avg_trade_value_20": {
@@ -60,12 +258,12 @@
             "reason": "20-day volatility <= 5%"
           }
         },
-        "today_return": -0.6760563380281637,
-        "volatility_20": 2.798085109862119,
-        "volume_spike_ratio": 0.8780123541795429
+        "today_return": 0.46219088006860254,
+        "volatility_20": 2.6375133786923874,
+        "volume_spike_ratio": 0.6617690124898082
       },
       "name": "Booking Holdings",
-      "rank": 1,
+      "rank": 4,
       "reason": "passed",
       "score": 95,
       "symbol": "BKNG"
@@ -75,9 +273,9 @@
   "expires_at": null,
   "market": {
     "allowed": true,
-    "current_price": 712.82,
-    "ma20": 707.822,
-    "ma60": 715.7777016666666,
+    "current_price": 712.46,
+    "ma20": 709.141,
+    "ma60": 715.47705,
     "reason": "QQQ current price > QQQ ma20",
     "state": "normal",
     "symbol": "QQQ"
@@ -87,5 +285,5 @@
   "ttl_minutes": 0,
   "universe": "NASDAQ100+HELD",
   "universe_count": 101,
-  "updated_at": "2026-08-20T15:09:13.536406+00:00"
+  "updated_at": "2026-08-21T15:08:27.486312+00:00"
 }
