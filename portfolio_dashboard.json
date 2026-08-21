@@ -513,6 +513,20 @@
       "stock_asset": 0,
       "total_asset": 4121,
       "unsettled_sell_proceeds": 0
+    },
+    {
+      "cash_asset": 4121,
+      "cumulative_profit_loss": -5995879,
+      "cumulative_profit_loss_rate": -99.93,
+      "daily_cash_flow": 0,
+      "daily_profit_loss": 0,
+      "daily_profit_loss_rate": 0.0,
+      "date": "2026-08-22",
+      "net_cash_invested": 6000000,
+      "settled_cash_asset": 4121,
+      "stock_asset": 0,
+      "total_asset": 4121,
+      "unsettled_sell_proceeds": 0
     }
   ],
   "portfolio_allocation": [],
@@ -528,6 +542,6 @@
     "total_profit_loss": -5995879,
     "total_profit_loss_rate": -99.93,
     "unsettled_sell_proceeds": 0,
-    "updated_at": "2026-08-20T20:06:39.284730+00:00"
+    "updated_at": "2026-08-21T19:36:44.748455+00:00"
   }
 }
