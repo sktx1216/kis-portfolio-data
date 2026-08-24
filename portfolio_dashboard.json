@@ -527,21 +527,84 @@
       "stock_asset": 0,
       "total_asset": 4121,
       "unsettled_sell_proceeds": 0
+    },
+    {
+      "cash_asset": 4283944,
+      "cumulative_profit_loss": -301360,
+      "cumulative_profit_loss_rate": -5.02,
+      "daily_cash_flow": 0,
+      "daily_profit_loss": 5694519,
+      "daily_profit_loss_rate": 138182.94,
+      "date": "2026-08-25",
+      "net_cash_invested": 6000000,
+      "settled_cash_asset": 4283944,
+      "stock_asset": 1414696,
+      "total_asset": 5698640,
+      "unsettled_sell_proceeds": 0
     }
   ],
-  "portfolio_allocation": [],
-  "sector_allocation": [],
+  "portfolio_allocation": [
+    {
+      "avg_purchase_price": 610569,
+      "country": "US",
+      "current_price": 615737,
+      "current_value": 615737,
+      "market": "US",
+      "name": "\uc554\uc820",
+      "profit_loss": 5168,
+      "profit_loss_rate": 0.85,
+      "quantity": 1.0,
+      "sector": "\uae30\ud0c0",
+      "symbol": "AMGN",
+      "weight": 43.52
+    },
+    {
+      "avg_purchase_price": 208356,
+      "country": "US",
+      "current_price": 207388,
+      "current_value": 414776,
+      "market": "US",
+      "name": "\uc1fc\ud53c\ud30c\uc774",
+      "profit_loss": -1937,
+      "profit_loss_rate": -0.46,
+      "quantity": 2.0,
+      "sector": "\uae30\ud0c0",
+      "symbol": "SHOP",
+      "weight": 29.32
+    },
+    {
+      "avg_purchase_price": 382164,
+      "country": "US",
+      "current_price": 384184,
+      "current_value": 384184,
+      "market": "US",
+      "name": "\uc5b4\ub3c4\ube44",
+      "profit_loss": 2020,
+      "profit_loss_rate": 0.53,
+      "quantity": 1.0,
+      "sector": "\uae30\ud0c0",
+      "symbol": "ADBE",
+      "weight": 27.16
+    }
+  ],
+  "sector_allocation": [
+    {
+      "current_value": 1414697,
+      "sector": "\uae30\ud0c0",
+      "weight": 100.0
+    }
+  ],
   "summary": {
-    "cash_asset": 4121,
+    "cash_asset": 4283944,
     "cash_asset_basis": "settled_plus_unsettled",
     "cash_asset_includes_unsettled": true,
     "currency": "KRW",
-    "settled_cash_asset": 4121,
-    "stock_asset": 0,
-    "total_asset": 4121,
-    "total_profit_loss": -5995879,
-    "total_profit_loss_rate": -99.93,
+    "settled_cash_asset": 4283944,
+    "stock_asset": 1414696,
+    "total_asset": 5698640,
+    "total_profit_loss": -301360,
+    "total_profit_loss_rate": -5.02,
     "unsettled_sell_proceeds": 0,
-    "updated_at": "2026-08-21T19:36:44.748455+00:00"
+    "updated_at": "2026-08-24T19:36:39.133409+00:00"
   }
 }

@@ -1,14 +1,51 @@
 {
   "account": {
-    "cash_asset_usd": 4120.51,
-    "stock_asset_usd": 0.0,
-    "total_asset_usd": 4120.51
+    "cash_asset_usd": 3096.23,
+    "stock_asset_usd": 1022.4749999999999,
+    "total_asset_usd": 4118.705
   },
   "currency": "USD",
   "data_type": "portfolio_snapshot",
-  "exchange_rate_usd_krw": null,
+  "exchange_rate_usd_krw": 1383.6,
   "is_realtime": false,
-  "positions": [],
+  "positions": [
+    {
+      "average_purchase_price": 276.21,
+      "exchange_rate": 1383.6,
+      "name": "\uc5b4\ub3c4\ube44",
+      "portfolio_weight_percent": 6.74,
+      "profit_loss": 1.46,
+      "profit_loss_rate": 0.53,
+      "quantity": 1.0,
+      "symbol": "ADBE",
+      "total_current_value": 277.67,
+      "total_purchase_amount": 276.21
+    },
+    {
+      "average_purchase_price": 441.29,
+      "exchange_rate": 1383.6,
+      "name": "\uc554\uc820",
+      "portfolio_weight_percent": 10.8,
+      "profit_loss": 3.735,
+      "profit_loss_rate": 0.85,
+      "quantity": 1.0,
+      "symbol": "AMGN",
+      "total_current_value": 445.025,
+      "total_purchase_amount": 441.29
+    },
+    {
+      "average_purchase_price": 150.59,
+      "exchange_rate": 1383.6,
+      "name": "\uc1fc\ud53c\ud30c\uc774",
+      "portfolio_weight_percent": 7.28,
+      "profit_loss": -1.4,
+      "profit_loss_rate": -0.46,
+      "quantity": 2.0,
+      "symbol": "SHOP",
+      "total_current_value": 299.78,
+      "total_purchase_amount": 301.18
+    }
+  ],
   "snapshot_note": "Last account balance snapshot. Not real-time market data.",
-  "updated_at": "2026-08-21T19:36:44.748455+00:00"
+  "updated_at": "2026-08-24T19:36:39.133409+00:00"
 }
