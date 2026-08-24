@@ -476,5 +476,48 @@
       "sells": []
     }
   },
-  "positions": {}
+  "positions": {
+    "ADBE": {
+      "already_half_sold": false,
+      "avg_price": 276.21,
+      "drawdown_from_peak_percent": 0.0,
+      "entry_date": "2026-08-04",
+      "holding_days": 14,
+      "market_value": 276.74,
+      "partial_take_profit_done": false,
+      "peak_price": 276.725,
+      "peak_profit_percent": 0.19,
+      "profit_rate": 0.19,
+      "purchase_amount": 276.21,
+      "qty": 1.0
+    },
+    "AMGN": {
+      "already_half_sold": false,
+      "avg_price": 441.29,
+      "drawdown_from_peak_percent": 0.0,
+      "entry_date": "2026-08-24",
+      "holding_days": 0,
+      "market_value": 441.27,
+      "partial_take_profit_done": false,
+      "peak_price": 441.27,
+      "peak_profit_percent": -0.0,
+      "profit_rate": -0.0,
+      "purchase_amount": 441.29,
+      "qty": 1.0
+    },
+    "SHOP": {
+      "already_half_sold": false,
+      "avg_price": 150.59,
+      "drawdown_from_peak_percent": 0.0,
+      "entry_date": "2026-08-24",
+      "holding_days": 0,
+      "market_value": 299.21,
+      "partial_take_profit_done": false,
+      "peak_price": 149.605,
+      "peak_profit_percent": -0.65,
+      "profit_rate": -0.65,
+      "purchase_amount": 301.18,
+      "qty": 2.0
+    }
+  }
 }
