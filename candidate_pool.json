@@ -4,27 +4,159 @@
       "asset_type": "STOCK",
       "exchange": "NASD",
       "metrics": {
-        "avg_trade_value_20": 1514899121.815,
-        "avg_volume_20": 10802102.05,
-        "current_price": 151.22,
+        "avg_trade_value_20": 2318793006.3935003,
+        "avg_volume_20": 30626897.0,
+        "current_price": 81.24,
         "cyclical_travel_risk_penalty": 0,
         "cyclical_travel_risk_tier": "none",
-        "distance_from_ma60": 20.845647827876324,
-        "gap_percent": -0.4991624790619764,
+        "distance_from_ma60": 7.182437067919145,
+        "gap_percent": -0.4499437570303688,
         "has_52w_high_data": false,
         "high_52w": null,
-        "intraday_range_percent": 3.290190735694809,
-        "ma20": 142.1535,
-        "ma5": 148.162,
-        "ma60": 125.13483333333333,
+        "intraday_range_percent": 2.928211586901752,
+        "ma20": 76.20599999999999,
+        "ma5": 80.24,
+        "ma60": 75.796,
         "position_vs_52w_high_percent": null,
-        "previous_day_return": 1.4064410925397342,
-        "previous_volume": 5320475.0,
-        "recent_20d_return": 19.18348045397227,
-        "recent_3d_return": 3.1655068904352435,
-        "recent_5d_return": 1.728893373696594,
-        "relative_strength_20_edge": 7.11930397480497,
-        "relative_strength_60_edge": 22.234115830167056,
+        "previous_day_return": 0.5277044854881341,
+        "previous_volume": 21085296.0,
+        "recent_20d_return": 12.22544550352258,
+        "recent_3d_return": 1.3725979535812227,
+        "recent_5d_return": 4.461874758904472,
+        "relative_strength_20_edge": 7.045598465453606,
+        "relative_strength_60_edge": 7.966523709075457,
+        "relative_strength_positive": true,
+        "score_breakdown": {
+          "avg_trade_value_20": {
+            "points": 10,
+            "reason": "20-day average trade value >= 1,000,000,000"
+          },
+          "current_price_above_ma20": {
+            "points": 20,
+            "reason": "current price > ma20"
+          },
+          "distance_from_ma60": {
+            "points": 15,
+            "reason": "distance from ma60 <= 10%"
+          },
+          "ma_alignment": {
+            "points": 30,
+            "reason": "ma5 > ma20 > ma60"
+          },
+          "recent_5d_return": {
+            "points": 15,
+            "reason": "recent 5-day return <= 5%"
+          },
+          "relative_strength_vs_qqq": {
+            "points": 10,
+            "reason": "20/60-day relative strength vs QQQ is positive"
+          },
+          "volatility_20": {
+            "points": 10,
+            "reason": "20-day volatility <= 5%"
+          }
+        },
+        "today_return": 1.5373078365204185,
+        "volatility_20": 1.9718878169875167,
+        "volume_spike_ratio": 0.6884568162422723
+      },
+      "name": "Netflix, Inc.",
+      "rank": 1,
+      "reason": "passed",
+      "score": 110,
+      "symbol": "NFLX"
+    },
+    {
+      "asset_type": "STOCK",
+      "exchange": "NASD",
+      "metrics": {
+        "avg_trade_value_20": 1064432314.859885,
+        "avg_volume_20": 2602346.15,
+        "current_price": 445.19,
+        "cyclical_travel_risk_penalty": 0,
+        "cyclical_travel_risk_tier": "none",
+        "distance_from_ma60": 19.074988025812,
+        "gap_percent": -0.13067772170151093,
+        "has_52w_high_data": false,
+        "high_52w": null,
+        "intraday_range_percent": 1.221502062276203,
+        "ma20": 412.11948,
+        "ma5": 439.87198,
+        "ma60": 373.8736466666667,
+        "position_vs_52w_high_percent": null,
+        "previous_day_return": 1.0265631757448768,
+        "previous_volume": 2464347.0,
+        "recent_20d_return": 13.912911980852382,
+        "recent_3d_return": 3.242039841376587,
+        "recent_5d_return": 5.293381812264686,
+        "relative_strength_20_edge": 8.464317531197963,
+        "relative_strength_60_edge": 19.85907466696831,
+        "relative_strength_positive": true,
+        "score_breakdown": {
+          "avg_trade_value_20": {
+            "points": 10,
+            "reason": "20-day average trade value >= 1,000,000,000"
+          },
+          "current_price_above_ma20": {
+            "points": 20,
+            "reason": "current price > ma20"
+          },
+          "distance_from_ma60": {
+            "points": 10,
+            "reason": "distance from ma60 <= 20%"
+          },
+          "ma_alignment": {
+            "points": 30,
+            "reason": "ma5 > ma20 > ma60"
+          },
+          "recent_5d_return": {
+            "points": 10,
+            "reason": "recent 5-day return <= 10%"
+          },
+          "relative_strength_vs_qqq": {
+            "points": 10,
+            "reason": "20/60-day relative strength vs QQQ is positive"
+          },
+          "volatility_20": {
+            "points": 10,
+            "reason": "20-day volatility <= 5%"
+          }
+        },
+        "today_return": 0.30416366258112504,
+        "volatility_20": 1.7031497200675867,
+        "volume_spike_ratio": 0.9469712551498962
+      },
+      "name": "Amgen",
+      "rank": 2,
+      "reason": "passed",
+      "score": 100,
+      "symbol": "AMGN"
+    },
+    {
+      "asset_type": "STOCK",
+      "exchange": "NASD",
+      "metrics": {
+        "avg_trade_value_20": 1489078533.8209999,
+        "avg_volume_20": 10561949.7,
+        "current_price": 153.955,
+        "cyclical_travel_risk_penalty": 0,
+        "cyclical_travel_risk_tier": "none",
+        "distance_from_ma60": 22.47950288487739,
+        "gap_percent": -0.3070761014686285,
+        "has_52w_high_data": false,
+        "high_52w": null,
+        "intraday_range_percent": 3.562340966921118,
+        "ma20": 143.26625,
+        "ma5": 149.353,
+        "ma60": 125.69858333333333,
+        "position_vs_52w_high_percent": null,
+        "previous_day_return": 0.368509212730328,
+        "previous_volume": 5560812.0,
+        "recent_20d_return": 18.17239791218914,
+        "recent_3d_return": 4.603206957467054,
+        "recent_5d_return": 5.031382180379307,
+        "relative_strength_20_edge": 7.9005786436354475,
+        "relative_strength_60_edge": 23.2635895260337,
         "relative_strength_positive": true,
         "score_breakdown": {
           "avg_trade_value_20": {
@@ -44,8 +176,8 @@
             "reason": "ma5 > ma20 > ma60"
           },
           "recent_5d_return": {
-            "points": 15,
-            "reason": "recent 5-day return <= 5%"
+            "points": 10,
+            "reason": "recent 5-day return <= 10%"
           },
           "relative_strength_vs_qqq": {
             "points": 10,
@@ -56,173 +188,41 @@
             "reason": "20-day volatility <= 5%"
           }
         },
-        "today_return": 1.3199329983249575,
-        "volatility_20": 4.743695532090456,
-        "volume_spike_ratio": 0.492540708778066
+        "today_return": 2.7736982643524755,
+        "volatility_20": 4.744843078014598,
+        "volume_spike_ratio": 0.5264948383535665
       },
       "name": "Shopify",
-      "rank": 1,
+      "rank": 3,
       "reason": "passed",
-      "score": 100,
+      "score": 95,
       "symbol": "SHOP"
     },
     {
       "asset_type": "STOCK",
       "exchange": "NASD",
       "metrics": {
-        "avg_trade_value_20": 1245857297.6065001,
-        "avg_volume_20": 4774939.3,
-        "current_price": 278.85,
-        "cyclical_travel_risk_penalty": 0,
-        "cyclical_travel_risk_tier": "none",
-        "distance_from_ma60": 17.874206219623943,
-        "gap_percent": -0.11986923356337442,
-        "has_52w_high_data": false,
-        "high_52w": null,
-        "intraday_range_percent": 2.106168456879365,
-        "ma20": 262.52375,
-        "ma5": 272.39700000000005,
-        "ma60": 236.56575,
-        "position_vs_52w_high_percent": null,
-        "previous_day_return": 1.1314378076555665,
-        "previous_volume": 4346427.0,
-        "recent_20d_return": 17.28706624605678,
-        "recent_3d_return": 2.3415421881308074,
-        "recent_5d_return": 9.766178554558348,
-        "relative_strength_20_edge": 6.960300451458734,
-        "relative_strength_60_edge": 19.26267422191468,
-        "relative_strength_positive": true,
-        "score_breakdown": {
-          "avg_trade_value_20": {
-            "points": 10,
-            "reason": "20-day average trade value >= 1,000,000,000"
-          },
-          "current_price_above_ma20": {
-            "points": 20,
-            "reason": "current price > ma20"
-          },
-          "distance_from_ma60": {
-            "points": 10,
-            "reason": "distance from ma60 <= 20%"
-          },
-          "ma_alignment": {
-            "points": 30,
-            "reason": "ma5 > ma20 > ma60"
-          },
-          "recent_5d_return": {
-            "points": 10,
-            "reason": "recent 5-day return <= 10%"
-          },
-          "relative_strength_vs_qqq": {
-            "points": 10,
-            "reason": "20/60-day relative strength vs QQQ is positive"
-          },
-          "volatility_20": {
-            "points": 10,
-            "reason": "20-day volatility <= 5%"
-          }
-        },
-        "today_return": 1.2895023610606682,
-        "volatility_20": 2.9351759737241836,
-        "volume_spike_ratio": 0.9102580633852246
-      },
-      "name": "Adobe Inc.",
-      "rank": 2,
-      "reason": "passed",
-      "score": 100,
-      "symbol": "ADBE"
-    },
-    {
-      "asset_type": "STOCK",
-      "exchange": "NASD",
-      "metrics": {
-        "avg_trade_value_20": 1071924642.5506951,
-        "avg_volume_20": 2639774.6,
-        "current_price": 440.93,
-        "cyclical_travel_risk_penalty": 0,
-        "cyclical_travel_risk_tier": "none",
-        "distance_from_ma60": 18.53407280646653,
-        "gap_percent": 0.22306694284479622,
-        "has_52w_high_data": false,
-        "high_52w": null,
-        "intraday_range_percent": 1.4626529815618516,
-        "ma20": 409.255285,
-        "ma5": 434.8138,
-        "ma60": 371.9858683333333,
-        "position_vs_52w_high_percent": null,
-        "previous_day_return": 1.883073212587827,
-        "previous_volume": 2114751.0,
-        "recent_20d_return": 17.872431089151107,
-        "recent_3d_return": 0.2592374222327498,
-        "recent_5d_return": 5.752963112019516,
-        "relative_strength_20_edge": 8.480937590172932,
-        "relative_strength_60_edge": 19.92254080875726,
-        "relative_strength_positive": true,
-        "score_breakdown": {
-          "avg_trade_value_20": {
-            "points": 10,
-            "reason": "20-day average trade value >= 1,000,000,000"
-          },
-          "current_price_above_ma20": {
-            "points": 20,
-            "reason": "current price > ma20"
-          },
-          "distance_from_ma60": {
-            "points": 10,
-            "reason": "distance from ma60 <= 20%"
-          },
-          "ma_alignment": {
-            "points": 30,
-            "reason": "ma5 > ma20 > ma60"
-          },
-          "recent_5d_return": {
-            "points": 10,
-            "reason": "recent 5-day return <= 10%"
-          },
-          "relative_strength_vs_qqq": {
-            "points": 10,
-            "reason": "20/60-day relative strength vs QQQ is positive"
-          },
-          "volatility_20": {
-            "points": 10,
-            "reason": "20-day volatility <= 5%"
-          }
-        },
-        "today_return": 0.36419092709354395,
-        "volatility_20": 1.7680619225113785,
-        "volume_spike_ratio": 0.8011104432931508
-      },
-      "name": "Amgen",
-      "rank": 3,
-      "reason": "passed",
-      "score": 100,
-      "symbol": "AMGN"
-    },
-    {
-      "asset_type": "STOCK",
-      "exchange": "NASD",
-      "metrics": {
-        "avg_trade_value_20": 1176733205.1755,
-        "avg_volume_20": 5753222.8,
-        "current_price": 213.62,
+        "avg_trade_value_20": 1136029430.0905,
+        "avg_volume_20": 5532744.15,
+        "current_price": 212.29,
         "cyclical_travel_risk_penalty": 10,
         "cyclical_travel_risk_tier": "travel_air_lodging",
-        "distance_from_ma60": 15.436234260586644,
-        "gap_percent": 0.5820055338231045,
+        "distance_from_ma60": 14.25447100876891,
+        "gap_percent": 0.3468316460442322,
         "has_52w_high_data": false,
         "high_52w": null,
-        "intraday_range_percent": 1.8264623558992277,
-        "ma20": 206.25549999999998,
-        "ma5": 210.87600000000003,
-        "ma60": 185.05454666666668,
+        "intraday_range_percent": 1.242665216701777,
+        "ma20": 206.89050000000003,
+        "ma5": 211.62800000000001,
+        "ma60": 185.804545,
         "position_vs_52w_high_percent": null,
-        "previous_day_return": -0.11912136084242242,
-        "previous_volume": 4504440.0,
-        "recent_20d_return": 14.363723968092511,
-        "recent_3d_return": 0.29107981220657386,
-        "recent_5d_return": 4.327016995506949,
-        "relative_strength_20_edge": 4.311910761275694,
-        "relative_strength_60_edge": 16.824702262877377,
+        "previous_day_return": 1.7841808987692165,
+        "previous_volume": 4911806.0,
+        "recent_20d_return": 6.51246801465053,
+        "recent_3d_return": 1.153094772954688,
+        "recent_5d_return": 1.9399759903961478,
+        "relative_strength_20_edge": 3.0496540639370684,
+        "relative_strength_60_edge": 15.038557649925222,
         "relative_strength_positive": true,
         "score_breakdown": {
           "avg_trade_value_20": {
@@ -258,9 +258,9 @@
             "reason": "20-day volatility <= 5%"
           }
         },
-        "today_return": 1.9082148649937958,
-        "volatility_20": 2.25294014141591,
-        "volume_spike_ratio": 0.7829420407636569
+        "today_return": -0.5014998125234427,
+        "volatility_20": 2.2517447964190103,
+        "volume_spike_ratio": 0.8877703119527043
       },
       "name": "Booking Holdings",
       "rank": 4,
@@ -272,28 +272,28 @@
       "asset_type": "STOCK",
       "exchange": "NASD",
       "metrics": {
-        "avg_trade_value_20": 1198366427.7775,
-        "avg_volume_20": 3570264.65,
-        "current_price": 370.55,
+        "avg_trade_value_20": 1663970432.77675,
+        "avg_volume_20": 1745942.2,
+        "current_price": 964.12,
         "cyclical_travel_risk_penalty": 0,
         "cyclical_travel_risk_tier": "none",
-        "distance_from_ma60": 22.80535214148882,
-        "gap_percent": -0.1444141689373235,
+        "distance_from_ma60": 1.4436274211984568,
+        "gap_percent": -0.5250154416306385,
         "has_52w_high_data": false,
         "high_52w": null,
-        "intraday_range_percent": 2.158312791016148,
-        "ma20": 337.611,
-        "ma5": 362.462,
-        "ma60": 301.73766333333333,
+        "intraday_range_percent": 0.5929079487046351,
+        "ma20": 953.9592500000001,
+        "ma5": 954.7520000000001,
+        "ma60": 950.3997683333333,
         "position_vs_52w_high_percent": null,
-        "previous_day_return": 1.4176361676845328,
-        "previous_volume": 3450555.0,
-        "recent_20d_return": 21.9275443387845,
-        "recent_3d_return": 2.229149998620561,
-        "recent_5d_return": 10.414183551847422,
-        "relative_strength_20_edge": 10.497834210784019,
-        "relative_strength_60_edge": 24.193820143779554,
-        "relative_strength_positive": true,
+        "previous_day_return": 2.4964652752864636,
+        "previous_volume": 2205864.0,
+        "recent_20d_return": -0.25450557636201854,
+        "recent_3d_return": 3.2790221850864,
+        "recent_5d_return": 0.2881364747490567,
+        "relative_strength_20_edge": 1.504933023317423,
+        "relative_strength_60_edge": 2.2277140623547687,
+        "relative_strength_positive": false,
         "score_breakdown": {
           "avg_trade_value_20": {
             "points": 10,
@@ -304,44 +304,110 @@
             "reason": "current price > ma20"
           },
           "distance_from_ma60": {
-            "points": 5,
-            "reason": "distance from ma60 <= 25%"
+            "points": 15,
+            "reason": "distance from ma60 <= 10%"
           },
           "ma_alignment": {
             "points": 30,
             "reason": "ma5 > ma20 > ma60"
           },
           "recent_5d_return": {
-            "points": 5,
-            "reason": "recent 5-day return <= 15%"
+            "points": 15,
+            "reason": "recent 5-day return <= 5%"
           },
           "relative_strength_vs_qqq": {
-            "points": 10,
-            "reason": "20/60-day relative strength vs QQQ is positive"
+            "points": -10,
+            "reason": "20/60-day relative strength vs QQQ is not positive"
           },
           "volatility_20": {
             "points": 10,
             "reason": "20-day volatility <= 5%"
           }
         },
-        "today_return": 0.9673024523160878,
-        "volatility_20": 3.0401264094510734,
-        "volume_spike_ratio": 0.9664703707608903
+        "today_return": -0.7494338068766648,
+        "volatility_20": 1.154340849372722,
+        "volume_spike_ratio": 1.2634232679638535
       },
-      "name": "Intuit",
+      "name": "Costco",
       "rank": 5,
       "reason": "passed",
       "score": 90,
-      "symbol": "INTU"
+      "symbol": "COST"
+    },
+    {
+      "asset_type": "STOCK",
+      "exchange": "NASD",
+      "metrics": {
+        "avg_trade_value_20": 16491550885.159576,
+        "avg_volume_20": 34715217.0,
+        "current_price": 489.26,
+        "cyclical_travel_risk_penalty": 0,
+        "cyclical_travel_risk_tier": "none",
+        "distance_from_ma60": 15.978950110545775,
+        "gap_percent": -0.35808828056063113,
+        "has_52w_high_data": false,
+        "high_52w": null,
+        "intraday_range_percent": 1.2079289696468987,
+        "ma20": 482.070175,
+        "ma5": 484.86,
+        "ma60": 421.8524133333333,
+        "position_vs_52w_high_percent": null,
+        "previous_day_return": 0.8422316033440902,
+        "previous_volume": 17230751.0,
+        "recent_20d_return": 24.61701903844238,
+        "recent_3d_return": 1.6855450483217238,
+        "recent_5d_return": 1.7754433407873416,
+        "relative_strength_20_edge": 1.931267188895891,
+        "relative_strength_60_edge": 16.76303675170209,
+        "relative_strength_positive": false,
+        "score_breakdown": {
+          "avg_trade_value_20": {
+            "points": 10,
+            "reason": "20-day average trade value >= 1,000,000,000"
+          },
+          "current_price_above_ma20": {
+            "points": 20,
+            "reason": "current price > ma20"
+          },
+          "distance_from_ma60": {
+            "points": 10,
+            "reason": "distance from ma60 <= 20%"
+          },
+          "ma_alignment": {
+            "points": 30,
+            "reason": "ma5 > ma20 > ma60"
+          },
+          "recent_5d_return": {
+            "points": 15,
+            "reason": "recent 5-day return <= 5%"
+          },
+          "relative_strength_vs_qqq": {
+            "points": -10,
+            "reason": "20/60-day relative strength vs QQQ is not positive"
+          },
+          "volatility_20": {
+            "points": 10,
+            "reason": "20-day volatility <= 5%"
+          }
+        },
+        "today_return": 0.4001559582196057,
+        "volatility_20": 3.774345291582209,
+        "volume_spike_ratio": 0.49634576675698155
+      },
+      "name": "Microsoft",
+      "rank": 6,
+      "reason": "passed",
+      "score": 85,
+      "symbol": "MSFT"
     }
   ],
   "data_type": "candidate_pool",
   "expires_at": null,
   "market": {
     "allowed": false,
-    "current_price": 705.1,
-    "ma20": 710.3375,
-    "ma60": 714.9980116666667,
+    "current_price": 708.95,
+    "ma20": 712.071,
+    "ma60": 714.5423566666667,
     "reason": "QQQ current price <= QQQ ma20",
     "state": "weak",
     "symbol": "QQQ"
@@ -351,5 +417,5 @@
   "ttl_minutes": 0,
   "universe": "NASDAQ100+HELD",
   "universe_count": 101,
-  "updated_at": "2026-08-24T15:08:44.225138+00:00"
+  "updated_at": "2026-08-25T15:08:58.847719+00:00"
 }
