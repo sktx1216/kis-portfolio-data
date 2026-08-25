@@ -29,6 +29,11 @@
       "action": "SELL_ATTEMPT",
       "date": "2026-07-14",
       "reason": "PROFIT_WEAK_RELATIVE_MOMENTUM"
+    },
+    "SHOP": {
+      "action": "SELL_ATTEMPT",
+      "date": "2026-08-25",
+      "reason": "PROFIT_SCORE_85_TO_99"
     }
   },
   "orders_by_date": {
@@ -474,20 +479,62 @@
         "SHOP"
       ],
       "sells": []
+    },
+    "2026-08-25": {
+      "buy_attempts": [
+        "NFLX"
+      ],
+      "buys": [],
+      "orders": [
+        {
+          "action": "SELL_ATTEMPT",
+          "amount": 307.7,
+          "order_no": "0030553869",
+          "org_no": "01790",
+          "price": 153.85,
+          "qty": 2,
+          "symbol": "SHOP",
+          "timestamp": "2026-08-25T15:36:52.674922+00:00"
+        },
+        {
+          "action": "BUY_ATTEMPT",
+          "amount": 327.16,
+          "price": 81.79,
+          "qty": 4,
+          "symbol": "NFLX",
+          "timestamp": "2026-08-25T15:37:21.484201+00:00"
+        },
+        {
+          "action": "BUY_SUBMITTED_NOT_CONFIRMED",
+          "amount": 327.16,
+          "order_no": "0030554046",
+          "org_no": "01790",
+          "price": 81.79,
+          "qty": 4,
+          "symbol": "NFLX",
+          "timestamp": "2026-08-25T15:38:09.975344+00:00"
+        }
+      ],
+      "pending_buys": [
+        "NFLX"
+      ],
+      "sells": [
+        "SHOP"
+      ]
     }
   },
   "positions": {
     "ADBE": {
       "already_half_sold": false,
       "avg_price": 276.21,
-      "drawdown_from_peak_percent": 2.0,
+      "drawdown_from_peak_percent": 1.62,
       "entry_date": "2026-08-04",
       "holding_days": 15,
-      "market_value": 271.6,
+      "market_value": 272.65,
       "partial_take_profit_done": false,
       "peak_price": 277.1009,
       "peak_profit_percent": 0.33,
-      "profit_rate": -1.67,
+      "profit_rate": -1.29,
       "purchase_amount": 276.21,
       "qty": 1.0
     },
@@ -497,11 +544,11 @@
       "drawdown_from_peak_percent": 0.0,
       "entry_date": "2026-08-24",
       "holding_days": 1,
-      "market_value": 444.205,
+      "market_value": 446.23,
       "partial_take_profit_done": false,
-      "peak_price": 444.87,
-      "peak_profit_percent": 0.66,
-      "profit_rate": 0.66,
+      "peak_price": 446.23,
+      "peak_profit_percent": 1.12,
+      "profit_rate": 1.12,
       "purchase_amount": 441.29,
       "qty": 1.0
     },
@@ -511,11 +558,11 @@
       "drawdown_from_peak_percent": 0.0,
       "entry_date": "2026-08-24",
       "holding_days": 1,
-      "market_value": 306.3,
+      "market_value": 307.92,
       "partial_take_profit_done": false,
-      "peak_price": 153.15,
-      "peak_profit_percent": 1.7,
-      "profit_rate": 1.7,
+      "peak_price": 154.0,
+      "peak_profit_percent": 2.24,
+      "profit_rate": 2.24,
       "purchase_amount": 301.18,
       "qty": 2.0
     }
