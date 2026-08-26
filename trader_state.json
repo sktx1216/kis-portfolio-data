@@ -589,44 +589,44 @@
     "AMGN": {
       "already_half_sold": false,
       "avg_price": 441.29,
-      "drawdown_from_peak_percent": 1.44,
+      "drawdown_from_peak_percent": 1.05,
       "entry_date": "2026-08-24",
       "holding_days": 2,
-      "market_value": 439.855,
+      "market_value": 441.64,
       "partial_take_profit_done": false,
       "peak_price": 446.23,
       "peak_profit_percent": 1.12,
-      "profit_rate": -0.32,
+      "profit_rate": 0.07,
       "purchase_amount": 441.29,
       "qty": 1.0
     },
     "MSFT": {
       "already_half_sold": false,
       "avg_price": 490.47,
-      "drawdown_from_peak_percent": 0.13,
+      "drawdown_from_peak_percent": 0.21,
       "entry_date": "2026-08-25",
       "holding_days": 1,
-      "market_value": 494.7,
+      "market_value": 494.305,
       "partial_take_profit_done": false,
       "peak_price": 495.38,
       "peak_profit_percent": 0.99,
-      "profit_rate": 0.86,
+      "profit_rate": 0.78,
       "purchase_amount": 490.47,
       "qty": 1.0
     },
     "NFLX": {
       "already_half_sold": false,
-      "avg_price": 81.7055,
-      "drawdown_from_peak_percent": 0.67,
+      "avg_price": 81.7177,
+      "drawdown_from_peak_percent": 0.74,
       "entry_date": "2026-08-25",
       "holding_days": 1,
-      "market_value": 326.84,
+      "market_value": 2858.45,
       "partial_take_profit_done": false,
       "peak_price": 82.275,
       "peak_profit_percent": 0.68,
-      "profit_rate": 0.01,
-      "purchase_amount": 326.822,
-      "qty": 4.0
+      "profit_rate": -0.06,
+      "purchase_amount": 2860.1203,
+      "qty": 35.0
     }
   }
 }
