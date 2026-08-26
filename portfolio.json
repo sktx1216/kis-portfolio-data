@@ -1,63 +1,39 @@
 {
   "account": {
-    "cash_asset_usd": 2583.73,
-    "stock_asset_usd": 1536.635,
-    "total_asset_usd": 4120.365
+    "cash_asset_usd": 801.09,
+    "stock_asset_usd": 3304.3,
+    "total_asset_usd": 4105.39
   },
   "currency": "USD",
   "data_type": "portfolio_snapshot",
-  "exchange_rate_usd_krw": 1380.6,
+  "exchange_rate_usd_krw": 1383.1,
   "is_realtime": false,
   "positions": [
     {
-      "average_purchase_price": 276.21,
-      "exchange_rate": 1380.6,
-      "name": "\uc5b4\ub3c4\ube44",
-      "portfolio_weight_percent": 6.65,
-      "profit_loss": -2.325,
-      "profit_loss_rate": -0.84,
-      "quantity": 1.0,
-      "symbol": "ADBE",
-      "total_current_value": 273.885,
-      "total_purchase_amount": 276.21
-    },
-    {
       "average_purchase_price": 441.29,
-      "exchange_rate": 1380.6,
+      "exchange_rate": 1383.1,
       "name": "\uc554\uc820",
-      "portfolio_weight_percent": 10.73,
-      "profit_loss": 0.94,
-      "profit_loss_rate": 0.21,
+      "portfolio_weight_percent": 10.74,
+      "profit_loss": -0.515,
+      "profit_loss_rate": -0.11,
       "quantity": 1.0,
       "symbol": "AMGN",
-      "total_current_value": 442.23,
+      "total_current_value": 440.775,
       "total_purchase_amount": 441.29
     },
     {
-      "average_purchase_price": 490.47,
-      "exchange_rate": 1380.6,
-      "name": "\ub9c8\uc774\ud06c\ub85c\uc18c\ud504\ud2b8",
-      "portfolio_weight_percent": 11.93,
-      "profit_loss": 1.03,
-      "profit_loss_rate": 0.21,
-      "quantity": 1.0,
-      "symbol": "MSFT",
-      "total_current_value": 491.5,
-      "total_purchase_amount": 490.47
-    },
-    {
-      "average_purchase_price": 81.7055,
-      "exchange_rate": 1380.6,
+      "average_purchase_price": 81.7177,
+      "exchange_rate": 1383.1,
       "name": "\ub137\ud50c\ub9ad\uc2a4",
-      "portfolio_weight_percent": 7.99,
-      "profit_loss": 2.198,
-      "profit_loss_rate": 0.67,
-      "quantity": 4.0,
+      "portfolio_weight_percent": 69.75,
+      "profit_loss": 3.4047,
+      "profit_loss_rate": 0.12,
+      "quantity": 35.0,
       "symbol": "NFLX",
-      "total_current_value": 329.02,
-      "total_purchase_amount": 326.822
+      "total_current_value": 2863.525,
+      "total_purchase_amount": 2860.1203
     }
   ],
   "snapshot_note": "Last account balance snapshot. Not real-time market data.",
-  "updated_at": "2026-08-25T20:06:39.173122+00:00"
+  "updated_at": "2026-08-26T19:36:41.540104+00:00"
 }
