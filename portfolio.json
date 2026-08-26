@@ -1,8 +1,8 @@
 {
   "account": {
     "cash_asset_usd": 801.09,
-    "stock_asset_usd": 3304.3,
-    "total_asset_usd": 4105.39
+    "stock_asset_usd": 3291.58,
+    "total_asset_usd": 4092.67
   },
   "currency": "USD",
   "data_type": "portfolio_snapshot",
@@ -13,27 +13,27 @@
       "average_purchase_price": 441.29,
       "exchange_rate": 1383.1,
       "name": "\uc554\uc820",
-      "portfolio_weight_percent": 10.74,
-      "profit_loss": -0.515,
-      "profit_loss_rate": -0.11,
+      "portfolio_weight_percent": 10.75,
+      "profit_loss": -1.16,
+      "profit_loss_rate": -0.26,
       "quantity": 1.0,
       "symbol": "AMGN",
-      "total_current_value": 440.775,
+      "total_current_value": 440.13,
       "total_purchase_amount": 441.29
     },
     {
       "average_purchase_price": 81.7177,
       "exchange_rate": 1383.1,
       "name": "\ub137\ud50c\ub9ad\uc2a4",
-      "portfolio_weight_percent": 69.75,
-      "profit_loss": 3.4047,
-      "profit_loss_rate": 0.12,
+      "portfolio_weight_percent": 69.67,
+      "profit_loss": -8.6703,
+      "profit_loss_rate": -0.3,
       "quantity": 35.0,
       "symbol": "NFLX",
-      "total_current_value": 2863.525,
+      "total_current_value": 2851.45,
       "total_purchase_amount": 2860.1203
     }
   ],
   "snapshot_note": "Last account balance snapshot. Not real-time market data.",
-  "updated_at": "2026-08-26T19:36:41.540104+00:00"
+  "updated_at": "2026-08-26T20:06:35.149528+00:00"
 }

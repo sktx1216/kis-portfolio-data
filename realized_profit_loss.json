@@ -3,12 +3,19 @@
   "by_exchange": [
     {
       "exchange": "NASD",
-      "profit_loss": -47.07,
+      "profit_loss": -41.1,
       "raw_sections": {
-        "output1": 8,
+        "output1": 9,
         "output2": 1
       },
       "rows": [
+        {
+          "name": "\uc1fc\ud53c\ud30c\uc774",
+          "profit_loss": 5.97,
+          "quantity": 2.0,
+          "symbol": "SHOP",
+          "trade_date": "2026-08-25"
+        },
         {
           "name": "\uc5d4\ube44\ub514\uc544",
           "profit_loss": -19.76,
@@ -66,7 +73,7 @@
           "trade_date": "2026-07-09"
         }
       ],
-      "trade_count": 8
+      "trade_count": 9
     },
     {
       "exchange": "NYSE",
@@ -196,16 +203,29 @@
         "trade_count": 8
       },
       "updated_at": "2026-08-26T05:06:39.173172+09:00"
+    },
+    {
+      "currency": "USD",
+      "period": {
+        "end": "2026-08-26",
+        "start": "2026-06-28"
+      },
+      "status": "ok",
+      "summary": {
+        "profit_loss": -41.1,
+        "trade_count": 9
+      },
+      "updated_at": "2026-08-27T05:06:35.149575+09:00"
     }
   ],
   "period": {
-    "end": "2026-08-25",
+    "end": "2026-08-26",
     "start": "2026-06-28"
   },
   "status": "ok",
   "summary": {
-    "profit_loss": -47.07,
-    "trade_count": 8
+    "profit_loss": -41.1,
+    "trade_count": 9
   },
-  "updated_at": "2026-08-26T05:06:39.173172+09:00"
+  "updated_at": "2026-08-27T05:06:35.149575+09:00"
 }
