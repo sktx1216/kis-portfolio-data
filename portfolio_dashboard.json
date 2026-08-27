@@ -572,16 +572,16 @@
     },
     {
       "cash_asset": 422428,
-      "cumulative_profit_loss": -389462,
-      "cumulative_profit_loss_rate": -6.49,
+      "cumulative_profit_loss": -404748,
+      "cumulative_profit_loss_rate": -6.75,
       "daily_cash_flow": 0,
-      "daily_profit_loss": -50034,
-      "daily_profit_loss_rate": -0.88,
+      "daily_profit_loss": -65320,
+      "daily_profit_loss_rate": -1.15,
       "date": "2026-08-28",
       "net_cash_invested": 6000000,
       "settled_cash_asset": 422428,
-      "stock_asset": 5188110,
-      "total_asset": 5610538,
+      "stock_asset": 5172824,
+      "total_asset": 5595252,
       "unsettled_sell_proceeds": 0
     }
   ],
@@ -589,61 +589,61 @@
     {
       "avg_purchase_price": 113146,
       "country": "US",
-      "current_price": 110913,
-      "current_value": 3881968,
+      "current_price": 110533,
+      "current_value": 3868642,
       "market": "US",
       "name": "\ub137\ud50c\ub9ad\uc2a4",
-      "profit_loss": -78154,
-      "profit_loss_rate": -1.97,
+      "profit_loss": -91481,
+      "profit_loss_rate": -2.31,
       "quantity": 35.0,
       "sector": "\ucee4\ubba4\ub2c8\ucf00\uc774\uc158",
       "symbol": "NFLX",
-      "weight": 74.82
+      "weight": 74.79
     },
     {
       "avg_purchase_price": 696620,
       "country": "US",
-      "current_price": 699673,
-      "current_value": 699673,
+      "current_price": 699126,
+      "current_value": 699126,
       "market": "US",
       "name": "\ub9c8\uc774\ud06c\ub85c\uc18c\ud504\ud2b8",
-      "profit_loss": 3053,
-      "profit_loss_rate": 0.43,
+      "profit_loss": 2506,
+      "profit_loss_rate": 0.35,
       "quantity": 1.0,
       "sector": "\uc815\ubcf4\uae30\uc220",
       "symbol": "MSFT",
-      "weight": 13.49
+      "weight": 13.52
     },
     {
       "avg_purchase_price": 611010,
       "country": "US",
-      "current_price": 606469,
-      "current_value": 606469,
+      "current_price": 605056,
+      "current_value": 605056,
       "market": "US",
       "name": "\uc554\uc820",
-      "profit_loss": -4542,
-      "profit_loss_rate": -0.74,
+      "profit_loss": -5954,
+      "profit_loss_rate": -0.97,
       "quantity": 1.0,
       "sector": "\uae30\ud0c0",
       "symbol": "AMGN",
-      "weight": 11.69
+      "weight": 11.7
     }
   ],
   "sector_allocation": [
     {
-      "current_value": 3881968,
+      "current_value": 3868642,
       "sector": "\ucee4\ubba4\ub2c8\ucf00\uc774\uc158",
-      "weight": 74.82
+      "weight": 74.79
     },
     {
-      "current_value": 699673,
+      "current_value": 699126,
       "sector": "\uc815\ubcf4\uae30\uc220",
-      "weight": 13.49
+      "weight": 13.52
     },
     {
-      "current_value": 606469,
+      "current_value": 605056,
       "sector": "\uae30\ud0c0",
-      "weight": 11.69
+      "weight": 11.7
     }
   ],
   "summary": {
@@ -652,11 +652,11 @@
     "cash_asset_includes_unsettled": true,
     "currency": "KRW",
     "settled_cash_asset": 422428,
-    "stock_asset": 5188110,
-    "total_asset": 5610538,
-    "total_profit_loss": -389462,
-    "total_profit_loss_rate": -6.49,
+    "stock_asset": 5172824,
+    "total_asset": 5595252,
+    "total_profit_loss": -404748,
+    "total_profit_loss_rate": -6.75,
     "unsettled_sell_proceeds": 0,
-    "updated_at": "2026-08-27T19:36:41.379069+00:00"
+    "updated_at": "2026-08-27T20:06:33.670092+00:00"
   }
 }
