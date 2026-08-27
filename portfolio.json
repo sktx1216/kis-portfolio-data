@@ -1,39 +1,51 @@
 {
   "account": {
-    "cash_asset_usd": 801.09,
-    "stock_asset_usd": 3291.58,
-    "total_asset_usd": 4092.67
+    "cash_asset_usd": 305.09,
+    "stock_asset_usd": 3747.01,
+    "total_asset_usd": 4052.1000000000004
   },
   "currency": "USD",
   "data_type": "portfolio_snapshot",
-  "exchange_rate_usd_krw": 1383.1,
+  "exchange_rate_usd_krw": 1384.6,
   "is_realtime": false,
   "positions": [
     {
       "average_purchase_price": 441.29,
-      "exchange_rate": 1383.1,
+      "exchange_rate": 1384.6,
       "name": "\uc554\uc820",
-      "portfolio_weight_percent": 10.75,
-      "profit_loss": -1.16,
-      "profit_loss_rate": -0.26,
+      "portfolio_weight_percent": 10.81,
+      "profit_loss": -3.2801,
+      "profit_loss_rate": -0.74,
       "quantity": 1.0,
       "symbol": "AMGN",
-      "total_current_value": 440.13,
+      "total_current_value": 438.0099,
       "total_purchase_amount": 441.29
     },
     {
+      "average_purchase_price": 503.12,
+      "exchange_rate": 1384.6,
+      "name": "\ub9c8\uc774\ud06c\ub85c\uc18c\ud504\ud2b8",
+      "portfolio_weight_percent": 12.47,
+      "profit_loss": 2.2051,
+      "profit_loss_rate": 0.43,
+      "quantity": 1.0,
+      "symbol": "MSFT",
+      "total_current_value": 505.3251,
+      "total_purchase_amount": 503.12
+    },
+    {
       "average_purchase_price": 81.7177,
-      "exchange_rate": 1383.1,
+      "exchange_rate": 1384.6,
       "name": "\ub137\ud50c\ub9ad\uc2a4",
-      "portfolio_weight_percent": 69.67,
-      "profit_loss": -8.6703,
-      "profit_loss_rate": -0.3,
+      "portfolio_weight_percent": 69.19,
+      "profit_loss": -56.4453,
+      "profit_loss_rate": -1.97,
       "quantity": 35.0,
       "symbol": "NFLX",
-      "total_current_value": 2851.45,
+      "total_current_value": 2803.675,
       "total_purchase_amount": 2860.1203
     }
   ],
   "snapshot_note": "Last account balance snapshot. Not real-time market data.",
-  "updated_at": "2026-08-26T20:06:35.149528+00:00"
+  "updated_at": "2026-08-27T19:36:41.379069+00:00"
 }
