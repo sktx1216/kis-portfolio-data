@@ -1,161 +1,16 @@
 {
-  "month": "2026-08",
+  "month": "2026-09",
   "name": "KODEX US Dividend Dow Jones Target Covered Call",
   "rows": [
     {
       "alert_sent": false,
       "average_before": null,
       "below_average": false,
-      "date": "2026-08-03",
-      "price": 10535,
-      "time": "14:00"
-    },
-    {
-      "alert_sent": false,
-      "average_before": 10535,
-      "below_average": false,
-      "date": "2026-08-04",
-      "price": 10570,
-      "time": "14:00"
-    },
-    {
-      "alert_sent": false,
-      "average_before": 10552.5,
-      "below_average": true,
-      "date": "2026-08-05",
-      "price": 10550,
-      "time": "14:00"
-    },
-    {
-      "alert_sent": false,
-      "average_before": 10551.67,
-      "below_average": true,
-      "date": "2026-08-06",
-      "price": 10495,
-      "time": "14:00"
-    },
-    {
-      "alert_sent": false,
-      "average_before": 10537.5,
-      "below_average": true,
-      "date": "2026-08-07",
-      "price": 10415,
-      "time": "14:00"
-    },
-    {
-      "alert_sent": false,
-      "average_before": 10513,
-      "below_average": true,
-      "date": "2026-08-10",
-      "price": 10445,
-      "time": "14:00"
-    },
-    {
-      "alert_sent": false,
-      "average_before": 10501.67,
-      "below_average": false,
-      "date": "2026-08-11",
-      "price": 10515,
-      "time": "14:00"
-    },
-    {
-      "alert_sent": false,
-      "average_before": 10503.57,
-      "below_average": false,
-      "date": "2026-08-12",
-      "price": 10585,
-      "time": "14:00"
-    },
-    {
-      "alert_sent": false,
-      "average_before": 10513.75,
-      "below_average": false,
-      "date": "2026-08-13",
-      "price": 10555.0,
-      "time": "14:23"
-    },
-    {
-      "alert_sent": false,
-      "average_before": 10518.33,
-      "below_average": false,
-      "date": "2026-08-14",
-      "price": 10620.0,
-      "time": "15:39"
-    },
-    {
-      "alert_sent": false,
-      "average_before": 10528.5,
-      "below_average": false,
-      "date": "2026-08-18",
-      "price": 10550.0,
-      "time": "14:41"
-    },
-    {
-      "alert_sent": false,
-      "average_before": 10530.45,
-      "below_average": false,
-      "date": "2026-08-19",
-      "price": 10535.0,
-      "time": "14:43"
-    },
-    {
-      "alert_sent": false,
-      "average_before": 10530.83,
-      "below_average": false,
-      "date": "2026-08-20",
-      "price": 10685.0,
-      "time": "14:43"
-    },
-    {
-      "alert_sent": false,
-      "average_before": 10542.69,
-      "below_average": false,
-      "date": "2026-08-21",
-      "price": 10550.0,
-      "time": "14:45"
-    },
-    {
-      "alert_sent": false,
-      "average_before": 10543.21,
-      "below_average": false,
-      "date": "2026-08-24",
-      "price": 10585.0,
-      "time": "14:50"
-    },
-    {
-      "alert_sent": false,
-      "average_before": 10546.0,
-      "below_average": false,
-      "date": "2026-08-25",
-      "price": 10650.0,
-      "time": "14:44"
-    },
-    {
-      "alert_sent": false,
-      "average_before": 10552.5,
-      "below_average": false,
-      "date": "2026-08-26",
-      "price": 10630.0,
-      "time": "14:46"
-    },
-    {
-      "alert_sent": false,
-      "average_before": 10557.06,
-      "below_average": false,
-      "date": "2026-08-28",
-      "price": 10585.0,
-      "time": "01:27"
-    },
-    {
-      "alert_sent": true,
-      "average_before": 10558.61,
-      "below_average": true,
-      "date": "2026-08-31",
-      "price": 10315.0,
-      "time": "20:33"
+      "date": "2026-09-01",
+      "price": 10330.0,
+      "time": "19:01"
     }
   ],
-  "source": "Backfilled from Naver daily close prices as approximate 14:00 samples.",
   "symbol": "483290",
-  "updated_at": "2026-08-31T20:33:23.333850+09:00"
+  "updated_at": "2026-09-01T19:01:37.639806+09:00"
 }
