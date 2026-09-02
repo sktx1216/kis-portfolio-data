@@ -9,8 +9,16 @@
       "date": "2026-09-01",
       "price": 10330.0,
       "time": "19:01"
+    },
+    {
+      "alert_sent": false,
+      "average_before": 10330.0,
+      "below_average": false,
+      "date": "2026-09-02",
+      "price": 10330.0,
+      "time": "18:32"
     }
   ],
   "symbol": "483290",
-  "updated_at": "2026-09-01T19:01:37.639806+09:00"
+  "updated_at": "2026-09-02T18:32:53.940228+09:00"
 }
