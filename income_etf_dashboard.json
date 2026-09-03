@@ -156,12 +156,12 @@
       "price_change_rate": null,
       "price_change_usd": null,
       "price_movement": {
-        "as_of": "",
-        "daily_change_percent": null,
-        "daily_change_usd": null,
-        "five_day_change_percent": null,
-        "previous_close_usd": null,
-        "twenty_day_change_percent": null
+        "as_of": "20260902",
+        "daily_change_percent": 0.33,
+        "daily_change_usd": 0.19,
+        "five_day_change_percent": -1.03,
+        "previous_close_usd": 57.0,
+        "twenty_day_change_percent": 0.09
       },
       "profit_loss_krw": -19528,
       "profit_loss_rate": -1.07,
@@ -170,9 +170,9 @@
       "purchase_amount_usd": 1329.63,
       "quantity": 23.0,
       "range_status": {
-        "position_in_20d_range_percent": null,
-        "twenty_day_high_usd": null,
-        "twenty_day_low_usd": null
+        "position_in_20d_range_percent": 53.46,
+        "twenty_day_high_usd": 57.7843,
+        "twenty_day_low_usd": 56.5073
       },
       "raw_api_fields": {
         "position": {
@@ -189,7 +189,88 @@
         },
         "quote": {}
       },
-      "recent_daily_prices": [],
+      "recent_daily_prices": [
+        {
+          "close": 57.3472,
+          "date": "20260820",
+          "high": 57.6105,
+          "low": 57.2975,
+          "open": 57.4068,
+          "volume": 4287746.0
+        },
+        {
+          "close": 57.5459,
+          "date": "20260821",
+          "high": 57.5956,
+          "low": 57.4078,
+          "open": 57.536,
+          "volume": 4275691.0
+        },
+        {
+          "close": 57.7148,
+          "date": "20260824",
+          "high": 57.7203,
+          "low": 57.536,
+          "open": 57.5658,
+          "volume": 4419303.0
+        },
+        {
+          "close": 57.7645,
+          "date": "20260825",
+          "high": 57.8241,
+          "low": 57.685,
+          "open": 57.7943,
+          "volume": 4253684.0
+        },
+        {
+          "close": 57.7843,
+          "date": "20260826",
+          "high": 57.8934,
+          "low": 57.7049,
+          "open": 57.7843,
+          "volume": 4074844.0
+        },
+        {
+          "close": 57.4763,
+          "date": "20260827",
+          "high": 57.6751,
+          "low": 57.4267,
+          "open": 57.6353,
+          "volume": 4851244.0
+        },
+        {
+          "close": 57.4167,
+          "date": "20260828",
+          "high": 57.6055,
+          "low": 57.3373,
+          "open": 57.5956,
+          "volume": 4301634.0
+        },
+        {
+          "close": 57.1286,
+          "date": "20260831",
+          "high": 57.3074,
+          "low": 57.069,
+          "open": 57.3074,
+          "volume": 5014083.0
+        },
+        {
+          "close": 57.0,
+          "date": "20260901",
+          "high": 57.245,
+          "low": 56.92,
+          "open": 57.09,
+          "volume": 4698121.0
+        },
+        {
+          "close": 57.19,
+          "date": "20260902",
+          "high": 57.2676,
+          "low": 57.0,
+          "open": 57.08,
+          "volume": 4498846.0
+        }
+      ],
       "symbol": "JEPI",
       "trade_value_usd": null,
       "volume": null
@@ -530,5 +611,5 @@
     "total_asset_krw": 5483981,
     "total_asset_usd": 4004.66
   },
-  "updated_at": "2026-09-03T06:30:01.500176+00:00"
+  "updated_at": "2026-09-03T06:39:05.776137+00:00"
 }
