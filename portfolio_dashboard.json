@@ -583,80 +583,84 @@
       "stock_asset": 5172824,
       "total_asset": 5595252,
       "unsettled_sell_proceeds": 0
+    },
+    {
+      "cash_asset": 66745,
+      "cumulative_profit_loss": -516018,
+      "cumulative_profit_loss_rate": -8.6,
+      "daily_cash_flow": 0,
+      "daily_profit_loss": -111270,
+      "daily_profit_loss_rate": -1.99,
+      "date": "2026-09-03",
+      "net_cash_invested": 6000000,
+      "settled_cash_asset": 66745,
+      "stock_asset": 5417237,
+      "total_asset": 5483982,
+      "unsettled_sell_proceeds": 0
     }
   ],
   "portfolio_allocation": [
     {
-      "avg_purchase_price": 113146,
+      "avg_purchase_price": 73455,
       "country": "US",
-      "current_price": 110533,
-      "current_value": 3868642,
+      "current_price": 73359,
+      "current_value": 1833969,
       "market": "US",
-      "name": "\ub137\ud50c\ub9ad\uc2a4",
-      "profit_loss": -91481,
-      "profit_loss_rate": -2.31,
-      "quantity": 35.0,
-      "sector": "\ucee4\ubba4\ub2c8\ucf00\uc774\uc158",
-      "symbol": "NFLX",
-      "weight": 74.79
-    },
-    {
-      "avg_purchase_price": 696620,
-      "country": "US",
-      "current_price": 699126,
-      "current_value": 699126,
-      "market": "US",
-      "name": "\ub9c8\uc774\ud06c\ub85c\uc18c\ud504\ud2b8",
-      "profit_loss": 2506,
-      "profit_loss_rate": 0.35,
-      "quantity": 1.0,
-      "sector": "\uc815\ubcf4\uae30\uc220",
-      "symbol": "MSFT",
-      "weight": 13.52
-    },
-    {
-      "avg_purchase_price": 611010,
-      "country": "US",
-      "current_price": 605056,
-      "current_value": 605056,
-      "market": "US",
-      "name": "\uc554\uc820",
-      "profit_loss": -5954,
-      "profit_loss_rate": -0.97,
-      "quantity": 1.0,
+      "name": "NEOS S&P 500 HIGH INCOME",
+      "profit_loss": -2396,
+      "profit_loss_rate": -0.13,
+      "quantity": 25.0,
       "sector": "\uae30\ud0c0",
-      "symbol": "AMGN",
-      "weight": 11.7
+      "symbol": "SPYI",
+      "weight": 33.85
+    },
+    {
+      "avg_purchase_price": 79165,
+      "country": "US",
+      "current_price": 78316,
+      "current_value": 1801268,
+      "market": "US",
+      "name": "JP MORGAN EQUITY PREMIUM INCOME",
+      "profit_loss": -19528,
+      "profit_loss_rate": -1.07,
+      "quantity": 23.0,
+      "sector": "\uae30\ud0c0",
+      "symbol": "JEPI",
+      "weight": 33.25
+    },
+    {
+      "avg_purchase_price": 82205,
+      "country": "US",
+      "current_price": 81000,
+      "current_value": 1782000,
+      "market": "US",
+      "name": "JP MORGAN NASDAQ EQUITY PREMIUM INCOME",
+      "profit_loss": -26512,
+      "profit_loss_rate": -1.46,
+      "quantity": 22.0,
+      "sector": "\uae30\ud0c0",
+      "symbol": "JEPQ",
+      "weight": 32.89
     }
   ],
   "sector_allocation": [
     {
-      "current_value": 3868642,
-      "sector": "\ucee4\ubba4\ub2c8\ucf00\uc774\uc158",
-      "weight": 74.79
-    },
-    {
-      "current_value": 699126,
-      "sector": "\uc815\ubcf4\uae30\uc220",
-      "weight": 13.52
-    },
-    {
-      "current_value": 605056,
+      "current_value": 5417237,
       "sector": "\uae30\ud0c0",
-      "weight": 11.7
+      "weight": 100.0
     }
   ],
   "summary": {
-    "cash_asset": 422428,
+    "cash_asset": 66745,
     "cash_asset_basis": "settled_plus_unsettled",
     "cash_asset_includes_unsettled": true,
     "currency": "KRW",
-    "settled_cash_asset": 422428,
-    "stock_asset": 5172824,
-    "total_asset": 5595252,
-    "total_profit_loss": -404748,
-    "total_profit_loss_rate": -6.75,
+    "settled_cash_asset": 66745,
+    "stock_asset": 5417237,
+    "total_asset": 5483982,
+    "total_profit_loss": -516018,
+    "total_profit_loss_rate": -8.6,
     "unsettled_sell_proceeds": 0,
-    "updated_at": "2026-08-27T20:06:33.670092+00:00"
+    "updated_at": "2026-09-03T06:27:08.423902+00:00"
   }
 }
