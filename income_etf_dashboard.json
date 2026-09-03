@@ -1,0 +1,91 @@
+{
+  "currency": {
+    "base": "USD",
+    "display": "KRW",
+    "exchange_rate_usd_krw": null
+  },
+  "data_type": "income_etf_dashboard",
+  "holdings": [
+    {
+      "current_value_krw": 0,
+      "dividend_status": {
+        "estimated_monthly_dividend_krw": null,
+        "estimated_next_dividend_per_share_usd": null,
+        "frequency": "monthly",
+        "last_dividend_per_share_usd": null,
+        "last_ex_date": "",
+        "last_pay_date": "",
+        "next_ex_date": "",
+        "next_pay_date": "",
+        "note": "첫 계좌 API 갱신 후 실제 값으로 대체됩니다.",
+        "source": "initial_placeholder"
+      },
+      "name": "JEPI",
+      "price_movement": {
+        "daily_change_percent": null,
+        "five_day_change_percent": null,
+        "twenty_day_change_percent": null
+      },
+      "quantity": 0,
+      "symbol": "JEPI"
+    },
+    {
+      "current_value_krw": 0,
+      "dividend_status": {
+        "estimated_monthly_dividend_krw": null,
+        "estimated_next_dividend_per_share_usd": null,
+        "frequency": "monthly",
+        "last_dividend_per_share_usd": null,
+        "last_ex_date": "",
+        "last_pay_date": "",
+        "next_ex_date": "",
+        "next_pay_date": "",
+        "note": "첫 계좌 API 갱신 후 실제 값으로 대체됩니다.",
+        "source": "initial_placeholder"
+      },
+      "name": "JEPQ",
+      "price_movement": {
+        "daily_change_percent": null,
+        "five_day_change_percent": null,
+        "twenty_day_change_percent": null
+      },
+      "quantity": 0,
+      "symbol": "JEPQ"
+    },
+    {
+      "current_value_krw": 0,
+      "dividend_status": {
+        "estimated_monthly_dividend_krw": null,
+        "estimated_next_dividend_per_share_usd": null,
+        "frequency": "monthly",
+        "last_dividend_per_share_usd": null,
+        "last_ex_date": "",
+        "last_pay_date": "",
+        "next_ex_date": "",
+        "next_pay_date": "",
+        "note": "첫 계좌 API 갱신 후 실제 값으로 대체됩니다.",
+        "source": "initial_placeholder"
+      },
+      "name": "SPYI",
+      "price_movement": {
+        "daily_change_percent": null,
+        "five_day_change_percent": null,
+        "twenty_day_change_percent": null
+      },
+      "quantity": 0,
+      "symbol": "SPYI"
+    }
+  ],
+  "principal": {
+    "amount_krw": 6000000,
+    "note": "사용자가 고정한 원금 기준입니다."
+  },
+  "schema_version": 1,
+  "summary": {
+    "cash_asset_krw": 74084,
+    "income_etf_value_krw": 0,
+    "stock_asset_krw": 1275108,
+    "total_asset_krw": 1349192
+  },
+  "updated_at": "2026-08-14T10:59:23.989121+09:00"
+}
