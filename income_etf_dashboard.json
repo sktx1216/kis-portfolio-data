@@ -129,7 +129,7 @@
   "holdings": [
     {
       "avg_purchase_price_usd": 57.81,
-      "current_price_usd": null,
+      "current_price_usd": 57.19,
       "current_value_krw": 1801268,
       "current_value_usd": 1315.37,
       "dividend_status": {
@@ -530,5 +530,5 @@
     "total_asset_krw": 5483981,
     "total_asset_usd": 4004.66
   },
-  "updated_at": "2026-09-03T06:27:13.956863+00:00"
+  "updated_at": "2026-09-03T06:30:01.500176+00:00"
 }
