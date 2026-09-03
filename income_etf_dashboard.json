@@ -1,15 +1,141 @@
 {
+  "account_api_summary": {
+    "account_total_candidates": {
+      "dncl_amt": "0",
+      "evlu_amt_smtl": "3955",
+      "frcr_evlu_tota": "66744",
+      "frcr_use_psbl_amt": "66744.00",
+      "pchs_amt_smtl": "3991",
+      "tot_asst_amt": "5483980",
+      "tot_dncl_amt": "1",
+      "tot_frcr_cblc_smtl": "66745.000000",
+      "wdrw_psbl_tot_amt": "1"
+    },
+    "cash_candidates": [
+      {
+        "crcy_cd": "USD",
+        "frcr_buy_amt_smtl": "0.000000",
+        "frcr_dncl_amt_2": "48.740000",
+        "frcr_drwg_psbl_amt_1": "48.740000"
+      }
+    ],
+    "msg1": "조회되었습니다                                                                  ",
+    "msg_cd": "KIOK0530",
+    "position_candidates": [
+      {
+        "qty": null,
+        "symbol": "JEPQ"
+      },
+      {
+        "qty": null,
+        "symbol": "JEPI"
+      },
+      {
+        "qty": null,
+        "symbol": "SPYI"
+      }
+    ],
+    "rt_cd": "0",
+    "sections": {
+      "output1": {
+        "rows": 3,
+        "sample_keys": [
+          "avg_unpr3",
+          "bass_exrt",
+          "buy_crcy_cd",
+          "cblc_qty13",
+          "ccld_qty_smtl1",
+          "evlu_pfls_amt2",
+          "evlu_pfls_rt1",
+          "frcr_evlu_amt2",
+          "frcr_pchs_amt",
+          "item_lnkg_excg_cd",
+          "loan_dt",
+          "loan_expd_dt",
+          "loan_rmnd",
+          "natn_kor_name",
+          "ord_psbl_qty1",
+          "ovrs_excg_cd",
+          "ovrs_now_pric1",
+          "pchs_rmnd_wcrc_amt",
+          "pdno",
+          "prdt_dvsn",
+          "prdt_name",
+          "prdt_type_cd",
+          "scts_dvsn_name",
+          "std_pdno",
+          "thdt_buy_ccld_frcr_amt",
+          "thdt_buy_ccld_qty1",
+          "thdt_sll_ccld_frcr_amt",
+          "thdt_sll_ccld_qty1",
+          "tr_mket_name",
+          "unit_amt"
+        ],
+        "type": "list"
+      },
+      "output2": {
+        "rows": 1,
+        "sample_keys": [
+          "acpl_cstd_crcy_yn",
+          "crcy_cd",
+          "crcy_cd_name",
+          "frcr_buy_amt_smtl",
+          "frcr_buy_mgn_amt",
+          "frcr_dncl_amt_2",
+          "frcr_drwg_psbl_amt_1",
+          "frcr_etc_mgna",
+          "frcr_evlu_amt2",
+          "frcr_sll_amt_smtl",
+          "frst_bltn_exrt",
+          "nxdy_frcr_drwg_psbl_amt"
+        ],
+        "type": "list"
+      },
+      "output3": {
+        "rows": 1,
+        "sample_keys": [
+          "buy_mgn_amt",
+          "cma_evlu_amt",
+          "dncl_amt",
+          "etc_mgna",
+          "evlu_amt_smtl",
+          "evlu_amt_smtl_amt",
+          "evlu_erng_rt1",
+          "evlu_pfls_amt_smtl",
+          "frcr_evlu_tota",
+          "frcr_use_psbl_amt",
+          "mgna_tota",
+          "pchs_amt_smtl",
+          "pchs_amt_smtl_amt",
+          "tot_asst_amt",
+          "tot_dncl_amt",
+          "tot_evlu_pfls_amt",
+          "tot_frcr_cblc_smtl",
+          "tot_loan_amt",
+          "ustl_buy_amt_smtl",
+          "ustl_sll_amt_smtl",
+          "wdrw_psbl_tot_amt"
+        ],
+        "type": "dict"
+      }
+    }
+  },
   "currency": {
     "base": "USD",
     "display": "KRW",
-    "exchange_rate_usd_krw": null
+    "exchange_rate_usd_krw": 1369.4
   },
   "data_type": "income_etf_dashboard",
   "holdings": [
     {
-      "current_value_krw": 0,
+      "avg_purchase_price_usd": 57.81,
+      "current_price_usd": null,
+      "current_value_krw": 1801268,
+      "current_value_usd": 1315.37,
       "dividend_status": {
+        "estimated_annual_dividend_usd": null,
         "estimated_monthly_dividend_krw": null,
+        "estimated_monthly_dividend_usd": null,
         "estimated_next_dividend_per_share_usd": null,
         "frequency": "monthly",
         "last_dividend_per_share_usd": null,
@@ -17,22 +143,66 @@
         "last_pay_date": "",
         "next_ex_date": "",
         "next_pay_date": "",
-        "note": "첫 계좌 API 갱신 후 실제 값으로 대체됩니다.",
-        "source": "initial_placeholder"
+        "note": "배당금은 INCOME_ETF_DIVIDEND_JSON 값이 없으면 수동 관리 기본값으로 표시됩니다.",
+        "source": "INCOME_ETF_DIVIDEND_JSON"
       },
-      "name": "JEPI",
+      "exchange": "NYSE",
+      "high_price_usd": null,
+      "income_etf_weight_percent": 33.25,
+      "low_price_usd": null,
+      "name": "JP MORGAN EQUITY PREMIUM INCOME",
+      "open_price_usd": null,
+      "previous_close_usd": null,
+      "price_change_rate": null,
+      "price_change_usd": null,
       "price_movement": {
+        "as_of": "",
         "daily_change_percent": null,
+        "daily_change_usd": null,
         "five_day_change_percent": null,
+        "previous_close_usd": null,
         "twenty_day_change_percent": null
       },
-      "quantity": 0,
-      "symbol": "JEPI"
+      "profit_loss_krw": -19528,
+      "profit_loss_rate": -1.07,
+      "profit_loss_usd": -14.26,
+      "purchase_amount_krw": 1820795,
+      "purchase_amount_usd": 1329.63,
+      "quantity": 23.0,
+      "range_status": {
+        "position_in_20d_range_percent": null,
+        "twenty_day_high_usd": null,
+        "twenty_day_low_usd": null
+      },
+      "raw_api_fields": {
+        "position": {
+          "average_purchase_price": 57.81,
+          "exchange_rate": 1369.4,
+          "name": "JP MORGAN EQUITY PREMIUM INCOME",
+          "portfolio_weight_percent": 32.85,
+          "profit_loss": -14.26,
+          "profit_loss_rate": -1.07,
+          "quantity": 23.0,
+          "symbol": "JEPI",
+          "total_current_value": 1315.37,
+          "total_purchase_amount": 1329.63
+        },
+        "quote": {}
+      },
+      "recent_daily_prices": [],
+      "symbol": "JEPI",
+      "trade_value_usd": null,
+      "volume": null
     },
     {
-      "current_value_krw": 0,
+      "avg_purchase_price_usd": 60.03,
+      "current_price_usd": 59.15,
+      "current_value_krw": 1782000,
+      "current_value_usd": 1301.3,
       "dividend_status": {
+        "estimated_annual_dividend_usd": null,
         "estimated_monthly_dividend_krw": null,
+        "estimated_monthly_dividend_usd": null,
         "estimated_next_dividend_per_share_usd": null,
         "frequency": "monthly",
         "last_dividend_per_share_usd": null,
@@ -40,22 +210,159 @@
         "last_pay_date": "",
         "next_ex_date": "",
         "next_pay_date": "",
-        "note": "첫 계좌 API 갱신 후 실제 값으로 대체됩니다.",
-        "source": "initial_placeholder"
+        "note": "배당금은 INCOME_ETF_DIVIDEND_JSON 값이 없으면 수동 관리 기본값으로 표시됩니다.",
+        "source": "INCOME_ETF_DIVIDEND_JSON"
       },
-      "name": "JEPQ",
+      "exchange": "NASD",
+      "high_price_usd": null,
+      "income_etf_weight_percent": 32.9,
+      "low_price_usd": null,
+      "name": "JP MORGAN NASDAQ EQUITY PREMIUM INCOME",
+      "open_price_usd": null,
+      "previous_close_usd": 59.0,
+      "price_change_rate": 0.25,
+      "price_change_usd": 0.15,
       "price_movement": {
-        "daily_change_percent": null,
-        "five_day_change_percent": null,
-        "twenty_day_change_percent": null
+        "as_of": "20260902",
+        "daily_change_percent": 0.25,
+        "daily_change_usd": 0.15,
+        "five_day_change_percent": 0.06,
+        "previous_close_usd": 59.0,
+        "twenty_day_change_percent": 0.75
       },
-      "quantity": 0,
-      "symbol": "JEPQ"
+      "profit_loss_krw": -26512,
+      "profit_loss_rate": -1.47,
+      "profit_loss_usd": -19.36,
+      "purchase_amount_krw": 1808512,
+      "purchase_amount_usd": 1320.66,
+      "quantity": 22.0,
+      "range_status": {
+        "position_in_20d_range_percent": 78.09,
+        "twenty_day_high_usd": 59.8737,
+        "twenty_day_low_usd": 56.5705
+      },
+      "raw_api_fields": {
+        "position": {
+          "average_purchase_price": 60.03,
+          "exchange_rate": 1369.4,
+          "name": "JP MORGAN NASDAQ EQUITY PREMIUM INCOME",
+          "portfolio_weight_percent": 32.49,
+          "profit_loss": -19.36,
+          "profit_loss_rate": -1.46,
+          "quantity": 22.0,
+          "symbol": "JEPQ",
+          "total_current_value": 1301.3,
+          "total_purchase_amount": 1320.66
+        },
+        "quote": {
+          "base": "59.0000",
+          "diff": "0.1500",
+          "last": "59.1500",
+          "ordy": "매도불가",
+          "pvol": "7668213",
+          "rate": "+0.25",
+          "rsym": "DNASJEPQ",
+          "sign": "2",
+          "tamt": "403153843",
+          "tvol": "6824328",
+          "zdiv": "4"
+        }
+      },
+      "recent_daily_prices": [
+        {
+          "close": 58.9839,
+          "date": "20260820",
+          "high": 59.1816,
+          "low": 58.8207,
+          "open": 58.9839,
+          "volume": 4886308.0
+        },
+        {
+          "close": 59.1618,
+          "date": "20260821",
+          "high": 59.3101,
+          "low": 58.8751,
+          "open": 59.2854,
+          "volume": 4926654.0
+        },
+        {
+          "close": 58.7466,
+          "date": "20260824",
+          "high": 58.9839,
+          "low": 58.4895,
+          "open": 58.9443,
+          "volume": 5737598.0
+        },
+        {
+          "close": 59.0729,
+          "date": "20260825",
+          "high": 59.2212,
+          "low": 58.8504,
+          "open": 59.0926,
+          "volume": 4602482.0
+        },
+        {
+          "close": 59.1124,
+          "date": "20260826",
+          "high": 59.2112,
+          "low": 58.9246,
+          "open": 58.9443,
+          "volume": 4441765.0
+        },
+        {
+          "close": 59.6265,
+          "date": "20260827",
+          "high": 59.6445,
+          "low": 59.2805,
+          "open": 59.4485,
+          "volume": 4667595.0
+        },
+        {
+          "close": 59.4683,
+          "date": "20260828",
+          "high": 59.8242,
+          "low": 59.3891,
+          "open": 59.587,
+          "volume": 6185293.0
+        },
+        {
+          "close": 59.5375,
+          "date": "20260831",
+          "high": 59.5672,
+          "low": 59.32,
+          "open": 59.4683,
+          "volume": 8095747.0
+        },
+        {
+          "close": 59.0,
+          "date": "20260901",
+          "high": 59.2861,
+          "low": 58.795,
+          "open": 59.0,
+          "volume": 7668213.0
+        },
+        {
+          "close": 59.15,
+          "date": "20260902",
+          "high": 59.19,
+          "low": 58.85,
+          "open": 59.015,
+          "volume": 6824328.0
+        }
+      ],
+      "symbol": "JEPQ",
+      "trade_value_usd": 403153843.0,
+      "volume": 6824328.0
     },
     {
-      "current_value_krw": 0,
+      "avg_purchase_price_usd": 53.64,
+      "current_price_usd": 53.57,
+      "current_value_krw": 1833969,
+      "current_value_usd": 1339.25,
       "dividend_status": {
+        "estimated_annual_dividend_usd": null,
         "estimated_monthly_dividend_krw": null,
+        "estimated_monthly_dividend_usd": null,
         "estimated_next_dividend_per_share_usd": null,
         "frequency": "monthly",
         "last_dividend_per_share_usd": null,
@@ -63,17 +370,149 @@
         "last_pay_date": "",
         "next_ex_date": "",
         "next_pay_date": "",
-        "note": "첫 계좌 API 갱신 후 실제 값으로 대체됩니다.",
-        "source": "initial_placeholder"
+        "note": "배당금은 INCOME_ETF_DIVIDEND_JSON 값이 없으면 수동 관리 기본값으로 표시됩니다.",
+        "source": "INCOME_ETF_DIVIDEND_JSON"
       },
-      "name": "SPYI",
+      "exchange": "AMEX",
+      "high_price_usd": null,
+      "income_etf_weight_percent": 33.85,
+      "low_price_usd": null,
+      "name": "NEOS S&P 500 HIGH INCOME",
+      "open_price_usd": null,
+      "previous_close_usd": 53.36,
+      "price_change_rate": 0.39,
+      "price_change_usd": 0.21,
       "price_movement": {
-        "daily_change_percent": null,
-        "five_day_change_percent": null,
-        "twenty_day_change_percent": null
+        "as_of": "20260902",
+        "daily_change_percent": 0.39,
+        "daily_change_usd": 0.21,
+        "five_day_change_percent": 0.07,
+        "previous_close_usd": 53.36,
+        "twenty_day_change_percent": 0.21
       },
-      "quantity": 0,
-      "symbol": "SPYI"
+      "profit_loss_krw": -2396,
+      "profit_loss_rate": -0.13,
+      "profit_loss_usd": -1.75,
+      "purchase_amount_krw": 1836365,
+      "purchase_amount_usd": 1341.0,
+      "quantity": 25.0,
+      "range_status": {
+        "position_in_20d_range_percent": 84.29,
+        "twenty_day_high_usd": 53.864,
+        "twenty_day_low_usd": 51.993
+      },
+      "raw_api_fields": {
+        "position": {
+          "average_purchase_price": 53.64,
+          "exchange_rate": 1369.4,
+          "name": "NEOS S&P 500 HIGH INCOME",
+          "portfolio_weight_percent": 33.44,
+          "profit_loss": -1.75,
+          "profit_loss_rate": -0.13,
+          "quantity": 25.0,
+          "symbol": "SPYI",
+          "total_current_value": 1339.25,
+          "total_purchase_amount": 1341.0
+        },
+        "quote": {
+          "base": "53.3600",
+          "diff": "0.2100",
+          "last": "53.5700",
+          "ordy": "매도불가",
+          "pvol": "2319876",
+          "rate": "+0.39",
+          "rsym": "DAMSSPYI",
+          "sign": "2",
+          "tamt": "114409848",
+          "tvol": "2137684",
+          "zdiv": "4"
+        }
+      },
+      "recent_daily_prices": [
+        {
+          "close": 53.31,
+          "date": "20260820",
+          "high": 53.55,
+          "low": 53.27,
+          "open": 53.45,
+          "volume": 2927256.0
+        },
+        {
+          "close": 53.46,
+          "date": "20260821",
+          "high": 53.56,
+          "low": 53.395,
+          "open": 53.45,
+          "volume": 2211118.0
+        },
+        {
+          "close": 53.39,
+          "date": "20260824",
+          "high": 53.46,
+          "low": 53.31,
+          "open": 53.45,
+          "volume": 2947207.0
+        },
+        {
+          "close": 53.53,
+          "date": "20260825",
+          "high": 53.55,
+          "low": 53.37,
+          "open": 53.48,
+          "volume": 2334617.0
+        },
+        {
+          "close": 53.53,
+          "date": "20260826",
+          "high": 53.585,
+          "low": 53.42,
+          "open": 53.46,
+          "volume": 1739911.0
+        },
+        {
+          "close": 53.78,
+          "date": "20260827",
+          "high": 53.83,
+          "low": 53.59,
+          "open": 53.69,
+          "volume": 2096044.0
+        },
+        {
+          "close": 53.73,
+          "date": "20260828",
+          "high": 53.96,
+          "low": 53.675,
+          "open": 53.78,
+          "volume": 1909971.0
+        },
+        {
+          "close": 53.65,
+          "date": "20260831",
+          "high": 53.685,
+          "low": 53.54,
+          "open": 53.65,
+          "volume": 2094196.0
+        },
+        {
+          "close": 53.36,
+          "date": "20260901",
+          "high": 53.53,
+          "low": 53.22,
+          "open": 53.37,
+          "volume": 2319876.0
+        },
+        {
+          "close": 53.57,
+          "date": "20260902",
+          "high": 53.619,
+          "low": 53.36,
+          "open": 53.41,
+          "volume": 2137684.0
+        }
+      ],
+      "symbol": "SPYI",
+      "trade_value_usd": 114409848.0,
+      "volume": 2137684.0
     }
   ],
   "principal": {
@@ -82,10 +521,14 @@
   },
   "schema_version": 1,
   "summary": {
-    "cash_asset_krw": 74084,
-    "income_etf_value_krw": 0,
-    "stock_asset_krw": 1275108,
-    "total_asset_krw": 1349192
+    "cash_asset_krw": 66745,
+    "cash_asset_usd": 48.74,
+    "income_etf_value_krw": 5417237,
+    "income_etf_value_usd": 3955.92,
+    "stock_asset_krw": 5417237,
+    "stock_asset_usd": 3955.92,
+    "total_asset_krw": 5483981,
+    "total_asset_usd": 4004.66
   },
-  "updated_at": "2026-08-14T10:59:23.989121+09:00"
+  "updated_at": "2026-09-03T06:27:13.956863+00:00"
 }
