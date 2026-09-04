@@ -1,51 +1,51 @@
 {
   "account": {
     "cash_asset_usd": 48.74,
-    "stock_asset_usd": 3955.92,
-    "total_asset_usd": 4004.66
+    "stock_asset_usd": 3983.82,
+    "total_asset_usd": 4032.56
   },
   "currency": "USD",
   "data_type": "portfolio_snapshot",
-  "exchange_rate_usd_krw": 1369.4,
+  "exchange_rate_usd_krw": 1359.5,
   "is_realtime": false,
   "positions": [
     {
       "average_purchase_price": 57.81,
-      "exchange_rate": 1369.4,
+      "exchange_rate": 1359.5,
       "name": "JP MORGAN EQUITY PREMIUM INCOME",
-      "portfolio_weight_percent": 32.85,
-      "profit_loss": -14.26,
-      "profit_loss_rate": -1.07,
+      "portfolio_weight_percent": 32.76,
+      "profit_loss": -8.74,
+      "profit_loss_rate": -0.65,
       "quantity": 23.0,
       "symbol": "JEPI",
-      "total_current_value": 1315.37,
+      "total_current_value": 1320.89,
       "total_purchase_amount": 1329.63
     },
     {
       "average_purchase_price": 60.03,
-      "exchange_rate": 1369.4,
+      "exchange_rate": 1359.5,
       "name": "JP MORGAN NASDAQ EQUITY PREMIUM INCOME",
-      "portfolio_weight_percent": 32.49,
-      "profit_loss": -19.36,
-      "profit_loss_rate": -1.46,
+      "portfolio_weight_percent": 32.56,
+      "profit_loss": -7.48,
+      "profit_loss_rate": -0.56,
       "quantity": 22.0,
       "symbol": "JEPQ",
-      "total_current_value": 1301.3,
+      "total_current_value": 1313.18,
       "total_purchase_amount": 1320.66
     },
     {
       "average_purchase_price": 53.64,
-      "exchange_rate": 1369.4,
+      "exchange_rate": 1359.5,
       "name": "NEOS S&P 500 HIGH INCOME",
-      "portfolio_weight_percent": 33.44,
-      "profit_loss": -1.75,
-      "profit_loss_rate": -0.13,
+      "portfolio_weight_percent": 33.47,
+      "profit_loss": 8.75,
+      "profit_loss_rate": 0.65,
       "quantity": 25.0,
       "symbol": "SPYI",
-      "total_current_value": 1339.25,
+      "total_current_value": 1349.75,
       "total_purchase_amount": 1341.0
     }
   ],
   "snapshot_note": "Last account balance snapshot. Not real-time market data.",
-  "updated_at": "2026-09-03T06:41:05.389493+00:00"
+  "updated_at": "2026-09-04T00:47:29.101311+00:00"
 }
