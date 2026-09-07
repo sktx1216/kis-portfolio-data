@@ -2,21 +2,21 @@
   "account_api_summary": {
     "account_total_candidates": {
       "dncl_amt": "0",
-      "evlu_amt_smtl": "3983",
-      "frcr_evlu_tota": "66262",
-      "frcr_use_psbl_amt": "66262.00",
-      "pchs_amt_smtl": "3991",
-      "tot_asst_amt": "5482265",
+      "evlu_amt_smtl": "3225",
+      "frcr_evlu_tota": "94362",
+      "frcr_use_psbl_amt": "94362.00",
+      "pchs_amt_smtl": "3240",
+      "tot_asst_amt": "5488287",
       "tot_dncl_amt": "1",
-      "tot_frcr_cblc_smtl": "66263.000000",
+      "tot_frcr_cblc_smtl": "94363.000000",
       "wdrw_psbl_tot_amt": "1"
     },
     "cash_candidates": [
       {
         "crcy_cd": "USD",
         "frcr_buy_amt_smtl": "0.000000",
-        "frcr_dncl_amt_2": "48.740000",
-        "frcr_drwg_psbl_amt_1": "48.740000"
+        "frcr_dncl_amt_2": "69.630000",
+        "frcr_drwg_psbl_amt_1": "69.630000"
       }
     ],
     "msg1": "조회되었습니다                                                                  ",
@@ -123,15 +123,15 @@
   "currency": {
     "base": "USD",
     "display": "KRW",
-    "exchange_rate_usd_krw": 1359.5
+    "exchange_rate_usd_krw": 1355.2
   },
   "data_type": "income_etf_dashboard",
   "holdings": [
     {
       "avg_purchase_price_usd": 57.81,
-      "current_price_usd": 57.43,
-      "current_value_krw": 1795750,
-      "current_value_usd": 1320.89,
+      "current_price_usd": 57.22,
+      "current_value_krw": 1783525,
+      "current_value_usd": 1316.06,
       "dividend_status": {
         "estimated_annual_dividend_usd": null,
         "estimated_monthly_dividend_krw": null,
@@ -147,69 +147,61 @@
         "source": "INCOME_ETF_DIVIDEND_JSON"
       },
       "exchange": "AMEX",
-      "high_price_usd": 57.44,
-      "income_etf_weight_percent": 33.16,
-      "low_price_usd": 57.08,
+      "high_price_usd": 57.395,
+      "income_etf_weight_percent": 40.8,
+      "low_price_usd": 57.17,
       "name": "JP MORGAN EQUITY PREMIUM INCOME",
-      "open_price_usd": 57.36,
-      "previous_close_usd": 57.19,
-      "price_change_rate": 0.42,
-      "price_change_usd": 0.24,
+      "open_price_usd": 57.33,
+      "previous_close_usd": 57.43,
+      "price_change_rate": -0.37,
+      "price_change_usd": 0.21,
       "price_movement": {
-        "as_of": "20260903",
-        "daily_change_percent": 0.42,
-        "daily_change_usd": 0.24,
-        "five_day_change_percent": -0.08,
-        "previous_close_usd": 57.19,
-        "twenty_day_change_percent": 0.37
+        "as_of": "20260904",
+        "daily_change_percent": -0.37,
+        "daily_change_usd": -0.21,
+        "five_day_change_percent": -0.34,
+        "previous_close_usd": 57.43,
+        "twenty_day_change_percent": 0.02
       },
-      "profit_loss_krw": -11882,
-      "profit_loss_rate": -0.66,
-      "profit_loss_usd": -8.74,
-      "purchase_amount_krw": 1807632,
+      "profit_loss_krw": -18390,
+      "profit_loss_rate": -1.02,
+      "profit_loss_usd": -13.57,
+      "purchase_amount_krw": 1801915,
       "purchase_amount_usd": 1329.63,
       "quantity": 23.0,
       "range_status": {
-        "position_in_20d_range_percent": 67.48,
+        "position_in_20d_range_percent": 29.87,
         "twenty_day_high_usd": 57.7843,
-        "twenty_day_low_usd": 56.6949
+        "twenty_day_low_usd": 56.9796
       },
       "raw_api_fields": {
         "position": {
           "average_purchase_price": 57.81,
-          "exchange_rate": 1359.5,
+          "exchange_rate": 1355.2,
           "name": "JP MORGAN EQUITY PREMIUM INCOME",
-          "portfolio_weight_percent": 32.76,
-          "profit_loss": -8.74,
-          "profit_loss_rate": -0.65,
+          "portfolio_weight_percent": 39.94,
+          "profit_loss": -13.57,
+          "profit_loss_rate": -1.02,
           "quantity": 23.0,
           "symbol": "JEPI",
-          "total_current_value": 1320.89,
+          "total_current_value": 1316.06,
           "total_purchase_amount": 1329.63
         },
         "quote": {
-          "base": "57.1900",
-          "diff": "0.2400",
-          "last": "57.4300",
+          "base": "57.4300",
+          "diff": "0.2100",
+          "last": "57.2200",
           "ordy": "매도불가",
-          "pvol": "4498846",
-          "rate": "+0.42",
+          "pvol": "5105816",
+          "rate": "-0.37",
           "rsym": "DAMSJEPI",
-          "sign": "2",
-          "tamt": "292717078",
-          "tvol": "5105816",
+          "sign": "5",
+          "tamt": "231359709",
+          "tvol": "4041295",
           "zdiv": "4"
         }
       },
       "recent_daily_prices": [
-        {
-          "close": 57.5459,
-          "date": "20260821",
-          "high": 57.5956,
-          "low": 57.4078,
-          "open": 57.536,
-          "volume": 4275691.0
-        },
         {
           "close": 57.7148,
           "date": "20260824",
@@ -281,17 +273,25 @@
           "low": 57.08,
           "open": 57.36,
           "volume": 5105816.0
+        },
+        {
+          "close": 57.22,
+          "date": "20260904",
+          "high": 57.395,
+          "low": 57.17,
+          "open": 57.33,
+          "volume": 4041295.0
         }
       ],
       "symbol": "JEPI",
-      "trade_value_usd": 292717078.0,
-      "volume": 5105816.0
+      "trade_value_usd": 231359709.0,
+      "volume": 4041295.0
     },
     {
       "avg_purchase_price_usd": 60.03,
-      "current_price_usd": 59.69,
-      "current_value_krw": 1785268,
-      "current_value_usd": 1313.18,
+      "current_price_usd": 59.87,
+      "current_value_krw": 1784988,
+      "current_value_usd": 1317.14,
       "dividend_status": {
         "estimated_annual_dividend_usd": null,
         "estimated_monthly_dividend_krw": null,
@@ -307,69 +307,61 @@
         "source": "INCOME_ETF_DIVIDEND_JSON"
       },
       "exchange": "NASD",
-      "high_price_usd": 59.7498,
-      "income_etf_weight_percent": 32.96,
-      "low_price_usd": 59.145,
+      "high_price_usd": 59.99,
+      "income_etf_weight_percent": 40.83,
+      "low_price_usd": 59.68,
       "name": "JP MORGAN NASDAQ EQUITY PREMIUM INCOME",
-      "open_price_usd": 59.28,
-      "previous_close_usd": 59.15,
-      "price_change_rate": 0.91,
-      "price_change_usd": 0.54,
+      "open_price_usd": 59.78,
+      "previous_close_usd": 59.69,
+      "price_change_rate": 0.3,
+      "price_change_usd": 0.18,
       "price_movement": {
-        "as_of": "20260903",
-        "daily_change_percent": 0.91,
-        "daily_change_usd": 0.54,
-        "five_day_change_percent": 0.11,
-        "previous_close_usd": 59.15,
-        "twenty_day_change_percent": 1.74
+        "as_of": "20260904",
+        "daily_change_percent": 0.3,
+        "daily_change_usd": 0.18,
+        "five_day_change_percent": 0.68,
+        "previous_close_usd": 59.69,
+        "twenty_day_change_percent": 1.37
       },
-      "profit_loss_krw": -10169,
-      "profit_loss_rate": -0.57,
-      "profit_loss_usd": -7.48,
-      "purchase_amount_krw": 1795437,
+      "profit_loss_krw": -4770,
+      "profit_loss_rate": -0.27,
+      "profit_loss_usd": -3.52,
+      "purchase_amount_krw": 1789758,
       "purchase_amount_usd": 1320.66,
       "quantity": 22.0,
       "range_status": {
-        "position_in_20d_range_percent": 93.84,
+        "position_in_20d_range_percent": 99.83,
         "twenty_day_high_usd": 59.8737,
-        "twenty_day_low_usd": 56.8928
+        "twenty_day_low_usd": 57.6788
       },
       "raw_api_fields": {
         "position": {
           "average_purchase_price": 60.03,
-          "exchange_rate": 1359.5,
+          "exchange_rate": 1355.2,
           "name": "JP MORGAN NASDAQ EQUITY PREMIUM INCOME",
-          "portfolio_weight_percent": 32.56,
-          "profit_loss": -7.48,
-          "profit_loss_rate": -0.56,
+          "portfolio_weight_percent": 39.97,
+          "profit_loss": -3.52,
+          "profit_loss_rate": -0.26,
           "quantity": 22.0,
           "symbol": "JEPQ",
-          "total_current_value": 1313.18,
+          "total_current_value": 1317.14,
           "total_purchase_amount": 1320.66
         },
         "quote": {
-          "base": "59.1500",
-          "diff": "0.5400",
-          "last": "59.6900",
+          "base": "59.6900",
+          "diff": "0.1800",
+          "last": "59.8700",
           "ordy": "매도불가",
-          "pvol": "6824328",
-          "rate": "+0.91",
+          "pvol": "6623640",
+          "rate": "+0.30",
           "rsym": "DNASJEPQ",
           "sign": "2",
-          "tamt": "394066292",
-          "tvol": "6623640",
+          "tamt": "294337646",
+          "tvol": "4921391",
           "zdiv": "4"
         }
       },
       "recent_daily_prices": [
-        {
-          "close": 59.1618,
-          "date": "20260821",
-          "high": 59.3101,
-          "low": 58.8751,
-          "open": 59.2854,
-          "volume": 4926654.0
-        },
         {
           "close": 58.7466,
           "date": "20260824",
@@ -441,17 +433,25 @@
           "low": 59.145,
           "open": 59.28,
           "volume": 6623640.0
+        },
+        {
+          "close": 59.87,
+          "date": "20260904",
+          "high": 59.99,
+          "low": 59.68,
+          "open": 59.78,
+          "volume": 4921391.0
         }
       ],
       "symbol": "JEPQ",
-      "trade_value_usd": 394066292.0,
-      "volume": 6623640.0
+      "trade_value_usd": 294337646.0,
+      "volume": 4921391.0
     },
     {
       "avg_purchase_price_usd": 53.64,
-      "current_price_usd": 53.99,
-      "current_value_krw": 1834985,
-      "current_value_usd": 1349.75,
+      "current_price_usd": 53.86,
+      "current_value_krw": 802902,
+      "current_value_usd": 592.46,
       "dividend_status": {
         "estimated_annual_dividend_usd": null,
         "estimated_monthly_dividend_krw": null,
@@ -467,69 +467,61 @@
         "source": "INCOME_ETF_DIVIDEND_JSON"
       },
       "exchange": "AMEX",
-      "high_price_usd": 54.02,
-      "income_etf_weight_percent": 33.88,
-      "low_price_usd": 53.69,
+      "high_price_usd": 53.9875,
+      "income_etf_weight_percent": 18.37,
+      "low_price_usd": 53.8038,
       "name": "NEOS S&P 500 HIGH INCOME",
-      "open_price_usd": 53.7,
-      "previous_close_usd": 53.57,
-      "price_change_rate": 0.78,
-      "price_change_usd": 0.42,
+      "open_price_usd": 53.95,
+      "previous_close_usd": 53.99,
+      "price_change_rate": -0.24,
+      "price_change_usd": 0.13,
       "price_movement": {
-        "as_of": "20260903",
-        "daily_change_percent": 0.78,
-        "daily_change_usd": 0.42,
-        "five_day_change_percent": 0.39,
-        "previous_close_usd": 53.57,
-        "twenty_day_change_percent": 1.05
+        "as_of": "20260904",
+        "daily_change_percent": -0.24,
+        "daily_change_usd": -0.13,
+        "five_day_change_percent": 0.24,
+        "previous_close_usd": 53.99,
+        "twenty_day_change_percent": 0.42
       },
-      "profit_loss_krw": 11896,
-      "profit_loss_rate": 0.65,
-      "profit_loss_usd": 8.75,
-      "purchase_amount_krw": 1823090,
-      "purchase_amount_usd": 1341.0,
+      "profit_loss_krw": 3280,
+      "profit_loss_rate": 0.41,
+      "profit_loss_usd": 2.42,
+      "purchase_amount_krw": 799622,
+      "purchase_amount_usd": 590.04,
       "quantity": 25.0,
       "range_status": {
-        "position_in_20d_range_percent": 100.0,
+        "position_in_20d_range_percent": 87.81,
         "twenty_day_high_usd": 53.99,
-        "twenty_day_low_usd": 52.3295
+        "twenty_day_low_usd": 52.9235
       },
       "raw_api_fields": {
         "position": {
           "average_purchase_price": 53.64,
-          "exchange_rate": 1359.5,
+          "exchange_rate": 1355.2,
           "name": "NEOS S&P 500 HIGH INCOME",
-          "portfolio_weight_percent": 33.47,
-          "profit_loss": 8.75,
-          "profit_loss_rate": 0.65,
+          "portfolio_weight_percent": 17.98,
+          "profit_loss": 2.42,
+          "profit_loss_rate": 0.41,
           "quantity": 25.0,
           "symbol": "SPYI",
-          "total_current_value": 1349.75,
-          "total_purchase_amount": 1341.0
+          "total_current_value": 592.46,
+          "total_purchase_amount": 590.04
         },
         "quote": {
-          "base": "53.5700",
-          "diff": "0.4200",
-          "last": "53.9900",
+          "base": "53.9900",
+          "diff": "0.1300",
+          "last": "53.8600",
           "ordy": "매도불가",
-          "pvol": "2137684",
-          "rate": "+0.78",
+          "pvol": "2824825",
+          "rate": "-0.24",
           "rsym": "DAMSSPYI",
-          "sign": "2",
-          "tamt": "152249329",
-          "tvol": "2824825",
+          "sign": "5",
+          "tamt": "153275275",
+          "tvol": "2845073",
           "zdiv": "4"
         }
       },
       "recent_daily_prices": [
-        {
-          "close": 53.46,
-          "date": "20260821",
-          "high": 53.56,
-          "low": 53.395,
-          "open": 53.45,
-          "volume": 2211118.0
-        },
         {
           "close": 53.39,
           "date": "20260824",
@@ -601,11 +593,19 @@
           "low": 53.69,
           "open": 53.7,
           "volume": 2824825.0
+        },
+        {
+          "close": 53.86,
+          "date": "20260904",
+          "high": 53.9875,
+          "low": 53.8038,
+          "open": 53.95,
+          "volume": 2845073.0
         }
       ],
       "symbol": "SPYI",
-      "trade_value_usd": 152249329.0,
-      "volume": 2824825.0
+      "trade_value_usd": 153275275.0,
+      "volume": 2845073.0
     }
   ],
   "principal": {
@@ -614,14 +614,14 @@
   },
   "schema_version": 1,
   "summary": {
-    "cash_asset_krw": 66262,
-    "cash_asset_usd": 48.74,
-    "income_etf_value_krw": 5416003,
-    "income_etf_value_usd": 3983.82,
-    "stock_asset_krw": 5416003,
-    "stock_asset_usd": 3983.82,
-    "total_asset_krw": 5482265,
-    "total_asset_usd": 4032.56
+    "cash_asset_krw": 94363,
+    "cash_asset_usd": 69.63,
+    "income_etf_value_krw": 4371414,
+    "income_etf_value_usd": 3225.66,
+    "stock_asset_krw": 4371414,
+    "stock_asset_usd": 3225.66,
+    "total_asset_krw": 4465777,
+    "total_asset_usd": 3295.29
   },
-  "updated_at": "2026-09-04T00:47:35.415161+00:00"
+  "updated_at": "2026-09-07T00:57:44.180481+00:00"
 }
