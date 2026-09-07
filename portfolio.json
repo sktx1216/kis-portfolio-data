@@ -1,51 +1,51 @@
 {
   "account": {
-    "cash_asset_usd": 48.74,
-    "stock_asset_usd": 3983.82,
-    "total_asset_usd": 4032.56
+    "cash_asset_usd": 69.63,
+    "stock_asset_usd": 3225.66,
+    "total_asset_usd": 3295.29
   },
   "currency": "USD",
   "data_type": "portfolio_snapshot",
-  "exchange_rate_usd_krw": 1359.5,
+  "exchange_rate_usd_krw": 1355.2,
   "is_realtime": false,
   "positions": [
     {
       "average_purchase_price": 57.81,
-      "exchange_rate": 1359.5,
+      "exchange_rate": 1355.2,
       "name": "JP MORGAN EQUITY PREMIUM INCOME",
-      "portfolio_weight_percent": 32.76,
-      "profit_loss": -8.74,
-      "profit_loss_rate": -0.65,
+      "portfolio_weight_percent": 39.94,
+      "profit_loss": -13.57,
+      "profit_loss_rate": -1.02,
       "quantity": 23.0,
       "symbol": "JEPI",
-      "total_current_value": 1320.89,
+      "total_current_value": 1316.06,
       "total_purchase_amount": 1329.63
     },
     {
       "average_purchase_price": 60.03,
-      "exchange_rate": 1359.5,
+      "exchange_rate": 1355.2,
       "name": "JP MORGAN NASDAQ EQUITY PREMIUM INCOME",
-      "portfolio_weight_percent": 32.56,
-      "profit_loss": -7.48,
-      "profit_loss_rate": -0.56,
+      "portfolio_weight_percent": 39.97,
+      "profit_loss": -3.52,
+      "profit_loss_rate": -0.26,
       "quantity": 22.0,
       "symbol": "JEPQ",
-      "total_current_value": 1313.18,
+      "total_current_value": 1317.14,
       "total_purchase_amount": 1320.66
     },
     {
       "average_purchase_price": 53.64,
-      "exchange_rate": 1359.5,
+      "exchange_rate": 1355.2,
       "name": "NEOS S&P 500 HIGH INCOME",
-      "portfolio_weight_percent": 33.47,
-      "profit_loss": 8.75,
-      "profit_loss_rate": 0.65,
+      "portfolio_weight_percent": 17.98,
+      "profit_loss": 2.42,
+      "profit_loss_rate": 0.41,
       "quantity": 25.0,
       "symbol": "SPYI",
-      "total_current_value": 1349.75,
-      "total_purchase_amount": 1341.0
+      "total_current_value": 592.46,
+      "total_purchase_amount": 590.04
     }
   ],
   "snapshot_note": "Last account balance snapshot. Not real-time market data.",
-  "updated_at": "2026-09-04T00:47:29.101311+00:00"
+  "updated_at": "2026-09-07T00:57:36.384455+00:00"
 }

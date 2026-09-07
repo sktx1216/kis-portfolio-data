@@ -611,70 +611,84 @@
       "stock_asset": 5416003,
       "total_asset": 5482265,
       "unsettled_sell_proceeds": 0
+    },
+    {
+      "cash_asset": 94363,
+      "cumulative_profit_loss": -1534223,
+      "cumulative_profit_loss_rate": -25.57,
+      "daily_cash_flow": 0,
+      "daily_profit_loss": -1016488,
+      "daily_profit_loss_rate": -18.54,
+      "date": "2026-09-07",
+      "net_cash_invested": 6000000,
+      "settled_cash_asset": 94363,
+      "stock_asset": 4371414,
+      "total_asset": 4465777,
+      "unsettled_sell_proceeds": 0
     }
   ],
   "portfolio_allocation": [
     {
-      "avg_purchase_price": 72924,
+      "avg_purchase_price": 81353,
       "country": "US",
-      "current_price": 73399,
-      "current_value": 1834985,
-      "market": "US",
-      "name": "NEOS S&P 500 HIGH INCOME",
-      "profit_loss": 11896,
-      "profit_loss_rate": 0.65,
-      "quantity": 25.0,
-      "sector": "\uae30\ud0c0",
-      "symbol": "SPYI",
-      "weight": 33.88
-    },
-    {
-      "avg_purchase_price": 78593,
-      "country": "US",
-      "current_price": 78076,
-      "current_value": 1795750,
-      "market": "US",
-      "name": "JP MORGAN EQUITY PREMIUM INCOME",
-      "profit_loss": -11882,
-      "profit_loss_rate": -0.65,
-      "quantity": 23.0,
-      "sector": "\uae30\ud0c0",
-      "symbol": "JEPI",
-      "weight": 33.16
-    },
-    {
-      "avg_purchase_price": 81611,
-      "country": "US",
-      "current_price": 81149,
-      "current_value": 1785268,
+      "current_price": 81136,
+      "current_value": 1784988,
       "market": "US",
       "name": "JP MORGAN NASDAQ EQUITY PREMIUM INCOME",
-      "profit_loss": -10169,
-      "profit_loss_rate": -0.56,
+      "profit_loss": -4770,
+      "profit_loss_rate": -0.26,
       "quantity": 22.0,
       "sector": "\uae30\ud0c0",
       "symbol": "JEPQ",
-      "weight": 32.96
+      "weight": 40.83
+    },
+    {
+      "avg_purchase_price": 78344,
+      "country": "US",
+      "current_price": 77545,
+      "current_value": 1783525,
+      "market": "US",
+      "name": "JP MORGAN EQUITY PREMIUM INCOME",
+      "profit_loss": -18390,
+      "profit_loss_rate": -1.02,
+      "quantity": 23.0,
+      "sector": "\uae30\ud0c0",
+      "symbol": "JEPI",
+      "weight": 40.8
+    },
+    {
+      "avg_purchase_price": 72693,
+      "country": "US",
+      "current_price": 32116,
+      "current_value": 802902,
+      "market": "US",
+      "name": "NEOS S&P 500 HIGH INCOME",
+      "profit_loss": 3280,
+      "profit_loss_rate": 0.41,
+      "quantity": 25.0,
+      "sector": "\uae30\ud0c0",
+      "symbol": "SPYI",
+      "weight": 18.37
     }
   ],
   "sector_allocation": [
     {
-      "current_value": 5416003,
+      "current_value": 4371415,
       "sector": "\uae30\ud0c0",
       "weight": 100.0
     }
   ],
   "summary": {
-    "cash_asset": 66262,
+    "cash_asset": 94363,
     "cash_asset_basis": "settled_plus_unsettled",
     "cash_asset_includes_unsettled": true,
     "currency": "KRW",
-    "settled_cash_asset": 66262,
-    "stock_asset": 5416003,
-    "total_asset": 5482265,
-    "total_profit_loss": -517735,
-    "total_profit_loss_rate": -8.63,
+    "settled_cash_asset": 94363,
+    "stock_asset": 4371414,
+    "total_asset": 4465777,
+    "total_profit_loss": -1534223,
+    "total_profit_loss_rate": -25.57,
     "unsettled_sell_proceeds": 0,
-    "updated_at": "2026-09-04T00:47:29.101311+00:00"
+    "updated_at": "2026-09-07T00:57:36.384455+00:00"
   }
 }
