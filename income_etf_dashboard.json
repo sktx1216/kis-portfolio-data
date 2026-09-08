@@ -3,12 +3,12 @@
     "account_total_candidates": {
       "dncl_amt": "0",
       "evlu_amt_smtl": "3225",
-      "frcr_evlu_tota": "94362",
-      "frcr_use_psbl_amt": "94362.00",
+      "frcr_evlu_tota": "93485",
+      "frcr_use_psbl_amt": "93485.00",
       "pchs_amt_smtl": "3240",
-      "tot_asst_amt": "5488287",
+      "tot_asst_amt": "5437261",
       "tot_dncl_amt": "1",
-      "tot_frcr_cblc_smtl": "94363.000000",
+      "tot_frcr_cblc_smtl": "93486.000000",
       "wdrw_psbl_tot_amt": "1"
     },
     "cash_candidates": [
@@ -123,14 +123,14 @@
   "currency": {
     "base": "USD",
     "display": "KRW",
-    "exchange_rate_usd_krw": 1355.2
+    "exchange_rate_usd_krw": 1342.6
   },
   "data_type": "income_etf_dashboard",
   "holdings": [
     {
       "avg_purchase_price_usd": 57.81,
       "current_price_usd": 57.22,
-      "current_value_krw": 1783525,
+      "current_value_krw": 1766942,
       "current_value_usd": 1316.06,
       "dividend_status": {
         "estimated_annual_dividend_usd": null,
@@ -163,10 +163,10 @@
         "previous_close_usd": 57.43,
         "twenty_day_change_percent": 0.02
       },
-      "profit_loss_krw": -18390,
+      "profit_loss_krw": -18219,
       "profit_loss_rate": -1.02,
       "profit_loss_usd": -13.57,
-      "purchase_amount_krw": 1801915,
+      "purchase_amount_krw": 1785161,
       "purchase_amount_usd": 1329.63,
       "quantity": 23.0,
       "range_status": {
@@ -177,7 +177,7 @@
       "raw_api_fields": {
         "position": {
           "average_purchase_price": 57.81,
-          "exchange_rate": 1355.2,
+          "exchange_rate": 1342.6,
           "name": "JP MORGAN EQUITY PREMIUM INCOME",
           "portfolio_weight_percent": 39.94,
           "profit_loss": -13.57,
@@ -290,7 +290,7 @@
     {
       "avg_purchase_price_usd": 60.03,
       "current_price_usd": 59.87,
-      "current_value_krw": 1784988,
+      "current_value_krw": 1768392,
       "current_value_usd": 1317.14,
       "dividend_status": {
         "estimated_annual_dividend_usd": null,
@@ -323,10 +323,10 @@
         "previous_close_usd": 59.69,
         "twenty_day_change_percent": 1.37
       },
-      "profit_loss_krw": -4770,
+      "profit_loss_krw": -4726,
       "profit_loss_rate": -0.27,
       "profit_loss_usd": -3.52,
-      "purchase_amount_krw": 1789758,
+      "purchase_amount_krw": 1773118,
       "purchase_amount_usd": 1320.66,
       "quantity": 22.0,
       "range_status": {
@@ -337,7 +337,7 @@
       "raw_api_fields": {
         "position": {
           "average_purchase_price": 60.03,
-          "exchange_rate": 1355.2,
+          "exchange_rate": 1342.6,
           "name": "JP MORGAN NASDAQ EQUITY PREMIUM INCOME",
           "portfolio_weight_percent": 39.97,
           "profit_loss": -3.52,
@@ -450,7 +450,7 @@
     {
       "avg_purchase_price_usd": 53.64,
       "current_price_usd": 53.86,
-      "current_value_krw": 802902,
+      "current_value_krw": 795437,
       "current_value_usd": 592.46,
       "dividend_status": {
         "estimated_annual_dividend_usd": null,
@@ -483,10 +483,10 @@
         "previous_close_usd": 53.99,
         "twenty_day_change_percent": 0.42
       },
-      "profit_loss_krw": 3280,
+      "profit_loss_krw": 3249,
       "profit_loss_rate": 0.41,
       "profit_loss_usd": 2.42,
-      "purchase_amount_krw": 799622,
+      "purchase_amount_krw": 792188,
       "purchase_amount_usd": 590.04,
       "quantity": 25.0,
       "range_status": {
@@ -497,7 +497,7 @@
       "raw_api_fields": {
         "position": {
           "average_purchase_price": 53.64,
-          "exchange_rate": 1355.2,
+          "exchange_rate": 1342.6,
           "name": "NEOS S&P 500 HIGH INCOME",
           "portfolio_weight_percent": 17.98,
           "profit_loss": 2.42,
@@ -614,14 +614,14 @@
   },
   "schema_version": 1,
   "summary": {
-    "cash_asset_krw": 94363,
+    "cash_asset_krw": 93485,
     "cash_asset_usd": 69.63,
-    "income_etf_value_krw": 4371414,
+    "income_etf_value_krw": 4330771,
     "income_etf_value_usd": 3225.66,
-    "stock_asset_krw": 4371414,
+    "stock_asset_krw": 4330771,
     "stock_asset_usd": 3225.66,
-    "total_asset_krw": 4465777,
+    "total_asset_krw": 4424256,
     "total_asset_usd": 3295.29
   },
-  "updated_at": "2026-09-07T00:57:44.180481+00:00"
+  "updated_at": "2026-09-08T01:09:34.254876+00:00"
 }
