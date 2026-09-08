@@ -625,17 +625,31 @@
       "stock_asset": 4371414,
       "total_asset": 4465777,
       "unsettled_sell_proceeds": 0
+    },
+    {
+      "cash_asset": 93485,
+      "cumulative_profit_loss": -1575744,
+      "cumulative_profit_loss_rate": -26.26,
+      "daily_cash_flow": 0,
+      "daily_profit_loss": -41521,
+      "daily_profit_loss_rate": -0.93,
+      "date": "2026-09-08",
+      "net_cash_invested": 6000000,
+      "settled_cash_asset": 93485,
+      "stock_asset": 4330771,
+      "total_asset": 4424256,
+      "unsettled_sell_proceeds": 0
     }
   ],
   "portfolio_allocation": [
     {
-      "avg_purchase_price": 81353,
+      "avg_purchase_price": 80596,
       "country": "US",
-      "current_price": 81136,
-      "current_value": 1784988,
+      "current_price": 80381,
+      "current_value": 1768392,
       "market": "US",
       "name": "JP MORGAN NASDAQ EQUITY PREMIUM INCOME",
-      "profit_loss": -4770,
+      "profit_loss": -4726,
       "profit_loss_rate": -0.26,
       "quantity": 22.0,
       "sector": "\uae30\ud0c0",
@@ -643,13 +657,13 @@
       "weight": 40.83
     },
     {
-      "avg_purchase_price": 78344,
+      "avg_purchase_price": 77616,
       "country": "US",
-      "current_price": 77545,
-      "current_value": 1783525,
+      "current_price": 76824,
+      "current_value": 1766942,
       "market": "US",
       "name": "JP MORGAN EQUITY PREMIUM INCOME",
-      "profit_loss": -18390,
+      "profit_loss": -18219,
       "profit_loss_rate": -1.02,
       "quantity": 23.0,
       "sector": "\uae30\ud0c0",
@@ -657,13 +671,13 @@
       "weight": 40.8
     },
     {
-      "avg_purchase_price": 72693,
+      "avg_purchase_price": 72017,
       "country": "US",
-      "current_price": 32116,
-      "current_value": 802902,
+      "current_price": 31817,
+      "current_value": 795437,
       "market": "US",
       "name": "NEOS S&P 500 HIGH INCOME",
-      "profit_loss": 3280,
+      "profit_loss": 3249,
       "profit_loss_rate": 0.41,
       "quantity": 25.0,
       "sector": "\uae30\ud0c0",
@@ -673,22 +687,22 @@
   ],
   "sector_allocation": [
     {
-      "current_value": 4371415,
+      "current_value": 4330771,
       "sector": "\uae30\ud0c0",
       "weight": 100.0
     }
   ],
   "summary": {
-    "cash_asset": 94363,
+    "cash_asset": 93485,
     "cash_asset_basis": "settled_plus_unsettled",
     "cash_asset_includes_unsettled": true,
     "currency": "KRW",
-    "settled_cash_asset": 94363,
-    "stock_asset": 4371414,
-    "total_asset": 4465777,
-    "total_profit_loss": -1534223,
-    "total_profit_loss_rate": -25.57,
+    "settled_cash_asset": 93485,
+    "stock_asset": 4330771,
+    "total_asset": 4424256,
+    "total_profit_loss": -1575744,
+    "total_profit_loss_rate": -26.26,
     "unsettled_sell_proceeds": 0,
-    "updated_at": "2026-09-07T00:57:36.384455+00:00"
+    "updated_at": "2026-09-08T01:09:27.429483+00:00"
   }
 }

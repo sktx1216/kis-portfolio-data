@@ -6,12 +6,12 @@
   },
   "currency": "USD",
   "data_type": "portfolio_snapshot",
-  "exchange_rate_usd_krw": 1355.2,
+  "exchange_rate_usd_krw": 1342.6,
   "is_realtime": false,
   "positions": [
     {
       "average_purchase_price": 57.81,
-      "exchange_rate": 1355.2,
+      "exchange_rate": 1342.6,
       "name": "JP MORGAN EQUITY PREMIUM INCOME",
       "portfolio_weight_percent": 39.94,
       "profit_loss": -13.57,
@@ -23,7 +23,7 @@
     },
     {
       "average_purchase_price": 60.03,
-      "exchange_rate": 1355.2,
+      "exchange_rate": 1342.6,
       "name": "JP MORGAN NASDAQ EQUITY PREMIUM INCOME",
       "portfolio_weight_percent": 39.97,
       "profit_loss": -3.52,
@@ -35,7 +35,7 @@
     },
     {
       "average_purchase_price": 53.64,
-      "exchange_rate": 1355.2,
+      "exchange_rate": 1342.6,
       "name": "NEOS S&P 500 HIGH INCOME",
       "portfolio_weight_percent": 17.98,
       "profit_loss": 2.42,
@@ -47,5 +47,5 @@
     }
   ],
   "snapshot_note": "Last account balance snapshot. Not real-time market data.",
-  "updated_at": "2026-09-07T00:57:36.384455+00:00"
+  "updated_at": "2026-09-08T01:09:27.429483+00:00"
 }
