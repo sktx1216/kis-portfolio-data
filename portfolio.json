@@ -1,51 +1,51 @@
 {
   "account": {
     "cash_asset_usd": 19.61,
-    "stock_asset_usd": 3261.01,
-    "total_asset_usd": 3280.6200000000003
+    "stock_asset_usd": 3246.3500000000004,
+    "total_asset_usd": 3265.9600000000005
   },
   "currency": "USD",
   "data_type": "portfolio_snapshot",
-  "exchange_rate_usd_krw": 1346.4,
+  "exchange_rate_usd_krw": 1345.3,
   "is_realtime": false,
   "positions": [
     {
       "average_purchase_price": 57.81,
-      "exchange_rate": 1346.4,
+      "exchange_rate": 1345.3,
       "name": "JP MORGAN EQUITY PREMIUM INCOME",
-      "portfolio_weight_percent": 39.72,
-      "profit_loss": -26.68,
-      "profit_loss_rate": -2.0,
+      "portfolio_weight_percent": 39.8,
+      "profit_loss": -29.9,
+      "profit_loss_rate": -2.24,
       "quantity": 23.0,
       "symbol": "JEPI",
-      "total_current_value": 1302.95,
+      "total_current_value": 1299.73,
       "total_purchase_amount": 1329.63
     },
     {
       "average_purchase_price": 60.03,
-      "exchange_rate": 1346.4,
+      "exchange_rate": 1345.3,
       "name": "JP MORGAN NASDAQ EQUITY PREMIUM INCOME",
-      "portfolio_weight_percent": 40.09,
-      "profit_loss": -5.5,
-      "profit_loss_rate": -0.41,
+      "portfolio_weight_percent": 39.98,
+      "profit_loss": -14.96,
+      "profit_loss_rate": -1.13,
       "quantity": 22.0,
       "symbol": "JEPQ",
-      "total_current_value": 1315.16,
+      "total_current_value": 1305.7,
       "total_purchase_amount": 1320.66
     },
     {
       "average_purchase_price": 53.6283,
-      "exchange_rate": 1346.4,
+      "exchange_rate": 1345.3,
       "name": "NEOS S&P 500 HIGH INCOME",
-      "portfolio_weight_percent": 19.6,
-      "profit_loss": -0.64,
-      "profit_loss_rate": -0.09,
+      "portfolio_weight_percent": 19.62,
+      "profit_loss": -2.62,
+      "profit_loss_rate": -0.4,
       "quantity": 12.0,
       "symbol": "SPYI",
-      "total_current_value": 642.9,
+      "total_current_value": 640.92,
       "total_purchase_amount": 643.54
     }
   ],
   "snapshot_note": "Last account balance snapshot. Not real-time market data.",
-  "updated_at": "2026-09-14T06:58:08.479924+00:00"
+  "updated_at": "2026-09-15T01:24:05.282464+00:00"
 }
