@@ -17,8 +17,98 @@
       "date": "2026-09-02",
       "price": 10330.0,
       "time": "18:32"
+    },
+    {
+      "alert_sent": false,
+      "average_before": 10330.0,
+      "below_average": true,
+      "date": "2026-09-03",
+      "price": 10295.0,
+      "source": "NAVER_DAILY_CLOSE",
+      "time": "15:30"
+    },
+    {
+      "alert_sent": false,
+      "average_before": 10318.33,
+      "below_average": true,
+      "date": "2026-09-04",
+      "price": 10210.0,
+      "source": "NAVER_DAILY_CLOSE",
+      "time": "15:30"
+    },
+    {
+      "alert_sent": false,
+      "average_before": 10291.25,
+      "below_average": true,
+      "date": "2026-09-07",
+      "price": 10045.0,
+      "source": "NAVER_DAILY_CLOSE",
+      "time": "15:30"
+    },
+    {
+      "alert_sent": false,
+      "average_before": 10242.0,
+      "below_average": true,
+      "date": "2026-09-08",
+      "price": 9995.0,
+      "source": "NAVER_DAILY_CLOSE",
+      "time": "15:30"
+    },
+    {
+      "alert_sent": false,
+      "average_before": 10200.83,
+      "below_average": true,
+      "date": "2026-09-09",
+      "price": 9940.0,
+      "source": "NAVER_DAILY_CLOSE",
+      "time": "15:30"
+    },
+    {
+      "alert_sent": false,
+      "average_before": 10163.57,
+      "below_average": true,
+      "date": "2026-09-10",
+      "price": 9910.0,
+      "source": "NAVER_DAILY_CLOSE",
+      "time": "15:30"
+    },
+    {
+      "alert_sent": false,
+      "average_before": 10131.88,
+      "below_average": true,
+      "date": "2026-09-11",
+      "price": 9950.0,
+      "source": "NAVER_DAILY_CLOSE",
+      "time": "15:30"
+    },
+    {
+      "alert_sent": false,
+      "average_before": 10111.67,
+      "below_average": true,
+      "date": "2026-09-14",
+      "price": 9990.0,
+      "source": "NAVER_DAILY_CLOSE",
+      "time": "15:30"
+    },
+    {
+      "alert_sent": false,
+      "average_before": 10099.5,
+      "below_average": false,
+      "date": "2026-09-15",
+      "price": 10100.0,
+      "source": "NAVER_DAILY_CLOSE",
+      "time": "15:30"
+    },
+    {
+      "alert_sent": false,
+      "average_before": 10099.55,
+      "below_average": false,
+      "date": "2026-09-16",
+      "price": 10220.0,
+      "source": "NAVER_DAILY_CLOSE",
+      "time": "15:30"
     }
   ],
   "symbol": "483290",
-  "updated_at": "2026-09-02T18:32:53.940228+09:00"
+  "updated_at": "2026-09-16T15:30:00+09:00"
 }
