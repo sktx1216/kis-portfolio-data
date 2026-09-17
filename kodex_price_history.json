@@ -31,7 +31,7 @@
       "time": "15:30"
     },
     {
-      "accumulated_count": 4,
+      "accumulated_count": 1,
       "alert_sent": false,
       "average_before": 10318.33,
       "below_average": true,
@@ -41,7 +41,7 @@
       "time": "15:30"
     },
     {
-      "accumulated_count": 5,
+      "accumulated_count": 1,
       "alert_sent": false,
       "average_before": 10291.25,
       "below_average": true,
@@ -51,7 +51,7 @@
       "time": "15:30"
     },
     {
-      "accumulated_count": 6,
+      "accumulated_count": 1,
       "alert_sent": false,
       "average_before": 10242,
       "below_average": true,
@@ -61,7 +61,7 @@
       "time": "15:30"
     },
     {
-      "accumulated_count": 7,
+      "accumulated_count": 1,
       "alert_sent": false,
       "average_before": 10200.83,
       "below_average": true,
@@ -71,7 +71,7 @@
       "time": "15:30"
     },
     {
-      "accumulated_count": 8,
+      "accumulated_count": 1,
       "alert_sent": false,
       "average_before": 10163.57,
       "below_average": true,
@@ -81,7 +81,7 @@
       "time": "15:30"
     },
     {
-      "accumulated_count": 9,
+      "accumulated_count": 1,
       "alert_sent": false,
       "average_before": 10131.88,
       "below_average": true,
@@ -91,7 +91,7 @@
       "time": "15:30"
     },
     {
-      "accumulated_count": 10,
+      "accumulated_count": 1,
       "alert_sent": false,
       "average_before": 10111.67,
       "below_average": true,
@@ -101,7 +101,7 @@
       "time": "15:30"
     },
     {
-      "accumulated_count": 11,
+      "accumulated_count": 1,
       "alert_sent": false,
       "average_before": 10099.5,
       "below_average": false,
@@ -111,7 +111,7 @@
       "time": "15:30"
     },
     {
-      "accumulated_count": 12,
+      "accumulated_count": 2,
       "alert_sent": false,
       "average_before": 10099.55,
       "below_average": false,
@@ -121,12 +121,12 @@
       "time": "15:30"
     },
     {
-      "accumulated_count": 13,
+      "accumulated_count": 3,
       "alert_sent": false,
       "average_before": 10109.58,
       "below_average": false,
       "date": "2026-09-17",
-      "price": 10215.0,
+      "price": 10215,
       "source": "NAVER_FINANCE",
       "time": "19:05"
     }
