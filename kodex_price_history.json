@@ -7,114 +7,127 @@
       "average_before": null,
       "below_average": false,
       "date": "2026-09-01",
-      "price": 10330.0,
-      "time": "19:01"
+      "price": 10330,
+      "time": "19:01",
+      "accumulated_count": 1
     },
     {
       "alert_sent": false,
-      "average_before": 10330.0,
+      "average_before": 10330,
       "below_average": false,
       "date": "2026-09-02",
-      "price": 10330.0,
-      "time": "18:32"
+      "price": 10330,
+      "time": "18:32",
+      "accumulated_count": 2
     },
     {
       "alert_sent": false,
-      "average_before": 10330.0,
+      "average_before": 10330,
       "below_average": true,
       "date": "2026-09-03",
-      "price": 10295.0,
+      "price": 10295,
       "source": "NAVER_DAILY_CLOSE",
-      "time": "15:30"
+      "time": "15:30",
+      "accumulated_count": 3
     },
     {
       "alert_sent": false,
       "average_before": 10318.33,
       "below_average": true,
       "date": "2026-09-04",
-      "price": 10210.0,
+      "price": 10210,
       "source": "NAVER_DAILY_CLOSE",
-      "time": "15:30"
+      "time": "15:30",
+      "accumulated_count": 4
     },
     {
       "alert_sent": false,
       "average_before": 10291.25,
       "below_average": true,
       "date": "2026-09-07",
-      "price": 10045.0,
+      "price": 10045,
       "source": "NAVER_DAILY_CLOSE",
-      "time": "15:30"
+      "time": "15:30",
+      "accumulated_count": 5
     },
     {
       "alert_sent": false,
-      "average_before": 10242.0,
+      "average_before": 10242,
       "below_average": true,
       "date": "2026-09-08",
-      "price": 9995.0,
+      "price": 9995,
       "source": "NAVER_DAILY_CLOSE",
-      "time": "15:30"
+      "time": "15:30",
+      "accumulated_count": 6
     },
     {
       "alert_sent": false,
       "average_before": 10200.83,
       "below_average": true,
       "date": "2026-09-09",
-      "price": 9940.0,
+      "price": 9940,
       "source": "NAVER_DAILY_CLOSE",
-      "time": "15:30"
+      "time": "15:30",
+      "accumulated_count": 7
     },
     {
       "alert_sent": false,
       "average_before": 10163.57,
       "below_average": true,
       "date": "2026-09-10",
-      "price": 9910.0,
+      "price": 9910,
       "source": "NAVER_DAILY_CLOSE",
-      "time": "15:30"
+      "time": "15:30",
+      "accumulated_count": 8
     },
     {
       "alert_sent": false,
       "average_before": 10131.88,
       "below_average": true,
       "date": "2026-09-11",
-      "price": 9950.0,
+      "price": 9950,
       "source": "NAVER_DAILY_CLOSE",
-      "time": "15:30"
+      "time": "15:30",
+      "accumulated_count": 9
     },
     {
       "alert_sent": false,
       "average_before": 10111.67,
       "below_average": true,
       "date": "2026-09-14",
-      "price": 9990.0,
+      "price": 9990,
       "source": "NAVER_DAILY_CLOSE",
-      "time": "15:30"
+      "time": "15:30",
+      "accumulated_count": 10
     },
     {
       "alert_sent": false,
       "average_before": 10099.5,
       "below_average": false,
       "date": "2026-09-15",
-      "price": 10100.0,
+      "price": 10100,
       "source": "NAVER_DAILY_CLOSE",
-      "time": "15:30"
+      "time": "15:30",
+      "accumulated_count": 11
     },
     {
       "alert_sent": false,
       "average_before": 10099.55,
       "below_average": false,
       "date": "2026-09-16",
-      "price": 10220.0,
+      "price": 10220,
       "source": "NAVER_DAILY_CLOSE",
-      "time": "15:30"
+      "time": "15:30",
+      "accumulated_count": 12
     },
     {
       "alert_sent": false,
       "average_before": 10109.58,
       "below_average": false,
       "date": "2026-09-17",
-      "price": 10215.0,
-      "time": "18:36"
+      "price": 10215,
+      "time": "18:36",
+      "accumulated_count": 13
     }
   ],
   "symbol": "483290",
