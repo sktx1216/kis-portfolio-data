@@ -107,8 +107,16 @@
       "price": 10220.0,
       "source": "NAVER_DAILY_CLOSE",
       "time": "15:30"
+    },
+    {
+      "alert_sent": false,
+      "average_before": 10109.58,
+      "below_average": false,
+      "date": "2026-09-17",
+      "price": 10215.0,
+      "time": "18:36"
     }
   ],
   "symbol": "483290",
-  "updated_at": "2026-09-16T15:30:00+09:00"
+  "updated_at": "2026-09-17T18:36:05.090253+09:00"
 }
