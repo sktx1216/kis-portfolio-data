@@ -1,0 +1,18 @@
+{
+  "month": "2026-09",
+  "name": "KODEX US S&P 500 Daily Covered Call OTM",
+  "rows": [
+    {
+      "accumulated_count": 1,
+      "alert_sent": false,
+      "average_before": null,
+      "below_average": false,
+      "date": "2026-09-29",
+      "price": 9095.0,
+      "source": "NAVER_FINANCE",
+      "time": "10:04"
+    }
+  ],
+  "symbol": "0005A0",
+  "updated_at": "2026-09-29T10:04:38+09:00"
+}
