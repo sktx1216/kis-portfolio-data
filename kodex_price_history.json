@@ -181,8 +181,18 @@
       "price": 10135.0,
       "source": "NAVER_FINANCE",
       "time": "14:28"
+    },
+    {
+      "accumulated_count": 13,
+      "alert_sent": false,
+      "average_before": 9796.5,
+      "below_average": false,
+      "date": "2026-10-29",
+      "price": 10125.0,
+      "source": "NAVER_FINANCE",
+      "time": "14:28"
     }
   ],
   "symbol": "483290",
-  "updated_at": "2026-10-28T14:28:19.983737+09:00"
+  "updated_at": "2026-10-29T14:28:12.794319+09:00"
 }
