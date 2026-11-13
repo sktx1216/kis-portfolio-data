@@ -95,8 +95,19 @@
       "slack_alert_sent": true,
       "source": "NAVER_FINANCE",
       "time": "14:28"
+    },
+    {
+      "accumulated_count": 1,
+      "alert_sent": true,
+      "average_before": 8735.56,
+      "below_average": true,
+      "date": "2026-11-13",
+      "price": 8670.0,
+      "slack_alert_sent": true,
+      "source": "NAVER_FINANCE",
+      "time": "14:28"
     }
   ],
   "symbol": "0005A0",
-  "updated_at": "2026-11-12T14:28:23.395125+09:00"
+  "updated_at": "2026-11-13T14:28:15.729638+09:00"
 }
